@@ -1,0 +1,32 @@
+[
+  {
+    "place_id": "ChIJl-QZk3-Aw1QRcbMWLThi8qE",
+    "name": "Mahaffy Ranch",
+    "category": "pumpkin_patch",
+    "address": "10362 OR-241, Coos Bay, OR 97420, USA",
+    "latitude": 43.4208177,
+    "longitude": -124.02826580000001,
+    "phone": "(541) 269-3900",
+    "website": "http://mahaffyranch.com/",
+    "google_maps_url": "https://maps.google.com/?cid=11669497577884529521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "rating_count": 94,
+    "price_level": "",
+    "business_status": "CLOSED_TEMPORARILY",
+    "types": "ranch; farm; service; point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "filter_reason": "Website excerpt explicitly describes a Sunflower Festival & Pumpkin Patch running Sept 25 - Oct 31 with seasonal hours.",
+    "source": "google_places",
+    "date_checked": "2026-09-19",
+    "photo_paths": "mahaffy_ranch_1.jpg; mahaffy_ranch_2.jpg; mahaffy_ranch_3.jpg",
+    "photo_attributions": "Photo by Mahaffy Ranch via Google Maps; Photo by Darla Wheat via Google Maps; Photo by mona Hayward via Google Maps",
+    "admission_price": "",
+    "activities": "pumpkin patch; hay wagon ride; corn maze; noodle maze; mole hill slide; corn cannon; barnyard animals; corn bin; pony rides; live music; cider barn with cider, cider slushies, donuts, espresso drinks; backyard BBQ; 5K pumpkin run; pumpkin & blooms floral workshop; face painting",
+    "season_dates": "September 25 - October 31, 2026; Monday-Thursday 12pm-6pm, Friday-Sunday 10am-6pm",
+    "extra_notes": "Wristband required for activities (hay wagon ride, corn maze, noodle maze, mole hill slide, corn cannon with 2 tickets, barnyard animals, corn bin). Pony rides are $10 each (separate from wristband). Various special events throughout season with additional fees (e.g., Pumpkin & Blooms Workshop $50, pony rides $10). Forest Park tent available for rent ($175 for party with 10 activity bracelets included). Reservations required for some workshops.",
+    "needs_verification": "admission_price - no general admission or wristband price is stated on the website, only specific activity and event prices are listed",
+    "enrichment_source_urls": "http://mahaffyranch.com/; http://mahaffyranch.com/pumpkinpatch; http://mahaffyranch.com/new-events; http://mahaffyranch.com/events",
+    "extra_categories": "corn_maze"
+  }
+]

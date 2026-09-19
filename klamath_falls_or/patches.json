@@ -1,0 +1,32 @@
+[
+  {
+    "place_id": "ChIJ5QwquxYrz1QR64yYeB4KaN4",
+    "name": "Cornelius Family Pumpkin Patch",
+    "category": "pumpkin_patch",
+    "address": "9037 OR-66, Klamath Falls, OR 97601, USA",
+    "latitude": 42.157970999999996,
+    "longitude": -121.86737409999999,
+    "phone": "(541) 273-6303",
+    "website": "https://www.facebook.com/CorneliusFamilyPumpkinPatch/",
+    "google_maps_url": "https://maps.google.com/?cid=16026070399986470123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "rating_count": 2,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 6,
+    "filter_reason": "Name clearly indicates a pumpkin patch; Facebook presence suggests a real seasonal operation.",
+    "source": "google_places",
+    "date_checked": "2026-09-19",
+    "photo_paths": "cornelius_family_pumpkin_patch_1.jpg; cornelius_family_pumpkin_patch_2.jpg; cornelius_family_pumpkin_patch_3.jpg",
+    "photo_attributions": "Photo by Ramiro Alcala via Google Maps; Photo by Cheyenne via Google Maps; Photo by Cheyenne via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": "",
+    "needs_verification": "Couldn't load website (400 Client Error: Bad Request for url: https://www.facebook.com/CorneliusFamilyPumpkinPatch/) - not checked.",
+    "enrichment_source_urls": "",
+    "extra_categories": ""
+  }
+]

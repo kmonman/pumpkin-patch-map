@@ -87,7 +87,7 @@
     "extra_notes": "20% military discount for veterans or active military (must show ID). Valet service available to load pumpkins. Food available: Italian Neapolitan pizza, hot dogs, nachos, homemade caramel corn, mini doughnuts, pumpkin honey, beverages. Special Needs Day on Friday, September 18th (10am-7pm). McNeil Fireworks Show on Wednesday, October 1st at dark. Field trips must be scheduled and prepaid; chaperones free. Purchase wristbands online recommended.",
     "needs_verification": "Exact pricing for wristbands not provided in text - only mentioned as available for purchase online; Year not explicitly stated for season dates (assumed 2024 or current year based on context)",
     "enrichment_source_urls": "https://idahofallspumpkinpatch.com/; https://idahofallspumpkinpatch.com/activities/; https://idahofallspumpkinpatch.com/events/; https://idahofallspumpkinpatch.com/get-tickets/",
-    "extra_categories": ""
+    "extra_categories": "corn_maze"
   },
   {
     "place_id": "ChIJXR5-YjVyVFMRKiA_05YlHLI",
@@ -117,6 +117,6 @@
     "extra_notes": "Ticket sales end 15 minutes prior to closing each night. Cash, debit, and credit cards accepted. No dogs or pets allowed in the maze or haunted forest. Regular daytime hours: Monday-Thursday 5pm-10pm, Friday 5pm-12am, Saturday 12pm-12am. Haunted attractions open evenings only.",
     "needs_verification": "",
     "enrichment_source_urls": "https://strawmaze.com/; https://strawmaze.com/; https://strawmaze.com/haunted-maze-the-straw-maze; https://strawmaze.com/the-rexburg-haunted-forest",
-    "extra_categories": ""
+    "extra_categories": "corn_maze"
   }
 ]

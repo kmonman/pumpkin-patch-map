@@ -64,7 +64,7 @@
 </div>
 <div class="legend" id="legend"></div>
 <script>
-const REGIONS = [{"name": "Puget Sound, WA", "slug": "puget_sound_wa"}, {"name": "Portland, OR", "slug": "portland_or"}, {"name": "Rexburg, ID", "slug": "rexburg_id"}, {"name": "Ellensburg, WA", "slug": "ellensburg_wa"}];
+const REGIONS = [{"name": "Puget Sound, WA", "slug": "puget_sound_wa"}, {"name": "Portland, OR", "slug": "portland_or"}, {"name": "Rexburg, ID", "slug": "rexburg_id"}, {"name": "Kittitas & Yakima Valley, WA", "slug": "ellensburg_wa"}, {"name": "Spokane & SE Washington, WA", "slug": "spokane_wa"}, {"name": "Willamette Valley, OR", "slug": "eugene_or"}, {"name": "Eastern Oregon, OR", "slug": "bend_or"}];
 const categoryMeta = {"pumpkin_patch": {"letter": "P", "color": "#fc6803", "strokeColor": "#f9ebd7", "label": "Pumpkin Patch"}, "haunted_attraction": {"letter": "H", "color": "#C34BFF", "strokeColor": "#f8defc", "label": "Haunted House"}, "corn_maze": {"letter": "C", "color": "#4ca507", "strokeColor": "#eff9dc", "label": "Corn Maze"}, "fall_festival": {"letter": "F", "color": "#e8285a", "strokeColor": "#f9dee6", "label": "Fall Festival"}, "notable_display": {"letter": "D", "color": "#3D8AFF", "strokeColor": "#e4eef7", "label": "Notable Display"}, "other": {"letter": "O", "color": "#959799", "strokeColor": "#f2f2f2", "label": "Other"}};
 const mapStyle = [{"featureType": "all", "elementType": "labels.text.fill", "stylers": [{"saturation": 36}, {"color": "#000000"}, {"lightness": 40}]}, {"featureType": "all", "elementType": "labels.text.stroke", "stylers": [{"visibility": "on"}, {"color": "#000000"}, {"lightness": 16}]}, {"featureType": "all", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {"featureType": "administrative", "elementType": "geometry.fill", "stylers": [{"color": "#000000"}, {"lightness": 20}, {"visibility": "off"}]}, {"featureType": "administrative", "elementType": "geometry.stroke", "stylers": [{"color": "#000000"}, {"lightness": 17}, {"weight": 1.2}, {"visibility": "off"}]}, {"featureType": "administrative", "elementType": "labels", "stylers": [{"visibility": "on"}]}, {"featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{"visibility": "on"}, {"color": "#b7bef1"}]}, {"featureType": "administrative", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "landscape", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 20}]}, {"featureType": "landscape", "elementType": "geometry.fill", "stylers": [{"color": "#04122e"}]}, {"featureType": "landscape", "elementType": "labels.text", "stylers": [{"visibility": "on"}, {"color": "#39394e"}]}, {"featureType": "landscape", "elementType": "labels.text.fill", "stylers": [{"color": "#856ad6"}]}, {"featureType": "landscape", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "poi", "elementType": "geometry", "stylers": [{"lightness": 21}]}, {"featureType": "poi", "elementType": "geometry.fill", "stylers": [{"color": "#292e39"}, {"visibility": "off"}]}, {"featureType": "poi.park", "elementType": "labels.text", "stylers": [{"visibility": "off"}]}, {"featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{"color": "#112941"}, {"lightness": 17}]}, {"featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{"weight": 0.2}, {"visibility": "off"}]}, {"featureType": "road.highway", "elementType": "labels.icon", "stylers": [{"visibility": "on"}, {"saturation": "25"}, {"lightness": "-6"}, {"gamma": "1.21"}, {"invert_lightness": true}]}, {"featureType": "road.arterial", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 18}]}, {"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#1d3658"}]}, {"featureType": "road.arterial", "elementType": "labels.text.fill", "stylers": [{"color": "#7a8cab"}]}, {"featureType": "road.arterial", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "road.local", "elementType": "geometry", "stylers": [{"visibility": "off"}]}, {"featureType": "road.local", "elementType": "labels.text.fill", "stylers": [{"color": "#7a8cab"}]}, {"featureType": "road.local", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "transit", "elementType": "geometry", "stylers": [{"lightness": 19}]}, {"featureType": "transit.line", "elementType": "geometry.fill", "stylers": [{"visibility": "off"}]}, {"featureType": "transit.line", "elementType": "geometry.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "transit.station.airport", "elementType": "geometry.fill", "stylers": [{"visibility": "off"}]}, {"featureType": "transit.station.airport", "elementType": "labels.text.fill", "stylers": [{"visibility": "off"}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"color": "#0f252e"}, {"lightness": 17}]}, {"featureType": "water", "elementType": "geometry.fill", "stylers": [{"color": "#040114"}]}, {"featureType": "water", "elementType": "labels.text.fill", "stylers": [{"color": "#856ad6"}]}];
 
@@ -84,7 +84,22 @@ function addCustomControls(map) {
 
   wrap.appendChild(makeButton('+', 'Zoom in', function() { map.setZoom(map.getZoom() + 1); }));
   wrap.appendChild(makeButton('−', 'Zoom out', function() { map.setZoom(map.getZoom() - 1); }));
-  wrap.appendChild(makeButton('⛶', 'Toggle fullscreen', function() {
+
+  // Plain Unicode glyphs (like the +/- above) render inconsistently for
+  // "expand" vs "compress" across phone keyboards/fonts, so this one button
+  // uses a small inline SVG instead - it also lets the icon actually swap
+  // to reflect fullscreen state, which text content would too (this just
+  // avoids finding a pair of Unicode symbols that reliably look distinct
+  // everywhere).
+  const EXPAND_ICON = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>';
+  const COMPRESS_ICON = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4v5H4M15 4v5h5M20 20h-5v-5M4 20h5v-5"/></svg>';
+
+  const fullscreenBtn = document.createElement('button');
+  fullscreenBtn.className = 'custom-map-btn';
+  fullscreenBtn.type = 'button';
+  fullscreenBtn.innerHTML = EXPAND_ICON;
+  fullscreenBtn.title = 'Toggle fullscreen';
+  fullscreenBtn.addEventListener('click', function() {
     const el = document.getElementById('map');
     const request = el.requestFullscreen || el.webkitRequestFullscreen;
     const exit = document.exitFullscreen || document.webkitExitFullscreen;
@@ -93,9 +108,27 @@ function addCustomControls(map) {
     } else if (exit) {
       exit.call(document);
     }
-  }));
+  });
+  wrap.appendChild(fullscreenBtn);
 
   map.controls[google.maps.ControlPosition.RIGHT_TOP].push(wrap);
+
+  // One-finger dragging is only what you want full-screen, where the map is
+  // the whole screen and there's nothing else to scroll past - otherwise it'd
+  // hijack a normal one-finger page scroll on mobile. Listening for the
+  // fullscreen change (rather than only reacting to our own button above)
+  // also covers leaving fullscreen via Esc or a phone's back gesture - which
+  // is also why the icon/title swap below lives in this same listener
+  // instead of the click handler: that's the only way it stays correct
+  // when fullscreen is exited some other way.
+  function syncFullscreenState() {
+    const isFullscreen = !!document.fullscreenElement;
+    map.setOptions({ gestureHandling: isFullscreen ? 'greedy' : 'cooperative' });
+    fullscreenBtn.innerHTML = isFullscreen ? COMPRESS_ICON : EXPAND_ICON;
+    fullscreenBtn.title = isFullscreen ? 'Exit fullscreen' : 'Toggle fullscreen';
+  }
+  document.addEventListener('fullscreenchange', syncFullscreenState);
+  document.addEventListener('webkitfullscreenchange', syncFullscreenState);
 }
 
 function starString(rating) {
@@ -235,6 +268,7 @@ function initMap() {
     zoomControl: false,
     fullscreenControl: false,
     mapTypeControl: false,
+    gestureHandling: 'cooperative',
   });
   addCustomControls(map);
 

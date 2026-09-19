@@ -1,0 +1,32 @@
+[
+  {
+    "place_id": "ChIJp-wWT1HholQRItLFZC37mEs",
+    "name": "Wilkerson's Pumpkin Patch",
+    "category": "pumpkin_patch",
+    "address": "43242 Coombs Canyon Rd, Pendleton, OR 97801, USA",
+    "latitude": 45.5961997,
+    "longitude": -118.81284509999999,
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=100086455624240&mibextid=ZbWKwL",
+    "google_maps_url": "https://maps.google.com/?cid=5447379921687400994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": "",
+    "rating_count": "",
+    "price_level": "",
+    "business_status": "CLOSED_TEMPORARILY",
+    "types": "point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "filter_reason": "Pumpkin patch with temporarily-closed status typical of seasonal fall attractions; name clearly indicates pumpkin patch.",
+    "source": "google_places",
+    "date_checked": "2026-09-19",
+    "photo_paths": "wilkerson_s_pumpkin_patch_1.jpg; wilkerson_s_pumpkin_patch_2.jpg; wilkerson_s_pumpkin_patch_3.jpg",
+    "photo_attributions": "Photo by Wilkerson's Pumpkin Patch via Google Maps; Photo by Wilkerson's Pumpkin Patch via Google Maps; Photo by Wilkerson's Pumpkin Patch via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": "",
+    "needs_verification": "Couldn't load website (400 Client Error: Bad Request for url: https://www.facebook.com/profile.php?id=100086455624240&mibextid=ZbWKwL) - not checked.",
+    "enrichment_source_urls": "",
+    "extra_categories": ""
+  }
+]

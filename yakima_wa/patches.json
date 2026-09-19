@@ -1,0 +1,32 @@
+[
+  {
+    "place_id": "ChIJ7WU2ddWJl1QRyvb7AVPOiRI",
+    "name": "Curfman's Cornmaze",
+    "category": "corn_maze",
+    "address": "10 Harris Rd, Toppenish, WA 98948, USA",
+    "latitude": 46.3308398,
+    "longitude": -120.25204429999998,
+    "phone": "",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=1335825620402960074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "rating_count": 20,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "park; point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "filter_reason": "Name explicitly identifies it as a corn maze, a genuine seasonal fall attraction.",
+    "source": "google_places",
+    "date_checked": "2026-09-19",
+    "photo_paths": "curfman_s_cornmaze_1.jpg; curfman_s_cornmaze_2.jpg; curfman_s_cornmaze_3.jpg",
+    "photo_attributions": "Photo by Fatoumata Bah via Google Maps; Photo by Angel Lawson via Google Maps; Photo by xochitl lopez cruz via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": "",
+    "needs_verification": "No website listed in Google Places - not checked.",
+    "enrichment_source_urls": "",
+    "extra_categories": ""
+  }
+]
