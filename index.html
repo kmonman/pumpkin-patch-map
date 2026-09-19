@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pumpkin &amp; Halloween Map</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif; }
+  #map { height: 100vh; width: 100%; }
+  .category-tag {
+    display: block; font-size: 16px; font-weight: bold; text-transform: uppercase;
+    letter-spacing: 0.03em; margin-bottom: 4px;
+  }
+  .popup-content { max-width: 240px; padding: 10px; }
+  .popup-content img { width: 100%; border-radius: 4px; margin-bottom: 6px; display: block; }
+  .popup-content h3 { margin: 0 0 4px 0; font-size: 15px; }
+  .popup-content .field { margin: 4px 0; font-size: 13px; }
+  .popup-content .label { font-weight: bold; }
+  .popup-content .flag { color: #b03a2e; font-size: 12px; margin-top: 6px; }
+  .hover-content { font-size: 13px; padding: 8px 10px; min-width: 140px; }
+  .hover-content strong { display: block; font-size: 16px; margin-bottom: 3px; }
+  .legend {
+    background: #030719; color: #e5e8f5; padding: 8px 10px; border-radius: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5); font-size: 13px; line-height: 1.6;
+    border: 1px solid #3555af;
+  }
+  .legend-dot {
+    display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+    margin-right: 6px; vertical-align: middle;
+  }
+  .custom-controls { display: flex; flex-direction: column; gap: 6px; margin: 10px; }
+  .custom-map-btn {
+    width: 32px; height: 32px; background: #030719; color: #e5e8f5;
+    border: 1px solid #3555af; border-radius: 8px; font-size: 18px; line-height: 1;
+    cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  }
+  .custom-map-btn:hover { background: #12193a; }
+  /* Google's InfoWindow adds its own generous padding by default - our own
+     content divs above already control spacing, so strip Google's to avoid
+     doubling up (this shows up most on the hover tooltip, which has little
+     content and looked like a mostly-empty white box otherwise). */
+  .gm-style .gm-style-iw-c { padding: 0 !important; }
+  .gm-style .gm-style-iw-d { overflow: hidden !important; }
+
+  .legend { position: absolute; bottom: 24px; right: 10px; z-index: 5; }
+  .region-picker-wrap {
+    position: absolute; top: 10px; left: 10px; z-index: 5;
+    background: #030719; color: #e5e8f5; padding: 8px 10px; border-radius: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5); border: 1px solid #3555af;
+  }
+  .region-picker-wrap select {
+    font-size: 14px; padding: 4px; background: #030719; color: #e5e8f5;
+    border: 1px solid #3555af; border-radius: 4px;
+  }
+  .region-picker-wrap select:focus {
+    outline: 2px solid #959799; outline-offset: 1px;
+  }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="region-picker-wrap">
+  <label for="region-picker" style="font-size:12px; display:block; margin-bottom:4px;">Region</label>
+  <select id="region-picker"></select>
+</div>
+<div class="legend" id="legend"></div>
+<script>
+const REGIONS = [{"name": "Puget Sound, WA", "slug": "puget_sound_wa"}, {"name": "Portland, OR", "slug": "portland_or"}, {"name": "Rexburg, ID", "slug": "rexburg_id"}, {"name": "Ellensburg, WA", "slug": "ellensburg_wa"}];
+const categoryMeta = {"pumpkin_patch": {"letter": "P", "color": "#fc6803", "strokeColor": "#f9ebd7", "label": "Pumpkin Patch"}, "haunted_attraction": {"letter": "H", "color": "#C34BFF", "strokeColor": "#f8defc", "label": "Haunted House"}, "corn_maze": {"letter": "C", "color": "#4ca507", "strokeColor": "#eff9dc", "label": "Corn Maze"}, "fall_festival": {"letter": "F", "color": "#e8285a", "strokeColor": "#f9dee6", "label": "Fall Festival"}, "notable_display": {"letter": "D", "color": "#3D8AFF", "strokeColor": "#e4eef7", "label": "Notable Display"}, "other": {"letter": "O", "color": "#959799", "strokeColor": "#f2f2f2", "label": "Other"}};
+const mapStyle = [{"featureType": "all", "elementType": "labels.text.fill", "stylers": [{"saturation": 36}, {"color": "#000000"}, {"lightness": 40}]}, {"featureType": "all", "elementType": "labels.text.stroke", "stylers": [{"visibility": "on"}, {"color": "#000000"}, {"lightness": 16}]}, {"featureType": "all", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {"featureType": "administrative", "elementType": "geometry.fill", "stylers": [{"color": "#000000"}, {"lightness": 20}, {"visibility": "off"}]}, {"featureType": "administrative", "elementType": "geometry.stroke", "stylers": [{"color": "#000000"}, {"lightness": 17}, {"weight": 1.2}, {"visibility": "off"}]}, {"featureType": "administrative", "elementType": "labels", "stylers": [{"visibility": "on"}]}, {"featureType": "administrative", "elementType": "labels.text.fill", "stylers": [{"visibility": "on"}, {"color": "#b7bef1"}]}, {"featureType": "administrative", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "landscape", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 20}]}, {"featureType": "landscape", "elementType": "geometry.fill", "stylers": [{"color": "#04122e"}]}, {"featureType": "landscape", "elementType": "labels.text", "stylers": [{"visibility": "on"}, {"color": "#39394e"}]}, {"featureType": "landscape", "elementType": "labels.text.fill", "stylers": [{"color": "#856ad6"}]}, {"featureType": "landscape", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "poi", "elementType": "geometry", "stylers": [{"lightness": 21}]}, {"featureType": "poi", "elementType": "geometry.fill", "stylers": [{"color": "#292e39"}, {"visibility": "off"}]}, {"featureType": "poi.park", "elementType": "labels.text", "stylers": [{"visibility": "off"}]}, {"featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{"color": "#112941"}, {"lightness": 17}]}, {"featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{"weight": 0.2}, {"visibility": "off"}]}, {"featureType": "road.highway", "elementType": "labels.icon", "stylers": [{"visibility": "on"}, {"saturation": "25"}, {"lightness": "-6"}, {"gamma": "1.21"}, {"invert_lightness": true}]}, {"featureType": "road.arterial", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 18}]}, {"featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [{"color": "#1d3658"}]}, {"featureType": "road.arterial", "elementType": "labels.text.fill", "stylers": [{"color": "#7a8cab"}]}, {"featureType": "road.arterial", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "road.local", "elementType": "geometry", "stylers": [{"visibility": "off"}]}, {"featureType": "road.local", "elementType": "labels.text.fill", "stylers": [{"color": "#7a8cab"}]}, {"featureType": "road.local", "elementType": "labels.text.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "transit", "elementType": "geometry", "stylers": [{"lightness": 19}]}, {"featureType": "transit.line", "elementType": "geometry.fill", "stylers": [{"visibility": "off"}]}, {"featureType": "transit.line", "elementType": "geometry.stroke", "stylers": [{"visibility": "off"}]}, {"featureType": "transit.station.airport", "elementType": "geometry.fill", "stylers": [{"visibility": "off"}]}, {"featureType": "transit.station.airport", "elementType": "labels.text.fill", "stylers": [{"visibility": "off"}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"color": "#0f252e"}, {"lightness": 17}]}, {"featureType": "water", "elementType": "geometry.fill", "stylers": [{"color": "#040114"}]}, {"featureType": "water", "elementType": "labels.text.fill", "stylers": [{"color": "#856ad6"}]}];
+
+function addCustomControls(map) {
+  const wrap = document.createElement('div');
+  wrap.className = 'custom-controls';
+
+  function makeButton(label, title, onClick) {
+    const btn = document.createElement('button');
+    btn.className = 'custom-map-btn';
+    btn.textContent = label;
+    btn.title = title;
+    btn.type = 'button';
+    btn.addEventListener('click', onClick);
+    return btn;
+  }
+
+  wrap.appendChild(makeButton('+', 'Zoom in', function() { map.setZoom(map.getZoom() + 1); }));
+  wrap.appendChild(makeButton('−', 'Zoom out', function() { map.setZoom(map.getZoom() - 1); }));
+  wrap.appendChild(makeButton('⛶', 'Toggle fullscreen', function() {
+    const el = document.getElementById('map');
+    const request = el.requestFullscreen || el.webkitRequestFullscreen;
+    const exit = document.exitFullscreen || document.webkitExitFullscreen;
+    if (!document.fullscreenElement) {
+      if (request) request.call(el);
+    } else if (exit) {
+      exit.call(document);
+    }
+  }));
+
+  map.controls[google.maps.ControlPosition.RIGHT_TOP].push(wrap);
+}
+
+function starString(rating) {
+  if (!rating) return 'No rating';
+  const rounded = Math.round(rating);
+  return '★'.repeat(rounded) + '☆'.repeat(5 - rounded) + ' (' + rating + ')';
+}
+
+function categoryTagHtml(p) {
+  const meta = categoryMeta[p.category] || categoryMeta['other'];
+  return '<div class="category-tag" style="color:' + meta.color + '">' + meta.label + '</div>';
+}
+
+function extraCategoryKeys(p) {
+  return (p.extra_categories || '').split('; ').filter(Boolean);
+}
+
+function extraCategoryLabels(p) {
+  return extraCategoryKeys(p).map(function(key) {
+    return (categoryMeta[key] || categoryMeta['other']).label;
+  }).join(', ');
+}
+
+// Shared by every template (Google's own marker icon AND, via an <img> tag,
+// Esri's divIcon) so there's exactly one place that draws a pin - two
+// templates each keeping their own copy of this drifted out of sync once
+// before (the "everything shows as Other" bug), hence this being here now.
+function markerIconUrl(p) {
+  const meta = categoryMeta[p.category] || categoryMeta['other'];
+  const extraKeys = extraCategoryKeys(p);
+  const ringColor = extraKeys.length ? (categoryMeta[extraKeys[0]] || categoryMeta['other']).color : null;
+
+  let svg = '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">';
+  if (ringColor) {
+    // A secondary type (e.g. a pumpkin patch that also has a corn maze) gets
+    // a colored ring in that type's color, visible on the pin itself.
+    svg += '<circle cx="18" cy="18" r="16.5" fill="none" stroke="' + ringColor + '" stroke-width="2.5"/>' +
+      '<circle cx="18" cy="18" r="12.5" fill="' + meta.color + '" stroke="' + meta.strokeColor + '" stroke-width="1.5"/>' +
+      '<text x="18" y="23" font-size="14" font-weight="bold" font-family="Arial" fill="' + meta.strokeColor + '" text-anchor="middle">' + meta.letter + '</text>';
+  } else {
+    svg += '<circle cx="18" cy="18" r="16" fill="' + meta.color + '" stroke="' + meta.strokeColor + '" stroke-width="2"/>' +
+      '<text x="18" y="24" font-size="18" font-weight="bold" font-family="Arial" fill="' + meta.strokeColor + '" text-anchor="middle">' + meta.letter + '</text>';
+  }
+  svg += '</svg>';
+  return 'data:image/svg+xml,' + encodeURIComponent(svg);
+}
+
+function popupHtml(p) {
+  let html = '<div class="popup-content">';
+  if (p.photo) html += '<img src="' + p.photo + '" alt="' + p.name + '">';
+  html += categoryTagHtml(p);
+  html += '<h3>' + p.name + '</h3>';
+  if (p.extra_categories) html += '<div class="field"><span class="label">Also:</span> ' + extraCategoryLabels(p) + '</div>';
+  html += '<div class="field">' + starString(p.rating) + (p.rating_count ? ' - ' + p.rating_count + ' reviews' : '') + '</div>';
+  html += '<div class="field">' + p.address + '</div>';
+  if (p.admission_price) html += '<div class="field"><span class="label">Price:</span> ' + p.admission_price + '</div>';
+  if (p.activities) html += '<div class="field"><span class="label">Activities:</span> ' + p.activities + '</div>';
+  if (p.season_dates) html += '<div class="field"><span class="label">Season:</span> ' + p.season_dates + '</div>';
+  if (p.website) html += '<div class="field"><a href="' + p.website + '" target="_blank" rel="noopener">Visit website</a></div>';
+  html += '<div class="field"><a href="' + p.google_maps_url + '" target="_blank" rel="noopener">Open in Google Maps</a></div>';
+  if (p.needs_verification) html += '<div class="flag">Note: ' + p.needs_verification + '</div>';
+  html += '</div>';
+  return html;
+}
+
+function toPoint(r, slug) {
+  const photoPaths = (r.photo_paths || '').split('; ').filter(Boolean);
+  const photo = photoPaths.length ? (slug + '/photos/' + photoPaths[0]) : '';
+  return {
+    name: r.name || '', category: r.category || 'other', address: r.address || '',
+    latitude: r.latitude, longitude: r.longitude, rating: r.rating || '',
+    rating_count: r.rating_count || '', admission_price: r.admission_price || '',
+    activities: r.activities || '', season_dates: r.season_dates || '',
+    website: r.website || '', google_maps_url: r.google_maps_url || '',
+    needs_verification: r.needs_verification || '', extra_categories: r.extra_categories || '',
+    photo: photo,
+  };
+}
+
+let map;
+let currentMarkers = [];
+let hoverInfo;
+let clickInfo;
+
+function clearMarkers() {
+  currentMarkers.forEach(function(m) { m.setMap(null); });
+  currentMarkers = [];
+  hoverInfo.close();
+  clickInfo.close();
+}
+
+function loadRegion(slug) {
+  clearMarkers();
+  fetch(slug + '/patches.json', { cache: 'no-store' })
+    .then(function(r) { return r.json(); })
+    .then(function(records) {
+      const points = records.filter(function(r) { return r.latitude && r.longitude; })
+                             .map(function(r) { return toPoint(r, slug); });
+      const bounds = new google.maps.LatLngBounds();
+
+      points.forEach(function(p) {
+        const marker = new google.maps.Marker({
+          position: { lat: p.latitude, lng: p.longitude },
+          map: map,
+          icon: { url: markerIconUrl(p), scaledSize: new google.maps.Size(36, 36) },
+        });
+        currentMarkers.push(marker);
+        bounds.extend(marker.getPosition());
+
+        marker.addListener('mouseover', function() {
+          hoverInfo.setContent(
+            '<div class="hover-content">' + categoryTagHtml(p) +
+            '<strong>' + p.name + '</strong><br>' + starString(p.rating) + '</div>'
+          );
+          hoverInfo.open(map, marker);
+        });
+        marker.addListener('mouseout', function() { hoverInfo.close(); });
+        marker.addListener('click', function() {
+          hoverInfo.close();
+          clickInfo.setContent(popupHtml(p));
+          clickInfo.open(map, marker);
+        });
+      });
+
+      if (!bounds.isEmpty()) map.fitBounds(bounds);
+
+      try { localStorage.setItem('pumpkinMapRegion', slug); } catch (e) {}
+    });
+}
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: { lat: 39.5, lng: -121.5 },
+    zoom: 5,
+    styles: mapStyle,
+    colorScheme: google.maps.ColorScheme.DARK,
+    zoomControl: false,
+    fullscreenControl: false,
+    mapTypeControl: false,
+  });
+  addCustomControls(map);
+
+  hoverInfo = new google.maps.InfoWindow();
+  clickInfo = new google.maps.InfoWindow();
+  hoverInfo.addListener('domready', function() {
+    const content = document.querySelector('.hover-content');
+    const wrapper = content && content.closest('.gm-style-iw');
+    const closeBtn = wrapper && wrapper.parentElement && wrapper.parentElement.querySelector('.gm-ui-hover-effect');
+    if (closeBtn) closeBtn.style.display = 'none';
+  });
+
+  const picker = document.getElementById('region-picker');
+  REGIONS.forEach(function(r) {
+    const opt = document.createElement('option');
+    opt.value = r.slug;
+    opt.textContent = r.name;
+    picker.appendChild(opt);
+  });
+
+  let startSlug = REGIONS.length ? REGIONS[0].slug : null;
+  try {
+    const saved = localStorage.getItem('pumpkinMapRegion');
+    if (saved && REGIONS.some(function(r) { return r.slug === saved; })) startSlug = saved;
+  } catch (e) {}
+
+  if (startSlug) {
+    picker.value = startSlug;
+    loadRegion(startSlug);
+  }
+
+  picker.addEventListener('change', function() { loadRegion(picker.value); });
+
+  const legend = document.getElementById('legend');
+  let rows = '';
+  for (const key in categoryMeta) {
+    const m = categoryMeta[key];
+    rows += '<span class="legend-dot" style="background:' + m.color + ';"></span>' + m.label + '<br>';
+  }
+  legend.innerHTML = rows;
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ4kQM8Jxe2HxX-6reOfDrV5SBac1nMFk&callback=initMap" async defer></script>
+</body>
+</html>
