@@ -131,6 +131,31 @@ function addCustomControls(map) {
   document.addEventListener('webkitfullscreenchange', syncFullscreenState);
 }
 
+// Google shows its own "Use two fingers to move the map" overlay when a
+// one-finger drag hits cooperative gesture handling (outside fullscreen) -
+// there's no official option to change that text, so this watches for it
+// appearing and swaps in a hint about fullscreen instead, which is the
+// actual way to get one-finger scrolling on this map. Matches on the
+// wording itself since there's no documented, stable way to target it any
+// other way; if Google ever changes that wording this just quietly stops
+// firing rather than breaking anything.
+function redirectGestureHintToFullscreen() {
+  function tryReplace(el) {
+    if (el.nodeType !== 1 || el.children.length) return;
+    if (el.textContent && el.textContent.indexOf('two fingers') !== -1) {
+      el.textContent = 'Tap the ⛶ button to go fullscreen, then move the map with one finger';
+    }
+  }
+  new MutationObserver(function(mutations) {
+    mutations.forEach(function(m) {
+      m.addedNodes.forEach(function(node) {
+        tryReplace(node);
+        if (node.querySelectorAll) node.querySelectorAll('*').forEach(tryReplace);
+      });
+    });
+  }).observe(document.body, { childList: true, subtree: true });
+}
+
 function starString(rating) {
   if (!rating) return 'No rating';
   const rounded = Math.round(rating);
@@ -330,6 +355,7 @@ function initMap() {
     gestureHandling: 'cooperative',
   });
   addCustomControls(map);
+  redirectGestureHintToFullscreen();
 
   hoverInfo = new google.maps.InfoWindow();
   clickInfo = new google.maps.InfoWindow();
