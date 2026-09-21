@@ -133,27 +133,37 @@ function addCustomControls(map) {
 
 // Google shows its own "Use two fingers to move the map" overlay when a
 // one-finger drag hits cooperative gesture handling (outside fullscreen) -
-// there's no official option to change that text, so this watches for it
-// appearing and swaps in a hint about fullscreen instead, which is the
-// actual way to get one-finger scrolling on this map. Matches on the
-// wording itself since there's no documented, stable way to target it any
-// other way; if Google ever changes that wording this just quietly stops
-// firing rather than breaking anything.
+// there's no official option to change that text, so this looks for it and
+// swaps in a hint about fullscreen instead, which is the actual way to get
+// one-finger scrolling on this map. A first attempt watched for new DOM
+// nodes appearing (MutationObserver on childList), which didn't catch the
+// real thing on an actual phone - Google most likely shows/hides one
+// pre-existing element rather than creating a fresh one each time, which a
+// childList-only watch would never see. Polling instead sidesteps needing
+// to guess exactly how Google implements the show/hide, at the cost of a
+// cheap recurring scan; matches on the wording itself since there's no
+// documented, stable way to target the element any other way, so if Google
+// ever changes that wording this just quietly stops firing.
 function redirectGestureHintToFullscreen() {
-  function tryReplace(el) {
-    if (el.nodeType !== 1 || el.children.length) return;
-    if (el.textContent && el.textContent.indexOf('two fingers') !== -1) {
-      el.textContent = 'Tap the ⛶ button to go fullscreen, then move the map with one finger';
-    }
-  }
-  new MutationObserver(function(mutations) {
-    mutations.forEach(function(m) {
-      m.addedNodes.forEach(function(node) {
-        tryReplace(node);
-        if (node.querySelectorAll) node.querySelectorAll('*').forEach(tryReplace);
+  function scan(root) {
+    const matches = [];
+    if (root.textContent && root.textContent.indexOf('two fingers') !== -1) matches.push(root);
+    if (root.querySelectorAll) {
+      root.querySelectorAll('*').forEach(function(el) {
+        if (el.textContent && el.textContent.indexOf('two fingers') !== -1) matches.push(el);
       });
+    }
+    // Only rewrite the innermost matching element(s) - if the text is
+    // wrapped in nested spans, every ancestor "matches" too via
+    // textContent, but only the deepest one should actually get replaced.
+    matches.forEach(function(el) {
+      const hasMatchingDescendant = matches.some(function(other) { return other !== el && el.contains(other); });
+      if (!hasMatchingDescendant) {
+        el.textContent = 'Tap the ⛶ button to go fullscreen, then move the map with one finger';
+      }
     });
-  }).observe(document.body, { childList: true, subtree: true });
+  }
+  setInterval(function() { scan(document.body); }, 400);
 }
 
 function starString(rating) {
