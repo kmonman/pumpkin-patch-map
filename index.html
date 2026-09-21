@@ -145,12 +145,20 @@ function addCustomControls(map) {
 // documented, stable way to target the element any other way, so if Google
 // ever changes that wording this just quietly stops firing.
 function redirectGestureHintToFullscreen() {
+  // The replacement text below still contains "two fingers" on purpose (see
+  // the actual wording), so a naive match would keep "matching" - and
+  // re-writing - its own already-replaced output on every single poll.
+  // Checking for the fullscreen icon too is what tells an already-handled
+  // element apart from a fresh one still showing Google's original wording.
+  function isUnhandled(el) {
+    return el.textContent && el.textContent.indexOf('two fingers') !== -1 && el.textContent.indexOf('⛶') === -1;
+  }
   function scan(root) {
     const matches = [];
-    if (root.textContent && root.textContent.indexOf('two fingers') !== -1) matches.push(root);
+    if (isUnhandled(root)) matches.push(root);
     if (root.querySelectorAll) {
       root.querySelectorAll('*').forEach(function(el) {
-        if (el.textContent && el.textContent.indexOf('two fingers') !== -1) matches.push(el);
+        if (isUnhandled(el)) matches.push(el);
       });
     }
     // Only rewrite the innermost matching element(s) - if the text is
@@ -159,7 +167,7 @@ function redirectGestureHintToFullscreen() {
     matches.forEach(function(el) {
       const hasMatchingDescendant = matches.some(function(other) { return other !== el && el.contains(other); });
       if (!hasMatchingDescendant) {
-        el.textContent = 'Tap the ⛶ button to go fullscreen, then move the map with one finger';
+        el.innerHTML = 'Use two fingers to move map or<br>switch to full screen ⛶';
       }
     });
   }
