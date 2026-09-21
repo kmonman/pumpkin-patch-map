@@ -131,6 +131,40 @@ function addCustomControls(map) {
   document.addEventListener('webkitfullscreenchange', syncFullscreenState);
 }
 
+// Each marker's icon renders as a plain <img> tag that Google's classic
+// Marker class creates internally - there's no supported way to reach that
+// element through the Marker API itself, but every one of our own pin icons
+// is a "data:image/svg+xml,..." URI, which nothing else on the page uses,
+// so it's a safe way to find them after the fact. Without this, a
+// single-finger swipe that happens to start exactly on a pin gets captured
+// by the marker's own tap-vs-drag handling instead of scrolling the page
+// underneath - annoying on a phone, since pins are easy to swipe over by
+// accident. touch-action: pan-y tells the browser a vertical swipe there
+// should still scroll the page, while a tap still opens the popup normally.
+// Call this ONCE per page (not per marker batch) - a MutationObserver, not
+// a one-off check right after creating markers, is what makes this actually
+// reliable, since exactly when Google's library gets around to adding those
+// <img> elements isn't guaranteed. It also automatically covers markers
+// added later by a region switch without needing to be called again.
+function allowSwipeThroughMarkerPins() {
+  function markIfPin(node) {
+    if (node.nodeType !== 1) return;
+    if (node.tagName === 'IMG' && node.src && node.src.indexOf('data:image/svg+xml') === 0) {
+      node.style.touchAction = 'pan-y';
+    } else if (node.querySelectorAll) {
+      node.querySelectorAll('img[src^="data:image/svg+xml"]').forEach(function(img) {
+        img.style.touchAction = 'pan-y';
+      });
+    }
+  }
+  markIfPin(document.body);
+  new MutationObserver(function(mutations) {
+    mutations.forEach(function(m) {
+      m.addedNodes.forEach(markIfPin);
+    });
+  }).observe(document.body, { childList: true, subtree: true });
+}
+
 function starString(rating) {
   if (!rating) return 'No rating';
   const rounded = Math.round(rating);
@@ -271,6 +305,7 @@ function initMap() {
     gestureHandling: 'cooperative',
   });
   addCustomControls(map);
+  allowSwipeThroughMarkerPins();
 
   hoverInfo = new google.maps.InfoWindow();
   clickInfo = new google.maps.InfoWindow();
