@@ -135,15 +135,21 @@ function addCustomControls(map) {
 // one-finger drag hits cooperative gesture handling (outside fullscreen) -
 // there's no official option to change that text, so this looks for it and
 // swaps in a hint about fullscreen instead, which is the actual way to get
-// one-finger scrolling on this map. A first attempt watched for new DOM
+// one-finger scrolling on this map. A first attempt watched only for new DOM
 // nodes appearing (MutationObserver on childList), which didn't catch the
 // real thing on an actual phone - Google most likely shows/hides one
 // pre-existing element rather than creating a fresh one each time, which a
-// childList-only watch would never see. Polling instead sidesteps needing
-// to guess exactly how Google implements the show/hide, at the cost of a
-// cheap recurring scan; matches on the wording itself since there's no
-// documented, stable way to target the element any other way, so if Google
-// ever changes that wording this just quietly stops firing.
+// childList-only watch would never see. Polling instead of watching at all
+// caught it, but only every 400ms, so Google's own wording was visible
+// for a moment before the swap - noticeable, since it's shown at exactly
+// the moment someone's looking right at it. A MutationObserver configured
+// broadly enough this time (attributes and text changes too, not just new
+// nodes) reacts before the next paint, which is what actually gets rid of
+// that flash - scoped to the map element itself, not the whole page, since
+// that's where Google's own controls (and this hint) live, and coalesced
+// through requestAnimationFrame so a burst of unrelated map-internal
+// mutations (tile loading during a pan, for instance) triggers one scan
+// instead of dozens.
 function redirectGestureHintToFullscreen() {
   // The replacement text below still contains "two fingers" on purpose (see
   // the actual wording), so a naive match would keep "matching" - and
@@ -171,7 +177,20 @@ function redirectGestureHintToFullscreen() {
       }
     });
   }
-  setInterval(function() { scan(document.body); }, 400);
+  // No requestAnimationFrame here on purpose - a first version routed the
+  // scan through one, meant to coalesce a burst of unrelated map-internal
+  // mutations into a single pass, but rAF callbacks only run when the page
+  // is actually being rendered, and can be delayed well beyond a single
+  // frame otherwise - confirmed directly, a raw MutationObserver fired
+  // right away in the same situation where the rAF-wrapped version never
+  // fired at all. A MutationObserver callback already receives every
+  // mutation from one batch together as a single call, which is enough
+  // coalescing on its own without adding a second, less reliable layer of it.
+  const mapEl = document.getElementById('map');
+  scan(mapEl);
+  new MutationObserver(function() { scan(mapEl); }).observe(mapEl, {
+    childList: true, subtree: true, attributes: true, characterData: true,
+  });
 }
 
 function starString(rating) {
