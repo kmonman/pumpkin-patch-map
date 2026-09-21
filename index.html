@@ -131,40 +131,6 @@ function addCustomControls(map) {
   document.addEventListener('webkitfullscreenchange', syncFullscreenState);
 }
 
-// Each marker's icon renders as a plain <img> tag that Google's classic
-// Marker class creates internally - there's no supported way to reach that
-// element through the Marker API itself, but every one of our own pin icons
-// is a "data:image/svg+xml,..." URI, which nothing else on the page uses,
-// so it's a safe way to find them after the fact. Without this, a
-// single-finger swipe that happens to start exactly on a pin gets captured
-// by the marker's own tap-vs-drag handling instead of scrolling the page
-// underneath - annoying on a phone, since pins are easy to swipe over by
-// accident. touch-action: pan-y tells the browser a vertical swipe there
-// should still scroll the page, while a tap still opens the popup normally.
-// Call this ONCE per page (not per marker batch) - a MutationObserver, not
-// a one-off check right after creating markers, is what makes this actually
-// reliable, since exactly when Google's library gets around to adding those
-// <img> elements isn't guaranteed. It also automatically covers markers
-// added later by a region switch without needing to be called again.
-function allowSwipeThroughMarkerPins() {
-  function markIfPin(node) {
-    if (node.nodeType !== 1) return;
-    if (node.tagName === 'IMG' && node.src && node.src.indexOf('data:image/svg+xml') === 0) {
-      node.style.touchAction = 'pan-y';
-    } else if (node.querySelectorAll) {
-      node.querySelectorAll('img[src^="data:image/svg+xml"]').forEach(function(img) {
-        img.style.touchAction = 'pan-y';
-      });
-    }
-  }
-  markIfPin(document.body);
-  new MutationObserver(function(mutations) {
-    mutations.forEach(function(m) {
-      m.addedNodes.forEach(markIfPin);
-    });
-  }).observe(document.body, { childList: true, subtree: true });
-}
-
 function starString(rating) {
   if (!rating) return 'No rating';
   const rounded = Math.round(rating);
@@ -208,6 +174,65 @@ function markerIconUrl(p) {
   }
   svg += '</svg>';
   return 'data:image/svg+xml,' + encodeURIComponent(svg);
+}
+
+function makeMarkerContent(p) {
+  const img = document.createElement('img');
+  img.src = markerIconUrl(p);
+  img.width = 36;
+  img.height = 36;
+  img.style.touchAction = 'pan-y';
+  return img;
+}
+
+// A minimal custom marker built on OverlayView - Google's older, lower-level
+// API for putting your own DOM element on the map - instead of either the
+// classic (deprecated) Marker class or its newer replacement,
+// AdvancedMarkerElement. Both of those were tried first: classic Marker's
+// icon is an <img> tag with no supported way to reach it, and it does its
+// own internal touch/gesture handling that calls preventDefault()
+// regardless of any CSS, which is exactly what broke a single-finger swipe
+// that happened to start on a pin. AdvancedMarkerElement fixes that (it
+// takes a real DOM element you supply, with ordinary browser touch
+// behavior) but requires a Map ID - and Google's API silently discards our
+// own MAP_STYLE JSON the moment ANY Map ID is present, replacing it with
+// Cloud Console's default styling, confirmed directly while testing this.
+// That would have thrown away real, deliberate design work, so this
+// smaller, lower-level API - full control over the marker's own element,
+// no Map ID needed at all - is the one actually in use.
+function PinMarker(position, map, content) {
+  this.position = position;
+  this.content = content;
+  this.content.style.position = 'absolute';
+  this.content.style.transform = 'translate(-50%, -50%)';
+  this.setMap(map);
+}
+
+// google.maps.OverlayView doesn't exist yet when this script itself first
+// runs - the Maps API loads async and only calls initMap() once it's ready
+// - so PinMarker can't extend it at the top level like a normal class.
+// Call this once, as the very first thing initMap() does, to wire up the
+// prototype chain right after Maps has actually loaded but strictly before
+// any "new PinMarker(...)" call - reassigning PinMarker.prototype only
+// takes effect for instances created after the reassignment, so this can't
+// be left until the first marker is constructed the way a lazier check
+// might suggest; it has to run first, on its own.
+function setupPinMarkerClass() {
+  if (PinMarker.prototype.draw) return;
+  PinMarker.prototype = Object.create(google.maps.OverlayView.prototype);
+  PinMarker.prototype.onAdd = function() {
+    this.getPanes().overlayMouseTarget.appendChild(this.content);
+  };
+  PinMarker.prototype.draw = function() {
+    const projection = this.getProjection();
+    if (!projection) return;
+    const point = projection.fromLatLngToDivPixel(new google.maps.LatLng(this.position.lat, this.position.lng));
+    this.content.style.left = point.x + 'px';
+    this.content.style.top = point.y + 'px';
+  };
+  PinMarker.prototype.onRemove = function() {
+    if (this.content.parentNode) this.content.parentNode.removeChild(this.content);
+  };
 }
 
 function popupHtml(p) {
@@ -264,26 +289,25 @@ function loadRegion(slug) {
       const bounds = new google.maps.LatLngBounds();
 
       points.forEach(function(p) {
-        const marker = new google.maps.Marker({
-          position: { lat: p.latitude, lng: p.longitude },
-          map: map,
-          icon: { url: markerIconUrl(p), scaledSize: new google.maps.Size(36, 36) },
-        });
+        const position = { lat: p.latitude, lng: p.longitude };
+        const marker = new PinMarker(position, map, makeMarkerContent(p));
         currentMarkers.push(marker);
-        bounds.extend(marker.getPosition());
+        bounds.extend(position);
 
-        marker.addListener('mouseover', function() {
+        marker.content.addEventListener('mouseover', function() {
           hoverInfo.setContent(
             '<div class="hover-content">' + categoryTagHtml(p) +
             '<strong>' + p.name + '</strong><br>' + starString(p.rating) + '</div>'
           );
-          hoverInfo.open(map, marker);
+          hoverInfo.setPosition(position);
+          hoverInfo.open(map);
         });
-        marker.addListener('mouseout', function() { hoverInfo.close(); });
-        marker.addListener('click', function() {
+        marker.content.addEventListener('mouseout', function() { hoverInfo.close(); });
+        marker.content.addEventListener('click', function() {
           hoverInfo.close();
           clickInfo.setContent(popupHtml(p));
-          clickInfo.open(map, marker);
+          clickInfo.setPosition(position);
+          clickInfo.open(map);
         });
       });
 
@@ -294,6 +318,7 @@ function loadRegion(slug) {
 }
 
 function initMap() {
+  setupPinMarkerClass();
   map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: 39.5, lng: -121.5 },
     zoom: 5,
@@ -305,7 +330,6 @@ function initMap() {
     gestureHandling: 'cooperative',
   });
   addCustomControls(map);
-  allowSwipeThroughMarkerPins();
 
   hoverInfo = new google.maps.InfoWindow();
   clickInfo = new google.maps.InfoWindow();
