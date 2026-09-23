@@ -222,6 +222,20 @@ function starString(rating) {
 // is what stops that from re-attaching duplicate listeners on repeat opens,
 // whether or not Google happens to reuse the same element across them.
 function enablePopupDragToPan(infoWindow, map) {
+  // panBy() eases into its target over a short animation for small
+  // distances (per Google's own docs), which is fine for a single tap-to-pan
+  // button but wrong here: touchmove fires many times a second while
+  // dragging, so those animations pile up and the map only visibly catches
+  // up once the finger stops instead of tracking it live. moveCamera() sets
+  // the camera immediately with no animation, so it's used instead - that
+  // needs a target lat/lng rather than a pixel delta, hence the projection
+  // helper below to convert the drag's pixel offset into one each move.
+  const projectionHelper = new google.maps.OverlayView();
+  projectionHelper.onAdd = function() {};
+  projectionHelper.draw = function() {};
+  projectionHelper.onRemove = function() {};
+  projectionHelper.setMap(map);
+
   infoWindow.addListener('domready', function() {
     const bubble = document.querySelector('.gm-style-iw-c');
     if (!bubble || bubble.dataset.dragToPanAttached) return;
@@ -238,9 +252,15 @@ function enablePopupDragToPan(infoWindow, map) {
     }, { passive: true });
     bubble.addEventListener('touchmove', function(e) {
       if (!dragging || e.touches.length !== 1) return;
+      const projection = projectionHelper.getProjection();
+      if (!projection) return;
       const x = e.touches[0].clientX;
       const y = e.touches[0].clientY;
-      map.panBy(lastX - x, lastY - y);
+
+      const centerPoint = projection.fromLatLngToDivPixel(map.getCenter());
+      const newCenterPoint = new google.maps.Point(centerPoint.x + (lastX - x), centerPoint.y + (lastY - y));
+      map.moveCamera({ center: projection.fromDivPixelToLatLng(newCenterPoint) });
+
       lastX = x;
       lastY = y;
     }, { passive: true });
