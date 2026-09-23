@@ -5,6 +5,15 @@
 <title>Pumpkin &amp; Halloween Map</title>
 <style>
   html, body { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif; }
+  /* Fullscreen (see the toggle button's click handler) is requested on this
+     wrapper, not #map directly - the Fullscreen API only shows the exact
+     element asked for plus its children, so the region picker and legend
+     (siblings of #map, not descendants) would otherwise vanish the moment
+     fullscreen engages, since they'd be outside what's actually fullscreen.
+     Needs its own position: relative so the region picker/legend, which
+     position themselves absolutely, still anchor to the map area itself
+     (not the page as a whole) once this becomes the fullscreened element. */
+  #map-fullscreen-wrapper { position: relative; width: 100%; height: 100vh; }
   #map { height: 100vh; width: 100%; }
   .category-tag {
     display: block; font-size: 16px; font-weight: bold; text-transform: uppercase;
@@ -57,12 +66,14 @@
 </style>
 </head>
 <body>
+<div id="map-fullscreen-wrapper">
 <div id="map"></div>
 <div class="region-picker-wrap">
   <label for="region-picker" style="font-size:12px; display:block; margin-bottom:4px;">Region</label>
   <select id="region-picker"></select>
 </div>
 <div class="legend" id="legend"></div>
+</div>
 <script>
 const REGIONS = [{"name": "Puget Sound, WA", "slug": "puget_sound_wa"}, {"name": "Portland, OR", "slug": "portland_or"}, {"name": "Rexburg, ID", "slug": "rexburg_id"}, {"name": "Central Washington, WA", "slug": "ellensburg_wa"}, {"name": "Spokane & SE Washington, WA", "slug": "spokane_wa"}, {"name": "Willamette Valley, OR", "slug": "eugene_or"}, {"name": "Eastern Oregon, OR", "slug": "bend_or"}];
 const categoryMeta = {"pumpkin_patch": {"letter": "P", "color": "#fc6803", "strokeColor": "#f9ebd7", "label": "Pumpkin Patch"}, "haunted_attraction": {"letter": "H", "color": "#C34BFF", "strokeColor": "#f8defc", "label": "Haunted House"}, "corn_maze": {"letter": "C", "color": "#4ca507", "strokeColor": "#eff9dc", "label": "Corn Maze"}, "fall_festival": {"letter": "F", "color": "#e8285a", "strokeColor": "#f9dee6", "label": "Fall Festival"}, "notable_display": {"letter": "D", "color": "#3D8AFF", "strokeColor": "#e4eef7", "label": "Notable Display"}, "other": {"letter": "O", "color": "#959799", "strokeColor": "#f2f2f2", "label": "Other"}};
@@ -100,7 +111,7 @@ function addCustomControls(map) {
   fullscreenBtn.innerHTML = EXPAND_ICON;
   fullscreenBtn.title = 'Toggle fullscreen';
   fullscreenBtn.addEventListener('click', function() {
-    const el = document.getElementById('map');
+    const el = document.getElementById('map-fullscreen-wrapper');
     const request = el.requestFullscreen || el.webkitRequestFullscreen;
     const exit = document.exitFullscreen || document.webkitExitFullscreen;
     if (!document.fullscreenElement) {
