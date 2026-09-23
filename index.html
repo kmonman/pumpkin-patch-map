@@ -199,6 +199,45 @@ function starString(rating) {
   return '★'.repeat(rounded) + '☆'.repeat(5 - rounded) + ' (' + rating + ')';
 }
 
+// A popup can open partway (or fully) off the edge of the screen in
+// fullscreen mode on a phone, with no way to see the rest of it - dragging
+// the map itself would normally fix that, but a finger placed on the popup
+// only drags the popup's own overlay, which does nothing, not the map
+// underneath it. This makes the popup itself draggable: a touch-drag on it
+// pans the map by the same amount, so it can be pulled back into view.
+// Wired up via the InfoWindow's own "domready" event (fires each time its
+// content renders) rather than once at setup, since that's the only point
+// a reference to its actual DOM node exists at all - the dataset flag below
+// is what stops that from re-attaching duplicate listeners on repeat opens,
+// whether or not Google happens to reuse the same element across them.
+function enablePopupDragToPan(infoWindow, map) {
+  infoWindow.addListener('domready', function() {
+    const bubble = document.querySelector('.gm-style-iw-c');
+    if (!bubble || bubble.dataset.dragToPanAttached) return;
+    bubble.dataset.dragToPanAttached = 'true';
+
+    let dragging = false;
+    let lastX = 0;
+    let lastY = 0;
+    bubble.addEventListener('touchstart', function(e) {
+      if (e.touches.length !== 1) return;
+      dragging = true;
+      lastX = e.touches[0].clientX;
+      lastY = e.touches[0].clientY;
+    }, { passive: true });
+    bubble.addEventListener('touchmove', function(e) {
+      if (!dragging || e.touches.length !== 1) return;
+      const x = e.touches[0].clientX;
+      const y = e.touches[0].clientY;
+      map.panBy(lastX - x, lastY - y);
+      lastX = x;
+      lastY = y;
+    }, { passive: true });
+    bubble.addEventListener('touchend', function() { dragging = false; });
+    bubble.addEventListener('touchcancel', function() { dragging = false; });
+  });
+}
+
 function categoryTagHtml(p) {
   const meta = categoryMeta[p.category] || categoryMeta['other'];
   return '<div class="category-tag" style="color:' + meta.color + '">' + meta.label + '</div>';
@@ -389,6 +428,8 @@ function initMap() {
     zoomControl: false,
     fullscreenControl: false,
     mapTypeControl: false,
+    streetViewControl: false,
+    rotateControl: false,
     gestureHandling: 'cooperative',
   });
   addCustomControls(map);
@@ -396,6 +437,7 @@ function initMap() {
 
   hoverInfo = new google.maps.InfoWindow();
   clickInfo = new google.maps.InfoWindow();
+  enablePopupDragToPan(clickInfo, map);
   hoverInfo.addListener('domready', function() {
     const content = document.querySelector('.hover-content');
     const wrapper = content && content.closest('.gm-style-iw');
