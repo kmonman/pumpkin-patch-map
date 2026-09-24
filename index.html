@@ -241,31 +241,56 @@ function enablePopupDragToPan(infoWindow, map) {
     if (!bubble || bubble.dataset.dragToPanAttached) return;
     bubble.dataset.dragToPanAttached = 'true';
 
-    let dragging = false;
+    // Google's own pinch-zoom never sees touches that land on the popup, so
+    // a two-finger pinch is handled here too; touch-action none stops the
+    // browser from zooming the whole page instead.
+    bubble.style.touchAction = 'none';
+
     let lastX = 0;
     let lastY = 0;
-    bubble.addEventListener('touchstart', function(e) {
-      if (e.touches.length !== 1) return;
-      dragging = true;
-      lastX = e.touches[0].clientX;
-      lastY = e.touches[0].clientY;
-    }, { passive: true });
+    let pinchStartDist = 0;
+    let pinchStartZoom = 0;
+
+    function midpoint(touches) {
+      if (touches.length === 1) return { x: touches[0].clientX, y: touches[0].clientY };
+      return {
+        x: (touches[0].clientX + touches[1].clientX) / 2,
+        y: (touches[0].clientY + touches[1].clientY) / 2,
+      };
+    }
+    function distance(touches) {
+      return Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
+    }
+    function resetGesture(e) {
+      if (!e.touches.length) return;
+      const m = midpoint(e.touches);
+      lastX = m.x;
+      lastY = m.y;
+      if (e.touches.length >= 2) {
+        pinchStartDist = distance(e.touches);
+        pinchStartZoom = map.getZoom();
+      }
+    }
+
+    bubble.addEventListener('touchstart', resetGesture, { passive: true });
+    bubble.addEventListener('touchend', resetGesture, { passive: true });
+    bubble.addEventListener('touchcancel', resetGesture, { passive: true });
     bubble.addEventListener('touchmove', function(e) {
-      if (!dragging || e.touches.length !== 1) return;
       const projection = projectionHelper.getProjection();
-      if (!projection) return;
-      const x = e.touches[0].clientX;
-      const y = e.touches[0].clientY;
+      if (!projection || !e.touches.length) return;
+      const m = midpoint(e.touches);
 
       const centerPoint = projection.fromLatLngToDivPixel(map.getCenter());
-      const newCenterPoint = new google.maps.Point(centerPoint.x + (lastX - x), centerPoint.y + (lastY - y));
-      map.moveCamera({ center: projection.fromDivPixelToLatLng(newCenterPoint) });
+      const newCenterPoint = new google.maps.Point(centerPoint.x + (lastX - m.x), centerPoint.y + (lastY - m.y));
+      const camera = { center: projection.fromDivPixelToLatLng(newCenterPoint) };
+      if (e.touches.length >= 2 && pinchStartDist > 0) {
+        camera.zoom = Math.round(pinchStartZoom + Math.log2(distance(e.touches) / pinchStartDist));
+      }
+      map.moveCamera(camera);
 
-      lastX = x;
-      lastY = y;
+      lastX = m.x;
+      lastY = m.y;
     }, { passive: true });
-    bubble.addEventListener('touchend', function() { dragging = false; });
-    bubble.addEventListener('touchcancel', function() { dragging = false; });
   });
 }
 
