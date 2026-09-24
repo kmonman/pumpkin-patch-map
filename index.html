@@ -49,6 +49,11 @@
      content and looked like a mostly-empty white box otherwise). */
   .gm-style .gm-style-iw-c { padding: 0 !important; }
   .gm-style .gm-style-iw-d { overflow: hidden !important; }
+  /* Touches on the popup fall through to the map underneath, so Google's own
+     drag and pinch-zoom work there exactly as on the rest of the map; only
+     the links and close button still take taps. */
+  .gm-style .gm-style-iw-c, .gm-style .gm-style-iw-c * { pointer-events: none; }
+  .gm-style .gm-style-iw-c a, .gm-style .gm-style-iw-c button { pointer-events: auto; }
 
   .legend { position: absolute; bottom: 24px; right: 10px; z-index: 5; }
   .region-picker-wrap {
@@ -208,90 +213,6 @@ function starString(rating) {
   if (!rating) return 'No rating';
   const rounded = Math.round(rating);
   return '★'.repeat(rounded) + '☆'.repeat(5 - rounded) + ' (' + rating + ')';
-}
-
-// A popup can open partway (or fully) off the edge of the screen in
-// fullscreen mode on a phone, with no way to see the rest of it - dragging
-// the map itself would normally fix that, but a finger placed on the popup
-// only drags the popup's own overlay, which does nothing, not the map
-// underneath it. This makes the popup itself draggable: a touch-drag on it
-// pans the map by the same amount, so it can be pulled back into view.
-// Wired up via the InfoWindow's own "domready" event (fires each time its
-// content renders) rather than once at setup, since that's the only point
-// a reference to its actual DOM node exists at all - the dataset flag below
-// is what stops that from re-attaching duplicate listeners on repeat opens,
-// whether or not Google happens to reuse the same element across them.
-function enablePopupDragToPan(infoWindow, map) {
-  // panBy() eases into its target over a short animation for small
-  // distances (per Google's own docs), which is fine for a single tap-to-pan
-  // button but wrong here: touchmove fires many times a second while
-  // dragging, so those animations pile up and the map only visibly catches
-  // up once the finger stops instead of tracking it live. moveCamera() sets
-  // the camera immediately with no animation, so it's used instead - that
-  // needs a target lat/lng rather than a pixel delta, hence the projection
-  // helper below to convert the drag's pixel offset into one each move.
-  const projectionHelper = new google.maps.OverlayView();
-  projectionHelper.onAdd = function() {};
-  projectionHelper.draw = function() {};
-  projectionHelper.onRemove = function() {};
-  projectionHelper.setMap(map);
-
-  infoWindow.addListener('domready', function() {
-    const bubble = document.querySelector('.gm-style-iw-c');
-    if (!bubble || bubble.dataset.dragToPanAttached) return;
-    bubble.dataset.dragToPanAttached = 'true';
-
-    // Google's own pinch-zoom never sees touches that land on the popup, so
-    // a two-finger pinch is handled here too; touch-action none stops the
-    // browser from zooming the whole page instead.
-    bubble.style.touchAction = 'none';
-
-    let lastX = 0;
-    let lastY = 0;
-    let pinchStartDist = 0;
-    let pinchStartZoom = 0;
-
-    function midpoint(touches) {
-      if (touches.length === 1) return { x: touches[0].clientX, y: touches[0].clientY };
-      return {
-        x: (touches[0].clientX + touches[1].clientX) / 2,
-        y: (touches[0].clientY + touches[1].clientY) / 2,
-      };
-    }
-    function distance(touches) {
-      return Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
-    }
-    function resetGesture(e) {
-      if (!e.touches.length) return;
-      const m = midpoint(e.touches);
-      lastX = m.x;
-      lastY = m.y;
-      if (e.touches.length >= 2) {
-        pinchStartDist = distance(e.touches);
-        pinchStartZoom = map.getZoom();
-      }
-    }
-
-    bubble.addEventListener('touchstart', resetGesture, { passive: true });
-    bubble.addEventListener('touchend', resetGesture, { passive: true });
-    bubble.addEventListener('touchcancel', resetGesture, { passive: true });
-    bubble.addEventListener('touchmove', function(e) {
-      const projection = projectionHelper.getProjection();
-      if (!projection || !e.touches.length) return;
-      const m = midpoint(e.touches);
-
-      const centerPoint = projection.fromLatLngToDivPixel(map.getCenter());
-      const newCenterPoint = new google.maps.Point(centerPoint.x + (lastX - m.x), centerPoint.y + (lastY - m.y));
-      const camera = { center: projection.fromDivPixelToLatLng(newCenterPoint) };
-      if (e.touches.length >= 2 && pinchStartDist > 0) {
-        camera.zoom = Math.round(pinchStartZoom + Math.log2(distance(e.touches) / pinchStartDist));
-      }
-      map.moveCamera(camera);
-
-      lastX = m.x;
-      lastY = m.y;
-    }, { passive: true });
-  });
 }
 
 function categoryTagHtml(p) {
@@ -494,7 +415,6 @@ function initMap() {
 
   hoverInfo = new google.maps.InfoWindow();
   clickInfo = new google.maps.InfoWindow();
-  enablePopupDragToPan(clickInfo, map);
   hoverInfo.addListener('domready', function() {
     const content = document.querySelector('.hover-content');
     const wrapper = content && content.closest('.gm-style-iw');
