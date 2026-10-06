@@ -16,7 +16,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "Monday: 7:00\u2009\u2013\u200910:00\u202fPM | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 7:00\u202fPM\u2009\u2013\u200912:00\u202fAM | Saturday: 6:00\u202fPM\u2009\u2013\u200912:00\u202fAM | Sunday: 6:00\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Editorial summary confirms two haunted houses; operates during Halloween season with evening/night hours.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "fear_overload_scream_park_1.jpg",
@@ -25,8 +24,6 @@
     "activities": "Fear Overload: Final Descent (haunted house); Greyhaven Hospital: After Visiting Hours (haunted house); Lights Out Fright Nights (total darkness haunted houses with glow stick); Live queue entertainment; Horror boutique; Photo ops; Food and drinks",
     "season_dates": "October 3 - November 7, 2026 (select nights only); Lights Out Fright Nights on select nights in November",
     "extra_notes": "Online tickets only; most nights sell out. Pricing is dynamic and rises as event approaches. Respawn Pass ($10) allows re-entry through all haunted houses. Not recommended for children under 12; all guests under 16 must be accompanied by adult over 21. Fast Pass and Immediate Entry upgrades available to reduce wait times. Free, well-lit parking on-site. No outside food/drink allowed; alcohol prohibited. Arrive at least 20 minutes before closing to access both haunted houses. Typical visit: 75 minutes to 2 hours. Group discounts available (20+ people). Strobe lights present; not recommended for those with epilepsy. No fog. Rescheduling available up to 24 hours before visit date ($5 fee). Non-refundable tickets.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://fearoverload.com/; https://fearoverload.com/buy-tickets/; https://fearoverload.com/attractions/; https://fearoverload.com/faq/",
     "extra_categories": ""
   },
   {
@@ -46,7 +43,6 @@
     "types": "point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Joan's Farm & Pumpkin Patch has pumpkin patch in its name and distinct website, despite missing hours data.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "joan_s_farm_pumpkin_patch_llc_1.jpg",
@@ -55,8 +51,6 @@
     "activities": "corn maze; pumpkin patch; pumpkin bowling; little blue train; feed the animals; large inflatable slide & obstacle course; old west town; old farm equipment museum; height measurement activity; photo opportunities",
     "season_dates": "October 2 to October 31, 2026; Tuesday to Sunday, 10:00 AM to 6:00 PM (activities close at 5:30 PM); closed Mondays except Columbus Day",
     "extra_notes": "Payment: cash and checks only (ATM available on-site). Parking $5 per car (free for field trip and party reservation guests). Bring your own wagon as on-site supplies are limited. Food available: shaved ice, hot dogs, pumpkin pie, nachos, soda, water, sweets, treats, corn nuggets, candy, and weekend BBQ (starting 2nd weekend of October). Portable restrooms available. Closed-toed shoes recommended. Field trips and party rentals available by reservation.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://joansfarm.com/; https://joansfarm.com/",
     "extra_categories": "corn_maze"
   },
   {
@@ -76,7 +70,6 @@
     "types": "farm; ranch; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "G&M Farms website excerpt mentions haunted corn maze on October 17 & 24, pumpkin patch, and fall operations October 2\u201331.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "g_m_farms_1.jpg",
@@ -85,8 +78,6 @@
     "activities": "corn maze; haunted corn maze; pumpkin picking; hayride; pedal carts; jump pillows; cow train; straw bale maze; corn box; farm animals; fresh produce",
     "season_dates": "October 2 \u2013 October 31, 2026; Wednesday \u2013 Sunday (closed Mondays & Tuesdays)",
     "extra_notes": "Haunted Corn Maze on October 17 & 24 at dark (approx. 7:00 PM), closes 9:00 PM on haunt nights. Hayride, Pedal Carts, and Cow Train weekends only. Jump Pillows Wednesday-Sunday. No reservations required. No online ticketing; all payments on-site. Accepts credit cards, Apple Pay, and cash. Food trucks on weekends; limited food Wed-Fri. No pets allowed. Check social media before visiting in bad weather.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://gmfarms.com/; https://gmfarms.com/corn_maze/; https://gmfarms.com/pumpkin/; https://gmfarms.com/faqs/",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -106,7 +97,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Pirates of Emerson Haunted Themed Park is a themed haunted attraction with a dedicated website and established reviews.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "pirates_of_emerson_haunted_themed_park_1.jpg",
@@ -115,8 +105,6 @@
     "activities": "four haunted houses; games; live music performances",
     "season_dates": "",
     "extra_notes": "Online tickets only. Age restrictions: anyone under 16 must be accompanied by someone 21+. Recommended age 13+. No cash accepted at gate or merchandise/beverage booths (food vendors may accept cash). Entry gates close 1 hour before published close time. Capacity limitations in place; tickets sell out early on some nights. Strobe lights and theatrical smoke used extensively. No flash photography inside haunted houses. All sales final, no refunds. Costumes allowed but no masks or heavy makeup. Parking available at fairgrounds (charged separately). Located on 6 acres at Alameda County Fairgrounds.",
-    "needs_verification": "season_dates - dates and hours page exists but contains no actual dates/hours information; only special events dates (October-November 2026) are mentioned",
-    "enrichment_source_urls": "http://www.piratesofemerson.com/; http://www.piratesofemerson.com/dates-hours/; http://www.piratesofemerson.com/special-events/; http://www.piratesofemerson.com/faq/",
     "extra_categories": ""
   },
   {
@@ -136,7 +124,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Pumpkin patch with dedicated website and seasonal full-day hours.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "pumpkin_patch_at_webb_ranch_1.jpg",
@@ -145,8 +132,6 @@
     "activities": "pumpkin patch shopping; haunted house; tractor hay rides; bounce houses; farm trail course; petting zoo; reptile zoo; pony rides; food trucks (Saturdays and Sundays)",
     "season_dates": "September 25 to October 31. Store and Pumpkin Patch open 10:00 am-6:00 pm daily. Activity Area open 10:00 am-5:00 pm daily.",
     "extra_notes": "Reservations required for activity admission on all weekends in October (use online booking link). No reservations needed for weekdays unless planning a group/school visit. Columbus Day (October 12) requires reservations and uses weekend rates. One adult pass required with each child pass. Pony rides and bounce houses for ages 12 and under only. Private event scheduled 10/14 - activities area closes at 3:30pm. Activity admission sales close at 4:15pm (weekends) and 4:30pm (weekdays). Pumpkins priced by size. Payment accepted on-site (cash, credit cards, mobile/tap pay). Free parking but limited on weekends before noon - priority for weekend activity reservations. Outside food allowed; vending machines and organic produce available. No dogs allowed.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://www.webbranchinc.com/pumpkin-patch.html; https://www.webbranchinc.com/pumpkin-patch.html; https://www.webbranchinc.com/uploads/1/3/6/3/136375907/pumpkins-1_orig.jpg; https://www.webbranchinc.com/uploads/1/3/6/3/136375907/pumpkins-2_orig.jpg",
     "extra_categories": "haunted_attraction"
   },
   {
@@ -166,7 +151,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 4:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 4:00\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "ABC Tree Farms pumpkin patch location with consistent seasonal hours.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "abc_tree_farms_pick_of_the_patch_pumpkins_1.jpg",
@@ -175,8 +159,6 @@
     "activities": "pumpkin selection; inflatable amusements",
     "season_dates": "Mid to late September through October (locations begin opening mid to late September; 2026 season)",
     "extra_notes": "No reservations necessary for walk-ins. Group discounts available for large groups. Inflatables for children ages 2-12 only; socks required. Cash pricing advertised; credit cards charged 3.99% fee. Military discount: 10% with valid ID. Pre-purchase inflatable wristbands available to skip the line. Birthday parties and group reservations available. Pumpkin delivery and pick-up services offered (5-day minimum notice required).",
-    "needs_verification": "admission_price - no specific admission fee mentioned on the main pages; only activities like inflatables appear to have wristband pricing which isn't specified in the text; activities - only inflatables explicitly mentioned; pumpkin patch likely includes pumpkin selection but not explicitly stated in the provided text",
-    "enrichment_source_urls": "https://abctreefarms.net/; https://abctreefarms.net/; https://abctreefarms.net/pumpkin-patches/pumpkin-patch-locations/; https://abctreefarms.net/pumpkin-patches/pumpkin-deliveries/",
     "extra_categories": ""
   },
   {
@@ -196,7 +178,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Half Moon Bay Art and Pumpkin Festival is a well-known fall pumpkin event.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "half_moon_bay_art_and_pumpkin_festival_1.jpg",
@@ -205,8 +186,6 @@
     "activities": "Safeway World Championship Pumpkin Weigh-Off; The Great Pumpkin Parade; Pumpkin Carving; Pie Eating Contests; Costume Contest; Pumpkin Patches; Giant Pumpkin Photos; Moonlight Movie Night; Half Moon Bay Pumpkin Run; Live Music; Art exhibits; Food and drinks; Pancake Breakfast",
     "season_dates": "October 17-18, 2026, 9am\u20135pm",
     "extra_notes": "Festival is held on historic Main Street in Half Moon Bay. The Safeway World Championship Pumpkin Weigh-Off takes place on Monday, October 12, 2026 (separate event preceding the main festival). Public transit available via SamTrans bus service.",
-    "needs_verification": "admission_price - no admission fee is mentioned anywhere on the website; this appears to be a free community festival",
-    "enrichment_source_urls": "https://hmbpumpkinfest.com/; https://hmbpumpkinfest.com/event-map.html; https://hmbpumpkinfest.com/event-details/public-transit.html; https://hmbpumpkinfest.com/event-details/directions-map.html",
     "extra_categories": ""
   },
   {
@@ -226,7 +205,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Name explicitly identifies it as a pumpkin patch; operational seasonal pumpkin destination.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "the_great_pumpkin_patch_emerald_forest_christmas_trees_1.jpg",
@@ -235,8 +213,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -256,7 +232,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Name clearly identifies it as a pumpkin patch with operational status and dedicated website.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "speer_family_farms_pumpkin_patch_1.jpg",
@@ -265,8 +240,6 @@
     "activities": "pumpkin picking; giant slides; petting zoo; Zorb ball track; train; inflatables; pumpkin shooter; Water Zorbs",
     "season_dates": "",
     "extra_notes": "Dog friendly. Free parking. Wheelchair accessible. 10% senior and military discount available. One admission includes train, inflatables, slides, and petting zoo with no tokens required. Field trips available for groups (preschool, elementary, scouts, church, homeschool, seniors) at $15 per child and $8 per adult, including reserved covered picnic area for 2 hours, all-day wristbands, and mini pumpkin per student.",
-    "needs_verification": "season_dates: No opening or closing dates stated anywhere in the provided text",
-    "enrichment_source_urls": "https://speerfamilyfarms.com/; https://speerfamilyfarms.com/faq/; https://speerfamilyfarms.com/field-trips/",
     "extra_categories": ""
   },
   {
@@ -286,7 +259,6 @@
     "types": "farm; yoga_studio; health; point_of_interest; service; establishment",
     "hours": "Monday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 9:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms seasonal pumpkin patch with train rides, birthday parties, and fall activities at this working farm.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "lemos_farm_1.png",
@@ -295,8 +267,6 @@
     "activities": "pony rides; train rides; petting zoo; hay rides; car barn (drive-your-own vehicle); farm slide; haunted house; dig zone tractor; barn jumpers (bounce houses); tractor town; gem mining; coin ops; goat yoga",
     "season_dates": "",
     "extra_notes": "70 lb weight limit for pony rides. Petting zoo food cup is $2 additional. Dig Zone Tractor not included in admission pass. Gem mining bags available for purchase on site. Children under 14 months free. Tickets should be purchased in advance as farm may sell out. All ticket sales final and non-refundable but passes can be used on different day by request. Private goat yoga available ($35 per participant + $99 private event fee). Farm open year-round but October is peak season with most attractions available.",
-    "needs_verification": "season_dates - text mentions October is 'most exciting time' and fall pumpkin patch, but no specific 2024/2025 operating dates are provided on the site",
-    "enrichment_source_urls": "https://www.lemosfarm.com/; https://www.lemosfarm.com/attractions; https://www.lemosfarm.com/copy-of-corporate-events; https://www.lemosfarm.com/tickets",
     "extra_categories": "haunted_attraction"
   },
   {
@@ -316,7 +286,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms pumpkin farm with hayrides, tipi, vintage tractor, and seasonal traditions operating daily 9-6.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "farmer_john_s_pumpkin_farm_1.jpg",
@@ -325,8 +294,6 @@
     "activities": "hayrides; pumpkin selection/purchasing; tipi; vintage tractor; photo ops; party tent rentals",
     "season_dates": "",
     "extra_notes": "Open daily 9AM to 6PM. Party tent rentals available Saturday and Sunday 9AM-12PM or 1PM-4PM (weekday availability by request). Party tent rental: $300 for 3 hours, $75/hour after. $100 deposit required, 48-hour cancellation policy. Hayride wristbands: 5 included with party rental, additional wristbands $10 each. Parents ride free during parties.",
-    "needs_verification": "admission_price: no general admission price stated on website; season_dates: operating season not specified (only daily hours given)",
-    "enrichment_source_urls": "https://www.farmerjohnspumpkins.com/; https://www.farmerjohnspumpkins.com/events-parties",
     "extra_categories": ""
   },
   {
@@ -346,7 +313,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u200910:30\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u200910:30\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20096:30\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms pumpkin farm with corn maze, hay maze, haunted barn, hay rides, and seasonal fall attractions.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "arata_s_pumpkin_farm_1.jpg",
@@ -355,8 +321,6 @@
     "activities": "Minotaur's Labyrinth hay maze; haunted barn; petting zoo; hay rides; train ride; pony rides; PlayLand; corn field; pumpkin selection; photo opportunities; picnic areas",
     "season_dates": "October through October 31, 2024 (Last weekend of season: Friday October 31st 9am-10pm, Saturday November 1st 9am-6pm, Sunday November 2nd 9am-6:30pm; closed for season starting November 1st per FAQ)",
     "extra_notes": "Dogs allowed if well-behaved and on leash; children under 3 must be accompanied by paid adult for most attractions; children attractions not open after 6pm; night maze (6pm-close) only valid Friday and Saturday in October; advance online tickets must be purchased at least 24 hours in advance; free parking; no outside coupons offered; outside food permitted",
-    "needs_verification": "season_dates: FAQ states 'closed for the season starting November 1st' but opening text says open through November 2nd - dates appear inconsistent, unclear if this is current year 2024 or future year pricing",
-    "enrichment_source_urls": "https://www.aratapumpkinfarm.com/; https://www.aratapumpkinfarm.com/; https://www.aratapumpkinfarm.com/attractions/; https://www.aratapumpkinfarm.com/vip-farm-experience/",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -376,7 +340,6 @@
     "types": "market; point_of_interest; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Name explicitly identifies pumpkin patch with corn maze; website excerpt confirms seasonal activities and family entertainment.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "andreotti_family_farms_pumpkin_patch_sunflowers_corn_maze_1.jpg",
@@ -385,8 +348,6 @@
     "activities": "pumpkin patch; corn maze; hay rides; U-pick sunflower field; photo ops; private events; school tours; overnight camping",
     "season_dates": "",
     "extra_notes": "All-access tickets available that include visit to pumpkin patch, sunflower field, and corn maze plus a free medium pumpkin. Private events, photo shoots, and group tours available. Reservations required (Reserve Now buttons present throughout site). Fright Nights on the Farm mentioned as upcoming event.",
-    "needs_verification": "admission_price - no specific prices listed on any of the three pages provided; season_dates - pages mention fall/late summer timing but no specific dates given",
-    "enrichment_source_urls": "https://andreottifarm.com/; https://andreottifarm.com/reservation/; https://andreottifarm.com/wp-content/uploads/2024/08/Pumpkin-e1724452186911.jpeg; https://andreottifarm.com/wp-content/uploads/2024/08/pumpkin2-e1724452316442.jpeg",
     "extra_categories": "corn_maze"
   },
   {
@@ -406,7 +367,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms seasonal October pumpkin farm with hayrides, train rides, ponies, haunted house, and farm activities.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "pastorino_s_pumpkin_farm_1.jpg",
@@ -415,8 +375,6 @@
     "activities": "pumpkin picking; hay rides; train rides; pony rides; petting zoo; giant slide; jump house; haunted house; face painting",
     "season_dates": "September 15 to October 31 (pumpkins available; attractions available in October)",
     "extra_notes": "Attractions open in October from 10am to 4:30pm (weather permitting). Haunted house and face painting available on weekends only. Field trips and educational 1-hour tours available October 1-31. Year-round retail nursery also available.",
-    "needs_verification": "admission_price - no pricing information found anywhere on the website",
-    "enrichment_source_urls": "http://www.pastorinofarms.com/; http://www.pastorinofarms.com/hours_op.htm; http://www.pastorinofarms.com/faq.htm; http://www.pastorinofarms.com/abt_pmks/pumpkins.htm",
     "extra_categories": "haunted_attraction"
   },
   {
@@ -436,7 +394,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms pumpkin farm with seasonal offerings and farm tours; dedicated pumpkin farm destination.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "bob_s_vegetable_stand_pumpkin_farm_1.jpg",
@@ -445,8 +402,6 @@
     "activities": "farm tours; pumpkin picking; vegetable shopping; kids play area",
     "season_dates": "",
     "extra_notes": "Farm offers organic vegetables and seasonal pumpkins. Open daily 9am-6pm (hours listed, though seasonal operation not explicitly confirmed). Staff provides recipe ideas and produce selection tips.",
-    "needs_verification": "admission_price - no pricing information found on either page; season_dates - while farm emphasizes seasonal pumpkins and fall activities, specific operating season dates are not stated",
-    "enrichment_source_urls": "https://bobs-pumpkin-farm.edan.io; https://bobs-pumpkin-farm.edan.io/extra",
     "extra_categories": ""
   },
   {
@@ -466,7 +421,6 @@
     "types": "water_park; amusement_park; amusement_center; farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: 3:00\u2009\u2013\u20098:00\u202fPM | Tuesday: 2:00\u2009\u2013\u20098:00\u202fPM | Wednesday: 2:00\u2009\u2013\u20098:00\u202fPM | Thursday: 2:00\u2009\u2013\u20098:00\u202fPM | Friday: 2:00\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms multiple pumpkin patch locations with inflatables, family activities, and seasonal fall entertainment.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "abc_tree_farms_pick_of_the_patch_pumpkins_smno_1.jpg",
@@ -475,8 +429,6 @@
     "activities": "pumpkin picking; inflatable amusements",
     "season_dates": "Now open; locations begin opening mid to late September",
     "extra_notes": "No reservations necessary for general admission. Inflatable amusements are for children ages 2-12 only and socks are required. Accepts cash and major credit cards (advertised pricing is cash price; credit cards charged 3.99% fee). 10% military discount available. Group reservations and birthday parties available.",
-    "needs_verification": "admission_price - site repeatedly directs to 'CLICK HERE for more detailed information including pricing' but those detailed pages are not included in the provided text",
-    "enrichment_source_urls": "https://abctreefarms.net/; https://abctreefarms.net/; https://abctreefarms.net/pumpkin-patches/pumpkin-patch-locations/; https://abctreefarms.net/pumpkin-patches/pumpkin-deliveries/",
     "extra_categories": ""
   },
   {
@@ -496,7 +448,6 @@
     "types": "farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: 3:30\u2009\u2013\u20099:00\u202fPM | Tuesday: 3:30\u2009\u2013\u20099:00\u202fPM | Wednesday: 3:30\u2009\u2013\u20099:00\u202fPM | Thursday: 3:30\u2009\u2013\u20099:00\u202fPM | Friday: 3:30\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 9,
-    "filter_reason": "Part of ABC Tree Farms pumpkin patch chain with website confirming pumpkin patch operations and family activities.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "abc_tree_farms_pick_of_the_patch_pumpkins_1.jpg",
@@ -505,8 +456,6 @@
     "activities": "pumpkin picking; inflatable amusements; birthday parties; group reservations",
     "season_dates": "Mid to late September through October (locations open mid-September onwards; specific end date not stated)",
     "extra_notes": "No reservations necessary for general admission. Inflatable amusements are for children ages 2-12 only and socks are required. Pre-purchase of inflatable wristbands available. Cash pricing advertised; credit cards charged 3.99% fee. 10% military discount available with valid ID. Group discounts available.",
-    "needs_verification": "admission_price - site mentions \"CLICK HERE for more detailed information including pricing\" but the linked location-specific pages are not included in the provided text; season_dates - stated as \"mid to late September\" opening with no specific end date provided; activities - only general categories mentioned (pumpkin picking, inflatables, birthday parties); specific detailed activities not listed on main pages provided",
-    "enrichment_source_urls": "https://abctreefarms.net/; https://abctreefarms.net/; https://abctreefarms.net/pumpkin-patches/pumpkin-patch-locations/; https://abctreefarms.net/pumpkin-patches/pumpkin-deliveries/",
     "extra_categories": ""
   },
   {
@@ -526,7 +475,6 @@
     "types": "farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: 4:00\u2009\u2013\u20098:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20098:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20098:00\u202fPM | Thursday: 4:00\u2009\u2013\u20098:00\u202fPM | Friday: 4:00\u2009\u2013\u20098:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Part of ABC Tree Farms pumpkin patch chain with website confirming seasonal pumpkin patch operations.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "abc_tree_farms_pick_of_the_patch_pumpkins_1.jpg",
@@ -535,8 +483,6 @@
     "activities": "pumpkin picking; inflatable amusements; birthday parties; group reservations",
     "season_dates": "Mid to late September through October",
     "extra_notes": "Inflatables for children ages 2-12 only; socks required. No reservations necessary for walk-ins. Group discounts available. Military discount (10% with valid ID). Credit card transactions charged 3.99% fee. Burlingame location hours: Mon-Fri 3-8pm, Sat-Sun 10am-8pm (note: text shows conflicting hours - 4-8pm in one place, 3-8pm in another). Address listed as 1800 El Camino Real at Trousdale Drive, 94010.",
-    "needs_verification": "admission_price - site says to click for 'more detailed information including pricing' but pricing details not provided in extracted text; season_dates - stated as 'mid to late September' opening with locations 'now open' but no specific end date given; Burlingame location hours - text contains conflicting times (Mon-Fri 4-8pm vs 3-8pm)",
-    "enrichment_source_urls": "https://abctreefarms.net/; https://abctreefarms.net/; https://abctreefarms.net/pumpkin-patches/pumpkin-patch-locations/; https://abctreefarms.net/pumpkin-patches/pumpkin-deliveries/",
     "extra_categories": ""
   },
   {
@@ -556,7 +502,6 @@
     "types": "non_profit_organization; association_or_organization; point_of_interest; establishment",
     "hours": "Monday: 4:00\u2009\u2013\u20096:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20096:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20096:00\u202fPM | Thursday: 4:00\u2009\u2013\u20096:00\u202fPM | Friday: 4:00\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Named pumpkin patch operated by Wildwood Dads Club with dedicated website and seasonal hours.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "wildwood_dads_club_pumpkin_patch_1.png",
@@ -565,8 +510,6 @@
     "activities": "pumpkin patch",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "admission_price - no pricing information found on the page; season_dates - no operating dates specified on the page; activities - only 'pumpkin patch' is mentioned; no details on additional activities like hayrides, food, or photo ops",
-    "enrichment_source_urls": "https://www.wildwooddadsclub.org/pumpkin-patch",
     "extra_categories": ""
   },
   {
@@ -586,7 +529,6 @@
     "types": "farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: 4:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 4:00\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Part of ABC Tree Farms pumpkin patch chain with website confirming seasonal pumpkin patch operations.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "abc_tree_farms_pick_of_the_patch_pumpkins_1.jpg",
@@ -595,8 +537,6 @@
     "activities": "pumpkin selection; inflatable amusements",
     "season_dates": "Mid to late September through October 2026",
     "extra_notes": "No reservations necessary for general admission. Inflatable amusements are for children ages 2-12 only and socks are required. Wristbands can be pre-purchased online. Cash pricing advertised; credit cards charged 3.99% fee. Military discount available (10% with valid ID). Group discounts available. Pumpkin delivery and pick-up services available.",
-    "needs_verification": "admission_price - the site mentions 'CLICK HERE for more detailed information including pricing and activities' but actual pricing is not in the provided text; complete list of activities - the location detail pages are referenced but not provided in the text",
-    "enrichment_source_urls": "https://abctreefarms.net/; https://abctreefarms.net/; https://abctreefarms.net/pumpkin-patches/pumpkin-patch-locations/; https://abctreefarms.net/pumpkin-patches/pumpkin-deliveries/",
     "extra_categories": ""
   },
   {
@@ -616,7 +556,6 @@
     "types": "farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: 3:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 3:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 2:00\u2009\u2013\u200910:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM | Sunday: 9:30\u202fAM\u2009\u2013\u20098:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms pumpkin patch with slides, petting zoo, and multiple family activities at Alameda location.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "speer_family_farms_pumpkin_patch_1.jpg",
@@ -625,8 +564,6 @@
     "activities": "pumpkin picking; giant slides; petting zoo; Zorb ball track; train; inflatables; pumpkin shooter; water Zorbs",
     "season_dates": "",
     "extra_notes": "Free parking. Dog friendly. Wheelchair accessible. One admission covers train, inflatables, slides, and petting zoo with no ride tokens needed. Field trips available for school groups, scouts, church groups, homeschool co-ops, and senior groups ($15 per child, $8 per adult, includes reserved picnic area for 2 hours, all-day wristbands, and mini pumpkin). Senior and military discount: 10% off.",
-    "needs_verification": "season_dates - no specific opening/closing dates found on the website text provided",
-    "enrichment_source_urls": "https://speerfamilyfarms.com/; https://speerfamilyfarms.com/faq/; https://speerfamilyfarms.com/field-trips/",
     "extra_categories": ""
   },
   {
@@ -646,7 +583,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Name identifies it as pumpkin farm with seasonal fall hours; operational pumpkin destination.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "repetto_s_pumpkins_1.jpg",
@@ -655,8 +591,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -676,7 +610,6 @@
     "types": "tourist_attraction; point_of_interest; establishment",
     "hours": "",
     "photo_count": 4,
-    "filter_reason": "Name explicitly identifies pumpkin patch and corn maze combination; Tourist attraction status with no website to verify but name clearly matches criteria.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "pumpkin_patch_and_corn_maze_1.jpg",
@@ -685,8 +618,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": "corn_maze"
   },
   {
@@ -706,7 +637,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 5:00\u2009\u2013\u200910:00\u202fPM | Thursday: 5:00\u2009\u2013\u200910:00\u202fPM | Friday: 5:00\u2009\u2013\u200910:00\u202fPM | Saturday: 5:00\u2009\u2013\u200910:00\u202fPM | Sunday: 5:00\u2009\u2013\u200910:00\u202fPM",
     "photo_count": 1,
-    "filter_reason": "Haunted house with seasonal evening hours (Wed-Sun 5-10 PM) typical of Halloween attractions.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "nightmare_house_on_franklin_st_1.jpg",
@@ -715,8 +645,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "Couldn't load website (HTTPSConnectionPool(host='nightmaresf.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='nightmaresf.com', port=443): Failed to resolve 'nightmaresf.com' ([Errno 11001] getaddrinfo failed)\"))) - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -736,7 +664,6 @@
     "types": "point_of_interest; establishment",
     "hours": "",
     "photo_count": 9,
-    "filter_reason": "Haunted attraction venue with suggestive name 'The Haunted Bay' and dedicated website.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "the_haunted_bay_1.jpg",
@@ -745,8 +672,6 @@
     "activities": "ghost tours; paranormal investigations; viewing paranormal evidence; haunted building visits; dark wooded trails; historical accounts and storytelling",
     "season_dates": "",
     "extra_notes": "Two tours available: Berkeley Haunted Hike (2.5-3 hours, moderately strenuous hike with flashlights required, not recommended for children under 15) and San Francisco Historic Ghost Tour (2.5-3 hours, walking on sidewalks with some hills, not recommended for children under 15, must be 18+ to enter strip club). Both require 2-person minimum. Refunds available with 24 hours notice. Start times vary by season based on darkness.",
-    "needs_verification": "season_dates - FAQ mentions 'depending on the season' but no specific open dates or months are provided",
-    "enrichment_source_urls": "https://www.thehauntedbay.com/; https://www.thehauntedbay.com/faq",
     "extra_categories": ""
   },
   {
@@ -766,7 +691,6 @@
     "types": "historical_landmark; tourist_attraction; garden; gift_shop; wedding_venue; historical_place; event_venue; museum; farm; store; point_of_interest; service; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: Closed | Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms 'Autumn Days at Filoli' and 'Nightfall' as fall/Halloween events with giant pumpkins and spooky experiences running Sep-Nov.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "filoli_historic_house_garden_1.jpg",
@@ -775,8 +699,6 @@
     "activities": "explore historic House; wander through 16 acres of formal gardens; trails through redwoods; Nightfall (glowing gardens, eerie entertainment, spooky fun); Autumn Days (giant pumpkins, cider, churros, fall photo ops); wine tasting (Filoli Reserve); wreath-making workshop (Fall Wreath Party); guided tours (Upstairs Downstairs Tour, Taste of Filoli Tour); daily talks and activities",
     "season_dates": "September 26 - November 1, 2026 (Autumn Days and Nightfall)",
     "extra_notes": "General admission includes access to House, Garden, redwoods, trails, and daily talks/activities. Last entry is 8pm (estate open until 10pm). Admission begins at 10am. Food and drinks available; Clock Tower Shop on-site.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://filoli.org/; https://filoli.org/visit/opening-times/; https://filoli.org/private-events/; https://filoli.org/visit/faqs/",
     "extra_categories": ""
   },
   {
@@ -796,7 +718,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Named pumpkin patch with website and consistent hours suggesting seasonal operation.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "ian_s_pumpkin_patch_1.jpg",
@@ -805,8 +726,6 @@
     "activities": "pumpkin selection; bounce houses; photo spots; hay bales; parties; field trips",
     "season_dates": "September 25 \u2013 October 31, daily 10 AM \u2013 6 PM",
     "extra_notes": "Cash preferred, all major cards accepted except American Express. ATM on site. Free drive-up parking. Stroller-friendly gravel and dirt paths. Online waiver required for bounce house use. Long sleeves and pants recommended for bouncing. Private parties and school field trips available; weekends fill up fast. Call (415) 302-1142 for current jumpy pricing and reservations.",
-    "needs_verification": "admission_price - no general admission fee is mentioned; only bounce house day passes and season passes referenced with pricing to be obtained by calling",
-    "enrichment_source_urls": "https://iansholidays.com/; https://iansholidays.com/pumpkin-patch/; https://iansholidays.com/visit/; https://iansholidays.com/christmas-trees/",
     "extra_categories": ""
   },
   {
@@ -826,7 +745,6 @@
     "types": "farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: 2:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 2:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 2:00\u2009\u2013\u20099:00\u202fPM | Thursday: 2:00\u2009\u2013\u20099:00\u202fPM | Friday: 2:00\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt explicitly describes a pumpkin patch with inflatables, games, and photo zone operating Sept 13-Oct 31.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "golden_state_family_farms_1.jpg",
@@ -835,8 +753,6 @@
     "activities": "inflatable rides and slides; pumpkin selection and purchase; photo opportunity areas; paintball; duck boats; superslide; petting zoo; pony rides; school field trips; birthday parties; playgroup visits",
     "season_dates": "September 13 \u2013 October 31, 2025; Monday-Thursday 3-9 pm, Friday 2-9 pm, Saturday/Sunday 10 am-9 pm",
     "extra_notes": "Admission to pumpkin patch and parking is free. Socks required on inflatable rides. No reservations needed for walk-ins; groups can book discounted rates. Dogs not allowed; service animals must be leashed. Visitors under 17 must be accompanied by an adult. Outside food/beverages not permitted unless pre-arranged for parties/groups. Non-smoking, non-vape event. Prepackaged snacks and beverages available at ticket kiosk. Birthday party packages available (weekday special $99 for 6 children, weekends $25 per child).",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://goldenstatefamilyfarms.net/pumpkin-patches/locations/richmond/; https://goldenstatefamilyfarms.net/pumpkin-patches/; https://goldenstatefamilyfarms.net/pumpkin-patches/locations/; https://goldenstatefamilyfarms.net/pumpkin-patches/birthday-parties/",
     "extra_categories": ""
   }
 ]

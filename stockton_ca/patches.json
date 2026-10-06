@@ -16,7 +16,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 12:00\u2009\u2013\u20097:00\u202fPM | Tuesday: 12:00\u2009\u2013\u20097:00\u202fPM | Wednesday: 12:00\u2009\u2013\u20097:00\u202fPM | Thursday: 12:00\u2009\u2013\u20097:00\u202fPM | Friday: 12:00\u2009\u2013\u20097:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms 20+ attractions including corn mazes, haunted house, hayrides, and pumpkin activities; one admission price for all.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "dell_osso_family_farm_1.jpg",
@@ -25,8 +24,6 @@
     "activities": "corn maze; haunted castle; train ride; hayride; thrill hill; mini golf; teeny town; pig races; low obstacle course; pumpkin patch; pumpkin treehouse; slide hill; goat walk; duck races; tire pyramid; speedway pedal cars; animal zoo; ball shoot arena; tire play area; lawn games; kiddie play land; spinning pumpkins; pillow jumping; children's interactive parade; carousel; blasters; gem mining; pumpkin painting; pony rides; food court; country store",
     "season_dates": "October 2 - October 31, 2026. Monday-Friday 12:00 pm - last entry 7:00 pm, Saturday & Sunday 10:00 am - last entry 7:00 pm. Special Halloween hours October 31: 10:00 am - 5:00 pm, last entry 3:30 pm",
     "extra_notes": "Waiver required for all guests (can be completed online ahead of time). Tickets only available for purchase in person at the farm (no online sales). Cash or credit card accepted (ID required), no Apple Pay. Parking always free. Some activities included with admission (20+ attractions), others require additional fees: Blasters $10, Carousel $5, Gem Mining $10, Pumpkin Painting $7, Pony Rides $15. Food and pumpkin purchases available for additional cost. Annual pass available for $85 ($80 for Lathrop residents with proof).",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://www.pumpkinmaze.com/; https://www.pumpkinmaze.com/; https://www.pumpkinmaze.com/corn-maze; https://www.pumpkinmaze.com/tickets",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -46,7 +43,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Dutch Hollow Farms website excerpt confirms a fall pumpkin patch season starting October 2 with field trips, birthday parties, and seasonal activities.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "dutch_hollow_farms_1.jpg",
@@ -55,8 +51,6 @@
     "activities": "pumpkin patch; petting zoo; pig races; wagon ride; corn maze; super slide; jump pillow; low ropes course; duckie races; games; hamster wheels; spider web; tire dinosaur; tire slide; construction diggers; tike track; photo opportunities",
     "season_dates": "October 2 - November 1, 2026",
     "extra_notes": "Hours: 10:00 AM - 7:00 PM (with extended hours towards end of season; last entry 30 minutes before closing). Almond and walnut shells on ground throughout farm for dust control. Free parking. Online ticket ordering available. Field trips available October 2-30. Birthday party reservations accepted. Payments accepted: Cash, Credit Card (Visa, MasterCard), Debit Card, Contactless Payments.",
-    "needs_verification": "",
-    "enrichment_source_urls": "http://www.dutchhollowfarms.com/; http://www.dutchhollowfarms.com/information",
     "extra_categories": "corn_maze"
   },
   {
@@ -76,7 +70,6 @@
     "types": "farmers_market; market; grocery_store; farm; food_store; wholesaler; store; food; point_of_interest; service; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Smith Family Farm website excerpt clearly describes a Pumpkin Harvest opening September 26 and fall u-pick operations.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "smith_family_farm_1.jpg",
@@ -85,8 +78,6 @@
     "activities": "pumpkin patch; corn maze; live music; barnyard animals; gardens; photo ops; observation beehives; antique tractor expo; tomato tasting bar; chef demos; artisan craft market; food trucks",
     "season_dates": "September 26 - November 1 (Pumpkin Harvest). Tomato Day on September 27, 2025. Antique Tractor Expo October 10-11. U-Pick pomegranate orchard weekends only in October, 10am-4pm.",
     "extra_notes": "Pumpkin Harvest open daily 9:00 AM - 5:00 PM. Fall U-Pick open Saturday and Sunday 10:00 AM - 4:00 PM. Barnyard and pumpkin patch area only open during October. Reservations/tickets required for Tomato Day.",
-    "needs_verification": "General Pumpkin Harvest admission price not explicitly stated on the pages provided\u2014only Tomato Day pricing ($16) is shown; standard patch admission may differ; Operating hours for activities other than U-Pick (which is Sat-Sun 10am-4pm) not specified",
-    "enrichment_source_urls": "https://www.smithfamilyfarm.com/; https://www.smithfamilyfarm.com/about-3; https://www.smithfamilyfarm.com/event-details/tomato-day-2025-2025-09-27-09-00; https://www.smithfamilyfarm.com/event-list",
     "extra_categories": "corn_maze"
   },
   {
@@ -106,7 +97,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 4:00\u2009\u2013\u20097:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20097:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20097:00\u202fPM | Thursday: 4:00\u2009\u2013\u20097:00\u202fPM | Friday: 4:00\u2009\u2013\u200910:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u200910:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Fantozzi Farms Corn Maze and Pumpkin Patch website excerpt confirms corn maze and pumpkin patch as fall attractions.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "fantozzi_farms_corn_maze_and_pumpkin_patch_1.jpg",
@@ -115,8 +105,6 @@
     "activities": "corn maze; pumpkin patch; haunted corn maze; Farm Scene Tracks game (kiddie maze); Farm Scene Investigation game; checkpoint punch game; scavenger hunt; craft vendor fair; wheelbarrow races; paint night; Little Mr. and Miss Pumpkin Pageant; Halloween costume contest; Dia de los Muertos celebration; scarecrow contest; birthday parties; field trips",
     "season_dates": "September 26 - November 1, 2026. Mon-Thurs 4-7 pm, Fridays 4-10 pm, Saturdays 10 am-10 pm, Sundays 10 am-8 pm. Weekdays 9 am-3 pm for field trips and corporate events.",
     "extra_notes": "Haunted maze open Friday and Saturday nights in October 7-10 pm only. 4-H and FFA members receive 50% off admission Oct 4-10. Grandparents get in free with paying grandchild on Oct 10. Field trips and corporate events available.",
-    "needs_verification": "admission_price - an 'Admissions' page is listed in navigation but no actual pricing information provided in the text",
-    "enrichment_source_urls": "https://fantozzifarms.com/; https://fantozzifarms.com/; https://fantozzifarms.com/corn-maze/; https://fantozzifarms.com/season-2026/",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -136,7 +124,6 @@
     "types": "tourist_attraction; park; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 2:00\u2009\u2013\u20098:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "West Coast Farming Pumpkin Patch has seasonal Friday-Sunday hours matching fall operations and pumpkin patch branding.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "west_coast_farming_pumpkin_patch_1.jpg",
@@ -145,8 +132,6 @@
     "activities": "pumpkin picking (u-pick); haunted corn maze; hay maze; ball pit; gator farm tour; petting zoo; pumpkin carving stations; food and drinks",
     "season_dates": "",
     "extra_notes": "Waiver required for all guests (can be signed in advance online). Pets allowed on leash in main patch area but not in u-pick. Free parking. Tickets purchased on-site, no advance purchase needed. Field trips available by booking. Cash and major credit cards accepted (not Venmo, PayPal, Zelle, or personal checks). First week hours reduced (2PM-7PM weekends only). No prepared concessions weekend of September 26th.",
-    "needs_verification": "season_dates - site says 'Open for the season' but no specific start/end dates given; exact opening date - 'first week's hours reduced' mentioned but the actual opening date is not explicitly stated",
-    "enrichment_source_urls": "https://www.wcfpumpkinpatch.com/; https://www.wcfpumpkinpatch.com/faq; https://www.wcfpumpkinpatch.com/",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -166,7 +151,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Linden Blooms website excerpt confirms corn maze, pumpkin patch, tractor rides, and fall operations September 25\u2013October 31.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "linden_blooms_true_country_1.png",
@@ -175,8 +159,6 @@
     "activities": "corn maze; tractor ride tours; pumpkin patch; country store",
     "season_dates": "September 25, 2026 - October 31, 2026, Fridays, Saturdays, Sundays, 9am-3pm",
     "extra_notes": "No reservations required; can pre-purchase tickets online or pay on arrival. Field trips available on Fridays. Pumpkin patch pay-by-the-pound pricing. Complimentary parking on-site. Porta potties available and cleaned daily. Uneven ground throughout farm may challenge accessibility. Outside food/picnic welcome at farm tables but not in corn maze. No pets except service animals. Accepts cash, Visa, MasterCard, American Express, Discover, Apple Pay, Google Pay, Shop Pay, PayPal. Weather closure policy: stays open if less than 50% rain chance with under half-inch expected.",
-    "needs_verification": "admission_price - site mentions \"Tickets on Sale for 2026 Season Now\" and \"Buy Your Tickets\" but no actual price is stated anywhere in the provided text",
-    "enrichment_source_urls": "https://www.chinchiolofarming.com/pages/lindenblooms; https://www.chinchiolofarming.com/pages/lindenblooms; https://www.chinchiolofarming.com/; https://www.chinchiolofarming.com/products/linden-blooms-1",
     "extra_categories": "corn_maze"
   },
   {
@@ -196,7 +178,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 7:00\u2009\u2013\u200910:00\u202fPM | Saturday: 7:00\u2009\u2013\u200910:00\u202fPM | Sunday: Closed",
     "photo_count": 4,
-    "filter_reason": "209 Haunts LLC is a haunted attraction with seasonal Friday-Saturday evening hours typical of Halloween haunts.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "209_haunts_llc_1.jpg",
@@ -205,8 +186,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "admission_price - no pricing information found on homepage; activities - no specific attractions or activities listed on homepage; season_dates - no operating dates mentioned on homepage; notes - insufficient content provided to extract visit-planning details",
-    "enrichment_source_urls": "https://www.209haunts.com/",
     "extra_categories": ""
   },
   {
@@ -226,7 +205,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "",
     "photo_count": 2,
-    "filter_reason": "Silent Grove Haunt has a name indicating a haunted house attraction; keeping pending website verification.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "silent_grove_haunt_1.jpg",
@@ -235,8 +213,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -256,7 +232,6 @@
     "types": "non_profit_organization; association_or_organization; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: 6:45\u2009\u2013\u20098:00\u202fAM | Friday: Closed | Saturday: Closed | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Manteca Pumpkin Fair is a seasonal fall event run by a Kiwanis club at a public park location.",
     "source": "google_places",
     "date_checked": "2026-10-06",
     "photo_paths": "manteca_pumpkin_fair_manteca_sunrise_kiwanis_1.png",
@@ -265,38 +240,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "admission_price - no pricing information found on the website; activities - no specific pumpkin fair activities listed on the website pages provided; season_dates - no operating dates or season information found on the website; notes - website does not contain visitor planning details; it focuses on the Kiwanis club itself rather than the fair experience",
-    "enrichment_source_urls": "https://sunrisekiwanis.org/; https://sunrisekiwanis.org/event-calendar/",
-    "extra_categories": ""
-  },
-  {
-    "place_id": "ChIJoUQBM9mhmoARdkKKhWFi8EI",
-    "name": "Lodi Halloween Fest 2024",
-    "category": "haunted_attraction",
-    "address": "100 S Sacramento St, Lodi, CA 95240, USA",
-    "latitude": 38.1326156,
-    "longitude": -121.2719832,
-    "phone": "(669) 250-2946",
-    "website": "http://www.saintsalleyrecords.com/",
-    "google_maps_url": "https://maps.google.com/?cid=4823463371905581686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "rating": 1,
-    "rating_count": 1,
-    "price_level": "",
-    "business_status": "OPERATIONAL",
-    "types": "school; educational_institution; point_of_interest; establishment",
-    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 10:30\u202fAM\u2009\u2013\u200910:30\u202fPM | Sunday: Closed",
-    "photo_count": 10,
-    "filter_reason": "Lodi Halloween Fest 2024 is a Halloween seasonal event with Saturday evening hours consistent with a haunted/Halloween attraction.",
-    "source": "google_places",
-    "date_checked": "2026-10-06",
-    "photo_paths": "lodi_halloween_fest_2024_1.jpg",
-    "photo_attributions": "Photo by Lodi Halloween Fest 2024 via Google Maps; Photo by Lodi Halloween Fest 2024 via Google Maps; Photo by Lodi Halloween Fest 2024 via Google Maps",
-    "admission_price": "",
-    "activities": "",
-    "season_dates": "",
-    "extra_notes": "",
-    "needs_verification": "Couldn't load website (HTTPConnectionPool(host='www.saintsalleyrecords.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='www.saintsalleyrecords.com', port=80): Failed to resolve 'www.saintsalleyrecords.com' ([Errno 11001] getaddrinfo failed)\"))) - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   }
 ]

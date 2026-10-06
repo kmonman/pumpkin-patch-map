@@ -16,7 +16,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Farm with weekend-only seasonal hours pattern suggests a fall/pumpkin destination; website will confirm.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "siemers_farm_1.jpg",
@@ -25,8 +24,6 @@
     "activities": "corn maze; hedge maze; castle; pumpkin patch; u-pick strawberries; tractor rides; train rides; kiddie train; pirate ship; bouncy slide; straw bale maze; photo booth; castle pizza; ice cream; local food vendors; artisan vendors; live music; Mt. Spokane Brewery",
     "season_dates": "Fall Festival: September 19 - November 1 (weekends); Strawberry Festival: June 18-21",
     "extra_notes": "Season pass includes farm entry and wristband access to rides/attractions; includes 10% discount on food, merchandise, and produce. Rides and attractions availability not guaranteed. Photo ID may be required for season pass verification. Pre-purchase specials available online.",
-    "needs_verification": "admission_price - only season pass pricing ($20+) is clearly stated; no per-visit admission price found for the Fall Festival; season_dates - 'Fall Festival is Here! Every weekend from Sept. 19 - Nov. 1' but the Festivals page shows 'Sat. Sep 19 - Sun. Nov 1' (unclear if daily or weekends-only operation)",
-    "enrichment_source_urls": "https://siemersfarm.com/; https://siemersfarm.com/season-pass/; https://siemersfarm.com/attractions/; https://siemersfarm.com/festivals/",
     "extra_categories": "corn_maze"
   },
   {
@@ -46,7 +43,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM | Tuesday: Closed | Wednesday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20091:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Monster Farm's name, limited weekend hours, and fun-focused website domain suggest a seasonal fall/Halloween attraction.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "monster_farm_formerly_knapp_s_u_pick_farm_1.jpg",
@@ -55,8 +51,6 @@
     "activities": "pumpkin patch; train ride; punching pumpkins maze race; jump tunnel; farmyard bounce house; pumpkin bowling; singing pumpkin straw maze; strawberry u-pick; craft vendors; food vendors; live music; pony rides",
     "season_dates": "September 25 - October 31, 2026; pumpkin patch open daily 10am-5pm; fall festival activities Friday-Sunday 10am-5pm",
     "extra_notes": "No reservations needed. Free parking. Pony rides tickets sold separately. Live music and pony rides available on select dates. Strawberry u-picking and farm store shopping available without admission. Voluntary donations welcome for weekday visits.",
-    "needs_verification": "admission_price - no entry fee mentioned; unclear if pumpkin patch activities require separate admission or if it's just u-pick pricing; season_dates - exact opening/closing dates for fall pumpkin activities not specified, only 'Late September & October 2026' given",
-    "enrichment_source_urls": "https://monsterfarm.fun/; https://monsterfarm.fun/pages/fall-festival",
     "extra_categories": ""
   },
   {
@@ -76,7 +70,6 @@
     "types": "ranch; farm; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Rusty Truck Ranch is a ranch with no hours listed; name and website suggest a possible fall/seasonal attraction worth checking.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "rusty_truck_ranch_1.jpg",
@@ -85,8 +78,6 @@
     "activities": "pumpkin picking; hayrides; petting zoo (small and large animals); pony rides; face painting; 40ft tube slide; tire play area; sensory corn bin; photo ops (vintage photo sets and rusty trucks); shoot the zombies; barrel train ride; live music; professional photography sessions",
     "season_dates": "September 26 & 27, October 3 & 4, October 9, 10 & 11, October 16, 17 & 18, October 23, 24 & 25, 2026 (10 AM\u20135 PM each open day)",
     "extra_notes": "Admission includes vehicle parking, entrance, unlimited hayrides, animal petting zoos, 40ft tube slide, sensory corn bin, tire play area, and vintage photo sets. Additional activities have separate fees (e.g., pony rides $10 tokens, face painting $7, donuts $10/bag, kettle corn $7, cotton candy $6-$8). Food and beverages available at The Truck Stop Concessions and The Watering Hole. Group and corporate events available; field trips offered on public open days. Professional photographers available on weekends.",
-    "needs_verification": "admission_price - the site says 'Included with admission' for various activities but never states the actual ticket price; users must click 'Reserve Your Tickets!' or 'Get Your Tickets!' to see pricing",
-    "enrichment_source_urls": "https://www.rustytruckranch.com/; https://www.rustytruckranch.com/patch-on-the-ranch; https://www.rustytruckranch.com/sunflowers-season",
     "extra_categories": ""
   },
   {
@@ -106,7 +97,6 @@
     "types": "ranch; farm; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Funky D Ranch has a playful name and no hours listed; could be a seasonal fall attraction worth verifying on website.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "funky_d_ranch_1.jpg",
@@ -115,8 +105,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "admission_price - no pricing information found on website; activities - no fall/Halloween-specific activities mentioned; site mentions weddings, receptions, company picnics, and event rentals but nothing specific to a pumpkin patch, corn maze, haunted house or typical fall attraction; season_dates - no operating dates or seasonal information provided",
-    "enrichment_source_urls": "https://www.funkydranch.com/; https://www.funkydranch.com/events",
     "extra_categories": ""
   },
   {
@@ -136,7 +124,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
     "photo_count": 8,
-    "filter_reason": "Johnston Family Farm has weekend-only hours (Fri-Sun 10am-7pm), a pattern consistent with a seasonal pumpkin patch or fall event.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "johnston_family_farm_1.jpg",
@@ -145,8 +132,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -166,7 +151,6 @@
     "types": "point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Sue's Pumpkin Patch is explicitly named as a pumpkin patch; no website/hours provided but the name confirms the category.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "sue_s_pumpkin_patch_1.jpg",
@@ -175,8 +159,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -196,7 +178,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Bear's Pumpkin Patch is explicitly named as a pumpkin patch with weekend-focused hours; genuine seasonal attraction.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "bear_s_pumpkin_patch_1.jpg",
@@ -205,8 +186,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -226,7 +205,6 @@
     "types": "farm; farmers_market; market; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Farm with farmers market presence suggests potential seasonal fall activities; website check needed to confirm pumpkin patch, corn maze, or fall festival.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "sweet_mercy_farm_spokane_wa_1.png",
@@ -235,8 +213,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "Website under renovations; limited information available",
-    "needs_verification": "admission_price - no pricing information found on the website; activities - no activities listed; website is under renovation; season_dates - no operating dates or season information found; notes - website appears to be under construction and does not provide visit-planning details",
-    "enrichment_source_urls": "https://www.sweetmercyfarmstead.com/",
     "extra_categories": ""
   },
   {
@@ -256,7 +232,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: Closed | Friday: Closed | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Farm with website and reasonable review count; needs website verification for fall/pumpkin attractions.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "prairie_home_farm_1.jpg",
@@ -265,8 +240,6 @@
     "activities": "pumpkin picking; farm animal feeding; self-guided tours; family photo ops; story telling; petting zoo",
     "season_dates": "October only, Wednesdays and Saturdays 10:00 am \u2013 5:00 pm",
     "extra_notes": "Field trips require booking. Field trips include self-guided farm tour, animal food, pumpkin picking, popcorn and cider. Field trips take 45-60 minutes. Chaperones do not pay. Story telling event usually second to last Saturday in October. Pumpkin prices TBD for 2026.",
-    "needs_verification": "admission_price - pumpkin prices listed as TBD for 2026; season_dates - confirmed October operating dates, but specific opening/closing dates for 2026 not provided (only October 3rd and 5th mentioned as specific dates)",
-    "enrichment_source_urls": "https://prairiehomefarm.com/; https://prairiehomefarm.com/our-pumpkin-patch/",
     "extra_categories": ""
   },
   {
@@ -286,7 +259,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 4:00\u2009\u2013\u20096:30\u202fPM | Tuesday: 4:00\u2009\u2013\u20096:30\u202fPM | Wednesday: 4:00\u2009\u2013\u20096:30\u202fPM | Thursday: 4:00\u2009\u2013\u20096:30\u202fPM | Friday: 4:00\u2009\u2013\u20097:00\u202fPM | Saturday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Sunday: 11:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Name explicitly states 'Corn Maze & Pumpkin Patch' with website and seasonal-looking evening/weekend hours.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "colville_corn_maze_pumpkin_patch_1.jpg",
@@ -295,8 +267,6 @@
     "activities": "12 acre corn maze; pumpkin patch (pick your own or pre-harvested); fresh fall produce shopping (sweet corn, winter squash, pie pumpkins); food and refreshments (popcorn, cider)",
     "season_dates": "Open every day through Halloween. Hours: 4:00-7:00 PM weekdays, 11:00 AM-7:00 PM weekends. In 2026 will open at 10:00 AM on Canada's Thanksgiving, Monday, October 12.",
     "extra_notes": "Tickets available at the gate, accept credit card or cash. No pets allowed in the maze or pumpkin patch. Day time school/group events and weeknight after-dark events can be arranged by special appointment. Sturdy walking shoes recommended. Strollers permitted in maze.",
-    "needs_verification": "Current year's specific open date is not stated - text references 2026 for Canada's Thanksgiving but current season start date is unclear (only states 'now open')",
-    "enrichment_source_urls": "https://www.colvillecornmaze.com/; https://www.colvillecornmaze.com/; https://www.colvillecornmaze.com/services; https://www.colvillecornmaze.com/gallery",
     "extra_categories": "corn_maze"
   },
   {
@@ -316,7 +286,6 @@
     "types": "farm; event_venue; wholesaler; service; point_of_interest; establishment",
     "hours": "",
     "photo_count": 0,
-    "filter_reason": "Farm and event venue with website; unclear what events or seasonal attractions it offers, needs verification.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "",
@@ -325,8 +294,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "The website text provided contains only a page title and no actual content details about the business, its operations, pricing, activities, or seasonal dates. Unable to extract any visit-planning information.",
-    "enrichment_source_urls": "https://www.atnorthridge.com",
     "extra_categories": ""
   },
   {
@@ -346,7 +313,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 12:00\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 9,
-    "filter_reason": "Name explicitly states 'Pumpkin Patch' with website and seasonal hours (Fri-Sun plus weekdays).",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "grandpa_woody_s_pumpkin_patch_1.jpg",
@@ -355,8 +321,6 @@
     "activities": "pumpkin selection and picking; animal interaction with goats and sheep; pumpkin decorating; art table; marshmallow roasting; shopping market for handcrafted soaps and seasonal crafts; viewing Finnsheep",
     "season_dates": "",
     "extra_notes": "Reservations required. Group bookings available for up to 40 people; group rate is $7.00 per person for 2-hour events including pumpkin decorating, animal interaction, art table, marshmallow roasting, and snacks. Contact Jeane at 208.660.3046 for group bookings.",
-    "needs_verification": "admission_price - no general admission price is stated for individual visits; only group booking price ($7/person) is mentioned; season_dates - no opening or closing dates are provided on the website",
-    "enrichment_source_urls": "https://www.grandpawoodyspumpkinpatch.com/; https://www.grandpawoodyspumpkinpatch.com/pumpkin-patch-1; https://www.grandpawoodyspumpkinpatch.com/childrens-parties-1; https://www.grandpawoodyspumpkinpatch.com/pumpkin-patch-1",
     "extra_categories": ""
   },
   {
@@ -376,7 +340,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 5,
-    "filter_reason": "Website domain explicitly mentions pumpkin patch in name.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "the_back_40_farm_on_elder_road_1.jpg",
@@ -385,8 +348,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "The website text provided only shows a directory index with no actual content - no admission prices, activities, dates, or other visit planning information are visible. A full page scrape or different pages from the site would be needed to extract accurate information.",
-    "enrichment_source_urls": "https://theback40pumpkinpatch.com/",
     "extra_categories": ""
   },
   {
@@ -406,7 +367,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 7,
-    "filter_reason": "Farm with website that likely describes seasonal pumpkin activities; worth checking.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "sullivan_family_farms_1.jpg",
@@ -415,8 +375,6 @@
     "activities": "U-pick flower events; flower field walking/perusing",
     "season_dates": "",
     "extra_notes": "U-pick event dates listed as 'TBA'. Private events and birthday parties available by arrangement. Contact: sullivanfamilyfarmsllc@gmail.com or 509-235-6936.",
-    "needs_verification": "admission_price - no pricing mentioned for U-pick or field access events; season_dates - U-pick dates listed as 'TBA'; floral packages available May-September but unclear if that applies to U-pick events",
-    "enrichment_source_urls": "https://www.sullivan-family-farms.com/; https://www.sullivan-family-farms.com/pages/weddings-events",
     "extra_categories": ""
   },
   {
@@ -436,7 +394,6 @@
     "types": "farm; wholesaler; point_of_interest; service; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Farm with weekend-only seasonal hours pattern suggestive of a fall attraction.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "tall_grass_farms_1.jpg",
@@ -445,8 +402,6 @@
     "activities": "",
     "season_dates": "Saturday and Sunday 10-6 through first frost",
     "extra_notes": "This is a dahlia tuber nursery/mail-order business, not a fall attraction. Farm is open weekends only. Products are dahlias and other plants for purchase (mums, hardy hibiscus, succulents, house plants). Not a pumpkin patch, corn maze, haunted house, or similar fall activity venue.",
-    "needs_verification": "This business does not appear to be a fall/Halloween attraction as specified in the prompt - it is a plant nursery. No admission price, activities, or fall-themed entertainment were found because this is a retail/mail-order dahlia business, not a seasonal attraction.",
-    "enrichment_source_urls": "https://www.tallgrass-farms.com/; https://www.tallgrass-farms.com/shipping; https://www.tallgrass-farms.com/product-page/clearview-genie; https://www.tallgrass-farms.com/product-page/dick-westfall",
     "extra_categories": ""
   },
   {
@@ -466,7 +421,6 @@
     "types": "tourist_attraction; event_venue; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Saturday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Name explicitly identifies as tulip and pumpkin farm with weekend/evening seasonal hours.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "palmer_s_adventure_farm_eastern_wa_s_tulip_pumpkin_farm_1.jpg",
@@ -475,8 +429,6 @@
     "activities": "pumpkin picking; pumpkin displays; train rides; pedal carts; farm animals / petting zoo; flower and pumpkin field viewing; mega slide; jack o lantern jump pad; jumping pillow; pumpkin house; fall swing; slides; corn pit; straw maze; hayride; corn maze; hamster wheel; chalk truck; grain bin basketball; zombie paintball; hay slide mountain; photo ops; apple blasters; shooting gallery; diggers; gemstone mining; sunflowers (early season); pumpkin nights (nighttime experience with glowing displays); food trucks / festival food; dessert & soda bar",
     "season_dates": "General admission: Friday-Sunday September 18 - November 1, 2026. Zombie Paintball + General Admission: Friday-Saturday September 25 - October 31, 2026.",
     "extra_notes": "Ages 2 and under are free; everyone 3 and up needs a pass. Zombie Paintball requires additional cost and reservation. Food, flowers, pumpkins, diggers, shooting gallery, and apple blasters are additional cost beyond admission. Group discounts available ($2 off per pass for groups of 20+). Farm is outdoors and weather-dependent. All passes are final sale and redeemable only for 2026 fall season.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://www.palmersadventurefarm.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16392925308756450186; https://www.palmersadventurefarm.com/fall-tickets; https://www.palmersadventurefarm.com/admission; https://www.palmersadventurefarm.com/pumpkin-patch",
     "extra_categories": "corn_maze"
   },
   {
@@ -496,7 +448,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "",
     "photo_count": 0,
-    "filter_reason": "Event venue with 'Blood in the bayou' in name suggesting a haunted attraction; website check needed to confirm.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "",
@@ -505,8 +456,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -526,7 +475,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 7:00\u2009\u2013\u200910:30\u202fPM | Saturday: 7:00\u2009\u2013\u200910:30\u202fPM | Sunday: Closed",
     "photo_count": 6,
-    "filter_reason": "Pure Evil Haunted House with seasonal Friday-Sunday evening hours and website, clearly a haunted attraction.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "pure_evil_haunted_house_1.jpg",
@@ -535,8 +483,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "Couldn't load website (403 Client Error: Forbidden for url: https://pureevilhaunt.com/) - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -556,7 +502,6 @@
     "types": "tourist_attraction; point_of_interest; establishment",
     "hours": "",
     "photo_count": 9,
-    "filter_reason": "Haunted House509 with tourist attraction classification suggests a haunted attraction; website check needed to confirm.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "haunted_house509_1.jpg",
@@ -565,8 +510,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -586,7 +529,6 @@
     "types": "amusement_center; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: 3:00\u2009\u2013\u20099:00\u202fPM | Friday: 1:00\u2009\u2013\u200911:30\u202fPM | Saturday: 1:00\u2009\u2013\u200911:30\u202fPM | Sunday: 3:00\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 7,
-    "filter_reason": "Unit 55/Cartel Haunts with seasonal Thursday-Sunday evening hours and website, appears to be a haunted attraction.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "unit_55_1.jpg",
@@ -595,8 +537,6 @@
     "activities": "horror themed escape room; multi-room escape game experience; hidden objects games; mental challenges; logic puzzles",
     "season_dates": "",
     "extra_notes": "By reservation only, open Thursday-Sunday 3pm-10pm. Recommended for ages 13+, anyone under 18 must be accompanied by parent/guardian. Groups should arrive 10 minutes early. Safe word available ('FUZZY BUNNY'). Hood placed over head before entering game area. Private bookings only (no pairing with strangers). Book at Unit55.Ticketleap.com.",
-    "needs_verification": "season_dates - no specific fall/Halloween season dates mentioned; appears to operate year-round by reservation",
-    "enrichment_source_urls": "https://cartelhaunts.com/; https://cartelhaunts.com/faq/",
     "extra_categories": ""
   },
   {
@@ -616,7 +556,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Farm with website suggesting possible agritourism; needs website verification for pumpkin patch or fall event.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "lunceford_family_farms_1.jpg",
@@ -625,8 +564,6 @@
     "activities": "pumpkin picking; apple cannons; baby goat petting; corn maze; pumpkin donuts; hayrides; hay bales; school field trips",
     "season_dates": "Every Friday\u2013Sunday in October",
     "extra_notes": "Hours are 11 AM \u2013 5 PM. Field trips available weekday mornings during pumpkin season for groups of 15+; teachers and chaperones are free. Hand-washing stations available at goat petting area. Call ahead during peak weekends as hours may vary by weather and harvest.",
-    "needs_verification": "admission_price - no admission fee or price is mentioned anywhere on the site; the pumpkins are u-pick but the cost is not stated",
-    "enrichment_source_urls": "https://luncefordfamilyfarms.com/; https://luncefordfamilyfarms.com/pumpkins; https://luncefordfamilyfarms.com/visit; https://luncefordfamilyfarms.com/sweet-corn",
     "extra_categories": "corn_maze"
   },
   {
@@ -646,7 +583,6 @@
     "types": "tourist_attraction; point_of_interest; establishment",
     "hours": "Monday: 4:30\u2009\u2013\u200910:00\u202fPM | Tuesday: 4:30\u2009\u2013\u200910:00\u202fPM | Wednesday: 4:30\u2009\u2013\u200910:00\u202fPM | Thursday: 4:30\u2009\u2013\u200910:00\u202fPM | Friday: 4:30\u2009\u2013\u200910:00\u202fPM | Saturday: 4:30\u2009\u2013\u200910:00\u202fPM | Sunday: 4:30\u2009\u2013\u200910:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Seasonal light show with evening hours and positive reviews suggesting it operates as a holiday/seasonal attraction.",
     "source": "google_places",
     "date_checked": "2026-09-18",
     "photo_paths": "idahline_light_show_1.jpg",
@@ -655,8 +591,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -676,7 +610,6 @@
     "types": "gift_shop; market; live_music_venue; cafe; event_venue; grocery_store; farm; food_store; store; food; point_of_interest; service; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt explicitly lists a Fall Festival event weekends 09/19/26-10/31/26, plus u-pick pumpkins and apples in fall.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "walters_fruit_ranch_1.png",
@@ -685,8 +618,6 @@
     "activities": "caramel apples; barnyard play area; pea pit; corn maze; corn cannon; Fruit Loop Express; wiggle worm tractor rides; petting zoo; pumpkin donuts; U-pick apples; U-pick pumpkins; U-pick sunflowers; fresh-pressed cider; live music; press plate bar; feed the sheep; ice cream; gift shop",
     "season_dates": "Weekends September 19 - October 31, 2026",
     "extra_notes": "Fall Festival runs weekends only during the season dates. Store and Cafe open Monday-Thursday 9 am-5 pm, Friday-Sunday 9 am-6 pm.",
-    "needs_verification": "admission_price - no ticket pricing information is shown on the website (page says 'TICKETS' but no prices listed)",
-    "enrichment_source_urls": "https://waltersfruitranch.com/",
     "extra_categories": ""
   },
   {
@@ -706,7 +637,6 @@
     "types": "farmers_market; gift_shop; market; wedding_venue; event_venue; farm; store; restaurant; food; point_of_interest; service; establishment",
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website mentions U-Pick adventures and seasonal events on a farm with fall harvest season activity.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "high_country_orchard_a_greenbluff_farm_and_wedding_venue_1.jpg",
@@ -715,8 +645,6 @@
     "activities": "pumpkin patch; petting zoo; cow train ride; playgrounds; u-pick apples; u-pick pumpkins; u-pick dahlias and flowers; live music; pumpkin donuts; caramel apples; wreath making class; trick or treating scavenger hunt; craft fairs; vendor fairs; fresh produce; coffee; lunch",
     "season_dates": "Fall Festival: 10/3-10/31 every weekend in October; Halloween event 10/31. U-Pick pumpkin patch opens second weekend in September through October.",
     "extra_notes": "U-Pick pumpkin patch available. Wreath making class coming soon (November & December). Wedding and event hosting available; text 509.638.6616 for tours.",
-    "needs_verification": "admission_price - no admission price is stated anywhere on the site; it appears activities and u-pick may be priced separately but specific prices are not listed",
-    "enrichment_source_urls": "https://highcountryorchard.com/; https://highcountryorchard.com/u-pick/; https://highcountryorchard.com/upcoming-events-2/; https://highcountryorchard.com/events/",
     "extra_categories": ""
   },
   {
@@ -736,7 +664,6 @@
     "types": "market; supplier; grocery_store; farm; food_store; store; food; point_of_interest; service; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 8:00\u2009\u2013\u200911:00\u202fAM | Thursday: Closed | Friday: 1:00\u2009\u2013\u20097:00\u202fPM | Saturday: 1:00\u2009\u2013\u20097:00\u202fPM | Sunday: 1:00\u2009\u2013\u20097:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt explicitly mentions pumpkins and seasonal vegetable stand open late June through October.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "utecht_farms_and_produce_inc_1.jpg",
@@ -745,8 +672,6 @@
     "activities": "produce stand; pumpkin purchasing",
     "season_dates": "Late June\u2013October",
     "extra_notes": "This is a produce stand and farm, not a fall/Halloween attraction. No admission price, activities, or fall-specific events are mentioned. The site focuses on selling fresh local produce, hay, and alfalfa. Current hours and availability should be verified on their Facebook page.",
-    "needs_verification": "activities; admission_price - no admission or fall activities mentioned; this appears to be primarily a produce stand rather than a fall/Halloween attraction",
-    "enrichment_source_urls": "https://www.utechtfarms.com/",
     "extra_categories": ""
   },
   {
@@ -766,7 +691,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: Closed | Saturday: Closed | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Website mentions 'fall harvest days' with pumpkins, music, apples, and farm activities\u2014a fall festival event.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "casa_cano_farms_1.jpg",
@@ -775,8 +699,6 @@
     "activities": "pumpkins; live music; pumpkin painting; u-pick strawberries; u-pick sunflowers; u-pick flowers; fire cider workshop; meet piglets; explore the farm",
     "season_dates": "October 10 and October 17, 2026 (Fall Harvest Days); U-Pick available now through October (end of summer through first hard frost)",
     "extra_notes": "Fall Harvest Days are two Saturdays in October. Fire Cider workshop costs $25 (9am-2pm). Pumpkin Painting is free with pumpkin purchase (9am-2pm). U-Pick strawberries $6/pint, sunflowers $1/stem. U-Pick operates during farm store hours: Tuesday 9am-6pm, Wednesday-Thursday 9am-5pm. Farm store location: 12210 S Madison Road, Valleyford, WA.",
-    "needs_verification": "No general admission price stated for Fall Harvest Days - activities have individual pricing but unclear if there's a gate/entry fee",
-    "enrichment_source_urls": "https://casacanofarms.com/; https://casacanofarms.com/casa-cano-farms-events/; https://casacanofarms.com/shop/seasoned-pork-sausage-1-lb-pkg/; https://casacanofarms.com/shop/seasoned-pork-sausage-1-lb-casa-cano-farms/",
     "extra_categories": ""
   },
   {
@@ -796,7 +718,6 @@
     "types": "ice_cream_shop; donut_shop; bakery; dessert_shop; confectionery; farm; food_store; store; food; service; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt mentions 'Pumpkins!' and 'Fall Decoration' alongside u-pick fruit operations, indicating a seasonal fall attraction.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "cherry_shack_orchards_1.jpg",
@@ -805,8 +726,6 @@
     "activities": "U-pick fruit (cherries, apricots, peaches, nectarines, apples, pears, plums, grapes); U-pick vegetables (tomatoes, potatoes, corn, peppers, garlic, onions, squash); Pumpkin and gourd selection; Pumpkin donuts; Apple cider; Pies; Jams and syrups; Freeze dried apples and candy; Apple butter; Homemade ice cream; Cider slushies; Caramel apples",
     "season_dates": "Year-round fruit and vegetable availability; cherry season typically late June through July, peach season mid-August, apple and pumpkin season September-October",
     "extra_notes": "Open Friday-Sunday 10am-3pm; open most weekdays but call ahead (509-496-6975) to confirm. Also sells at local Spokane farmers markets. U-pick availability varies by fruit/vegetable and ripening season.",
-    "needs_verification": "No admission price stated - this appears to be a u-pick orchard where customers pay for what they pick, but no pricing structure is provided; Season dates are not explicitly stated as a single range; instead, each crop has its own typical availability window",
-    "enrichment_source_urls": "https://cherryshack.com/; https://cherryshack.com/hours-%26-fruits%2Fvegetables",
     "extra_categories": ""
   },
   {
@@ -826,7 +745,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Walters Fruit Ranch production location; website excerpt confirms u-pick pumpkins in fall and Fall Festival event.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "strawberry_fields_forever_a_walters_fruit_ranch_production_1.png",
@@ -835,8 +753,6 @@
     "activities": "caramel apples; barnyard play area; pea pit; corn maze; corn cannon; Fruit Loop Express; wiggle worm tractor rides; petting zoo; pumpkin donuts; u-pick apples; u-pick pumpkins; u-pick sunflowers; fresh-pressed cider; live music; press plate bar",
     "season_dates": "Fall Festival: Weekends 09/19/26-10/31/26",
     "extra_notes": "Store and Cafe open Monday-Thursday 9 am-5 pm, Friday-Sunday 9 am-6 pm. Two addresses listed: 17706 N Sands Rd and 9807 East Day Rd (both in Mead, WA). Contact via Facebook, phone (509-238-4709), or email for current details.",
-    "needs_verification": "admission_price - website lists 'TICKETS' heading but no actual ticket price is provided; address discrepancy - two different addresses appear on the site",
-    "enrichment_source_urls": "https://waltersfruitranch.com/",
     "extra_categories": ""
   },
   {
@@ -856,7 +772,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt confirms u-pick fruit (apples, peaches, pumpkins, melons, vegetables) on Green Bluff with fall harvest.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "smith_s_hilltop_orchard_1.jpg",
@@ -865,8 +780,6 @@
     "activities": "U-pick apples; U-pick peaches; U-pick nectarines; U-pick cherries; U-pick apricots; U-pick plums; U-pick grapes; U-pick pears; U-pick pumpkins; U-pick squash; U-pick tomatoes; U-pick potatoes; U-pick corn; U-pick peppers; U-pick garlic; U-pick onions; Pick pre-picked fruit and vegetables; Apple cider; Pies; Jams and syrups; Freeze-dried apples and candy; Apple butter; Pumpkin donuts; Homemade ice cream; Cider slushies; Cookies; Hand pies; Lemonade; Caramel apples",
     "season_dates": "Year-round orchard (fruit/vegetable seasons vary by crop; cherries typically end of June-July, apples September-October, pumpkins available fall)",
     "extra_notes": "Open Friday-Sunday 10am-3pm; open most weekdays but call ahead (509-496-6975) to confirm. Also available at local Spokane farmers markets. U-pick seasons vary by fruit/vegetable type. Pumpkin donuts made fresh Friday-Sunday during fall harvest.",
-    "needs_verification": "No explicit admission price stated anywhere on the site - may be free entry with pay-per-produce pricing; No overall season dates provided - only individual harvest windows for different fruits/vegetables are listed",
-    "enrichment_source_urls": "https://cherryshack.com/; https://cherryshack.com/hours-%26-fruits%2Fvegetables",
     "extra_categories": ""
   },
   {
@@ -886,7 +799,6 @@
     "types": "farm; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "U-pick fruit farm explicitly offering pumpkins for 2025 season alongside berries; website confirms fall pumpkin availability.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "berry_blossom_farms_1.jpg",
@@ -895,8 +807,6 @@
     "activities": "u-pick blueberries; u-pick strawberries; u-pick pumpkins; u-pick vegetables; pumpkin patch; pre-picked fruit available",
     "season_dates": "June to October",
     "extra_notes": "Payment by cash or Venmo. Field closures occur throughout the season for ripening - check Facebook, Google, or call voicemail (208-967-2520) before visiting. Hours are generally all daylight hours June to October. We-Pick vegetables available upon request. Pumpkins ready in October specifically. Over an acre of pumpkins including field pumpkins, specialty pumpkins, mini pumpkins, and gourds.",
-    "needs_verification": "admission_price - no entry fee or per-pound pricing mentioned anywhere on the site; appears to be pay-as-you-pick based on weight",
-    "enrichment_source_urls": "https://www.berryblossomfarms.com/; https://www.berryblossomfarms.com/; https://www.berryblossomfarms.com/copy-of-other-fruit; https://www.berryblossomfarms.com/copy-of-pumpkins",
     "extra_categories": ""
   },
   {
@@ -916,7 +826,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Website excerpt clearly describes a Fall Festival with corn maze and pumpkin patch as core attractions, plus seasonal events.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "middleton_farms_1.png",
@@ -925,8 +834,6 @@
     "activities": "corn maze; pumpkin patch; pumpkin bowling; potato blasters; ziplines; fireworks; golden hour photo sessions; u-pick strawberries",
     "season_dates": "Fall Festival: September 25 - November 1, 2026",
     "extra_notes": "Cards preferred for payment; cash can be exchanged for gift card at entrance. No outside food or drinks allowed. Pets not allowed except service animals (designated Doggy Days available). Children 12 and under must be accompanied by an adult in maze. Tickets are non-refundable and non-transferable. Open rain or shine. Farm map available. Campfire/firepit reservations available in corn maze.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://middletonfarms.com/; https://middletonfarms.com/pages/pricing-and-hours; https://middletonfarms.com/pages/events-calendar; https://middletonfarms.com/pages/faqs",
     "extra_categories": "corn_maze"
   },
   {
@@ -946,7 +853,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Named pumpkin patch with strong rating and decent review count, no website to verify but name is definitive.",
     "source": "google_places",
     "date_checked": "2026-09-19",
     "photo_paths": "hatch_patch_1.jpg",
@@ -955,8 +861,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -976,7 +880,6 @@
     "types": "farm; service; point_of_interest; establishment",
     "hours": "",
     "photo_count": 7,
-    "filter_reason": "Named pumpkin patch with strong rating; no website to check but the name alone is definitive and indicates a genuine fall attraction.",
     "source": "google_places",
     "date_checked": "2026-09-19",
     "photo_paths": "villa_s_lil_pumpkin_patch_1.jpg",
@@ -985,8 +888,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -1006,7 +907,6 @@
     "types": "point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: 3:00\u2009\u2013\u20096:00\u202fPM | Wednesday: 3:00\u2009\u2013\u20096:00\u202fPM | Thursday: 3:00\u2009\u2013\u20096:00\u202fPM | Friday: Closed | Saturday: Closed | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Named pumpkin business with strong rating and seasonal hours (limited weekday evenings suggest seasonal operation), website available for verification.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "wolfies_pumpkins_1.png",
@@ -1015,8 +915,6 @@
     "activities": "pumpkin bowling; slides; tic-tac-toe; water pump duck races; photo props; hay bales",
     "season_dates": "",
     "extra_notes": "Dogs allowed if leashed. Weekday visits by appointment only. Hours: Fridays 12pm-7pm, Saturday-Sunday 9am-7pm. Private events available for birthday parties, company outings, school groups, family reunions, etc.",
-    "needs_verification": "season_dates: text mentions '6th season' and references to 'fall' and 'Halloween' but no specific opening/closing dates are stated",
-    "enrichment_source_urls": "https://www.wolfiespumpkins.com/; https://www.wolfiespumpkins.com/",
     "extra_categories": ""
   },
   {
@@ -1036,7 +934,6 @@
     "types": "picnic_ground; market; point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Country Cousins Farm with strong community engagement (142 reviews) suggests a destination farm; website should confirm if fall festival or pumpkin patch event is offered.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "country_cousins_farm_1.jpg",
@@ -1045,8 +942,6 @@
     "activities": "pumpkin patch; hayrides; corn maze; petting zoo; giant bubbles; duck races; jumping pillow; corn pit; hay mountain; mega slide; zipline; games; pumpkin cannon; ball cannons; food court",
     "season_dates": "September 26 through October 31, 2026",
     "extra_notes": "One admission includes all activities. Fire pit/picnic areas available for $50-$75. Sales tax added at checkout. Event center and party/wedding rentals available.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://countrycousins.farm/",
     "extra_categories": "corn_maze"
   },
   {
@@ -1066,7 +961,6 @@
     "types": "market; farm; grocery_store; food_store; store; food; service; point_of_interest; establishment",
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: Closed | Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt explicitly mentions 'Harvest Festival is coming soon!' indicating a genuine fall seasonal event.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "frog_hollow_farm_1.jpg",
@@ -1075,8 +969,6 @@
     "activities": "U-pick vegetables; Farm store shopping; story time (Rooted in Reading)",
     "season_dates": "",
     "extra_notes": "Story time (Rooted in Reading) runs Tuesday mornings at 10 AM until September. Holiday Happiness Event scheduled for November 27.",
-    "needs_verification": "admission_price - no pricing information found on the provided website text; season_dates - no specific fall/Halloween season operating dates stated; only mention of story time running 'until September' and a November 27 event",
-    "enrichment_source_urls": "https://www.froghollowfarm.com/; https://www.froghollowfarm.com/events",
     "extra_categories": ""
   },
   {
@@ -1096,7 +988,6 @@
     "types": "park; point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Walla Walla Corn Maze is explicitly a corn maze destination; temporarily closed status is expected for seasonal attractions outside their season.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "walla_walla_corn_maze_1.jpg",
@@ -1105,8 +996,6 @@
     "activities": "corn maze",
     "season_dates": "",
     "extra_notes": "Business is listed as CLOSED",
-    "needs_verification": "admission_price; season_dates; activities - only 'corn maze' is explicitly mentioned; no other activities detailed on the provided homepage text",
-    "enrichment_source_urls": "http://wallawallacornmaze.com/",
     "extra_categories": ""
   },
   {
@@ -1126,7 +1015,6 @@
     "types": "event_venue; point_of_interest; establishment",
     "hours": "",
     "photo_count": 1,
-    "filter_reason": "Name explicitly references 'Harvest Festival' and appears to be a seasonal event venue; website check needed to confirm fall/pumpkin focus.",
     "source": "google_places",
     "date_checked": "2026-09-19",
     "photo_paths": "walla_walla_harvest_festival_the_airport_district_1.png",
@@ -1135,8 +1023,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -1156,7 +1042,6 @@
     "types": "farmers_market; market; point_of_interest; establishment",
     "hours": "Monday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Tuesday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Wednesday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Thursday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM | Friday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Saturday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Website excerpt explicitly mentions u-pick pumpkins and winter squash available in September-October, along with u-pick fruits.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "nadair_orchard_1.jpg",
@@ -1165,8 +1050,6 @@
     "activities": "U-Pick fruit (apples, cherries, pears, plums); U-Pick vegetables (pumpkins, winter squash, carrots, broccoli, cabbage, kale, beans, peas, beets); RV camping with hookups; Tent camping",
     "season_dates": "July\u2013October (cherries July; apples, pears, plums September; pumpkins and vegetables September\u2013October)",
     "extra_notes": "Self-pay system at barn entrance. Open 9am\u20138pm. Located in GreenBluff farming community with nearby brewery, winery, cidery, and meadery. Two RV spots with power/water hookups available. Communal fire pit and standalone bathroom for camping guests. Special requests for produce available.",
-    "needs_verification": "admission_price (only cherry U-Pick price explicitly stated; no clear admission cost for general visit, though entry is free); season_dates (fruit schedule provided but specific year/end dates not stated beyond month ranges)",
-    "enrichment_source_urls": "https://nadairorchard.com/; https://nadairorchard.com/wedding-and-events?olsPage=cart; https://nadairorchard.com/wedding-and-events",
     "extra_categories": ""
   },
   {
@@ -1186,7 +1069,6 @@
     "types": "ranch; farm; service; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 2:00\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 12:00\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "Ranch with limited Friday-Sunday hours suggests possible seasonal fall event; needs website verification.",
     "source": "google_places",
     "date_checked": "2026-09-19",
     "photo_paths": "wilson_banner_ranch_2.jpg",
@@ -1195,8 +1077,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "Couldn't load website (400 Client Error: Bad Request for url: https://www.facebook.com/wilsonbannerranch) - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   }
 ]

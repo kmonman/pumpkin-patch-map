@@ -16,7 +16,6 @@
     "types": "farm; event_venue; point_of_interest; service; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 2:00\u2009\u2013\u200910:00\u202fPM | Saturday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM | Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
-    "filter_reason": "8-acre corn maze and pumpkin patch with clear seasonal operation (Sept 25 - Nov 8) and admission-based visit model.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "echo_corn_maze_pumpkin_patch_1.jpg",
@@ -25,8 +24,6 @@
     "activities": "8-acre corn maze; mini corn maze; tunnel maze; straw maze; hay bale pyramid; corn crib; pumpkin patch (u-pick); sunflower fields; farm animal viewing; photo areas; zip line; kiddie carts; touch a tractor; fire pit rentals; Field of Screams (haunted corn maze); farm stand",
     "season_dates": "September 25 - November 8, 2026. Fridays 2 PM - 10 PM, Saturdays 11 AM - 10 PM, Sundays 11 AM - 6 PM.",
     "extra_notes": "Cash and card accepted. Private events and field trips available Tuesdays\u2013Thursdays. Fire pit rentals available for up to 30 people for 3 hours (firewood included). Children under 12 must be accompanied by an adult in corn maze. Zip line riders must be under 250 lbs. Kiddie carts for children up to 50 lbs. Concessions include popcorn, cotton candy, marshmallow kits, Italian sodas, chips. Beverage stand offers beer, ciders, and local wine (ID required, 21+). Food truck (Mary's Tacos) on Fridays, Saturdays, Sundays. No outside food or drink allowed. Photographers can book private sunflower field sessions Tuesdays\u2013Thursdays, 4\u20136 PM for $149. Farm stand requires no admission.",
-    "needs_verification": "",
-    "enrichment_source_urls": "https://echocornmaze.com/; https://echocornmaze.com/; https://echocornmaze.com/attractions/; https://echocornmaze.com/events/",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -46,7 +43,6 @@
     "types": "amusement_center; event_venue; point_of_interest; establishment",
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 6:30\u2009\u2013\u200910:00\u202fPM | Saturday: 6:30\u2009\u2013\u200910:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
-    "filter_reason": "Event venue with Friday-Saturday evening hours pattern consistent with a seasonal haunted attraction; website will confirm.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "night_fright_productions_1.png",
@@ -55,8 +51,6 @@
     "activities": "haunted warehouse; Creeps Hollow midway experience; Creeps Family Museum; Skeletons Closet Gift Shop; Ghoulish Goodies by Soda Blitz food; five minute escape rooms; coffin ride burial experience; Creeps Farmhouse scare-your-friends adventure; movie screening; Chicken Coop hangout area",
     "season_dates": "",
     "extra_notes": "Virtual queue available for haunted warehouse. Multiple attractions and experiences on-site beyond just the main haunted warehouse.",
-    "needs_verification": "admission_price - no pricing information found on the home page text provided; season_dates - no operating dates or season information found on the home page text provided",
-    "enrichment_source_urls": "https://nightfrightproductions.com/",
     "extra_categories": ""
   },
   {
@@ -76,7 +70,6 @@
     "types": "point_of_interest; establishment",
     "hours": "",
     "photo_count": 10,
-    "filter_reason": "Pumpkin patch with temporarily-closed status typical of seasonal fall attractions; name clearly indicates pumpkin patch.",
     "source": "google_places",
     "date_checked": "2026-09-19",
     "photo_paths": "wilkerson_s_pumpkin_patch_1.jpg",
@@ -85,8 +78,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "Couldn't load website (400 Client Error: Bad Request for url: https://www.facebook.com/profile.php?id=100086455624240&mibextid=ZbWKwL) - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -106,7 +97,6 @@
     "types": "tourist_attraction; consultant; lodging; point_of_interest; service; establishment",
     "hours": "",
     "photo_count": 7,
-    "filter_reason": "Name suggests a seasonal holiday display; no website to verify, so keeping pending verification.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "miracle_on_johns_ave_1.jpg",
@@ -115,8 +105,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   },
   {
@@ -136,7 +124,6 @@
     "types": "point_of_interest; establishment",
     "hours": "",
     "photo_count": 7,
-    "filter_reason": "Name 'Pick'N Patch' strongly suggests a u-pick pumpkin patch operation.",
     "source": "google_places",
     "date_checked": "2026-10-05",
     "photo_paths": "pick_n_patch_1.jpg",
@@ -145,8 +132,6 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "",
-    "needs_verification": "No website listed in Google Places - not checked.",
-    "enrichment_source_urls": "",
     "extra_categories": ""
   }
 ]

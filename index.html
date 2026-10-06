@@ -24,7 +24,6 @@
   .popup-content h3 { margin: 0 0 4px 0; font-size: 15px; }
   .popup-content .field { margin: 4px 0; font-size: 13px; }
   .popup-content .label { font-weight: bold; }
-  .popup-content .flag { color: #b03a2e; font-size: 12px; margin-top: 6px; }
   .hover-content { font-size: 13px; padding: 8px 10px; min-width: 140px; }
   .hover-content strong { display: block; font-size: 16px; margin-bottom: 3px; }
   .legend {
@@ -384,7 +383,6 @@ function popupHtml(p) {
   if (p.season_dates) html += '<div class="field"><span class="label">Season:</span> ' + p.season_dates + '</div>';
   if (p.website) html += '<div class="field"><a href="' + p.website + '" target="_blank" rel="noopener">Visit website</a></div>';
   html += '<div class="field"><a href="' + p.google_maps_url + '" target="_blank" rel="noopener">Open in Google Maps</a></div>';
-  if (p.needs_verification) html += '<div class="flag">Note: ' + p.needs_verification + '</div>';
   html += '</div>';
   return html;
 }
