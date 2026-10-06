@@ -24,8 +24,8 @@
     "admission_price": "Sunflower Maze: $10 per person (under 10 free); U-Pick fields and farmstand appear to be free to enter",
     "activities": "sunflower maze; u-pick strawberries; u-pick pumpkins; u-pick squash; u-pick flowers; farmstand shopping",
     "season_dates": "Fall season (pumpkins and fall harvest); U-Pick fields open daily 8am - 6pm (as of October 2, 2026)",
-    "extra_notes": "Wear close-toed, supportive shoes for uneven ground and loose dirt. No pesticides, herbicides, or synthetic fertilizers used. Located in Tumalo (fields) with farmstand. Multiple produce items available for purchase at farmstand including apples, pears, sweet corn, melons, and other vegetables.",
-    "needs_verification": "Specific start and end dates for the season not explicitly stated - only described as 'pumpkin season' and 'fall harvest'; Whether admission price applies to u-pick fields or if only the sunflower maze has an admission fee",
+    "extra_notes": "Wear close-toed, supportive shoes for uneven ground and loose dirt. No pesticides, herbicides, or synthetic fertilizers used. Location is in Tumalo (different from main address). Fresh produce available at farmstand including apples, pears, sweet corn, melons.",
+    "needs_verification": "season_dates - only current operating hours given; no explicit start/end dates for the season provided; activities - unclear if u-pick applies to all listed vegetables or only certain items; some items may be farmstand-only",
     "enrichment_source_urls": "https://www.wellrootedproduce.co/",
     "extra_categories": ""
   },
@@ -54,8 +54,8 @@
     "admission_price": "",
     "activities": "pumpkin patch; shopping for specialty pumpkins; shopping for mums; shopping for ornamental cabbage and kale; shopping for corn stalks; pumpkin succulent centerpiece workshop",
     "season_dates": "September 26 - November 1st, 2026",
-    "extra_notes": "The Patch (pumpkin patch area) is open during stated dates. Pumpkin Succulent Centerpiece Workshop on October 17th, 2026 is $54.00 but currently sold out. Workshop takes place outdoors under a tent. Hot glue guns used. Snacks and beverages available for purchase at Farm Stand; no outside beverages allowed.",
-    "needs_verification": "admission_price - no general admission fee mentioned for visiting The Patch; unclear if entry to browse/shop is free or if there's a charge",
+    "extra_notes": "The Patch (pumpkin patch area) is called 'Patch With a View'. Pumpkin Succulent Centerpiece Workshop is $54.00 and currently sold out. Workshop takes place outdoors under a tent with heat source available. No outside beverages allowed. Full refund for cancellations 10+ days before class; gift card for cancellations within 10 days.",
+    "needs_verification": "admission_price - no general admission price stated for visiting 'The Patch'; only the workshop has a listed price ($54.00)",
     "enrichment_source_urls": "https://www.schillingsgardenmarket.com/; https://www.schillingsgardenmarket.com/plant-salespolicy; https://www.schillingsgardenmarket.com/; https://www.schillingsgardenmarket.com/new-page-1",
     "extra_categories": ""
   },
@@ -82,9 +82,9 @@
     "photo_paths": "dd_ranch_1.jpg",
     "photo_attributions": "Photo by DD Ranch via Google Maps; Photo by DD Ranch via Google Maps; Photo by Darrel Abbott via Google Maps",
     "admission_price": "No entry fee/no parking fee; activities priced at $3.75 per ticket (activities cost 1-3 tickets each)",
-    "activities": "pumpkin patch; pony rides; hay rides; train rides; petting zoo; kids korral/hay maze; shooting galleries; arcade games; jumping pad; pedal go-carts; live music; food trucks; craft vendors",
+    "activities": "pumpkin patch; pony rides; hayride; train rides; kids korral; hay maze; petting zoo; shooting galleries; arcade games; jumping pad; pedal go-carts; live music; food trucks; craft vendors",
     "season_dates": "September 26 - October 31, 2026; open Tuesday through Sunday, 10 AM - 5 PM; closed Mondays",
-    "extra_notes": "No dogs allowed due to insurance requirements. School field trips available (reservations required through online system; field trips begin week of 10/6/26). Birthday party rentals available on weekends ($140 for 3-hour slot). Weekday activities limited during school field trips (mornings particularly busy). Check Facebook/Instagram daily for weekday activity availability. Tickets cannot be carried over to other days; can exchange for wooden tickets to use another day/year or apply toward pumpkin purchases.",
+    "extra_notes": "No dogs allowed due to insurance requirements. School field trips available (week of 10/6/26 onward); weekday activity availability limited and varies - check Facebook/Instagram daily. Weekday activities include: pumpkin patch, kids korral, petting zoo, pony rides, train rides, hay rides (10 rider minimum). All activities available on weekends (weather permitting). Birthday party rentals available weekends ($140 for 3-hour slot). No refunds on tickets; can exchange for wooden tickets or apply toward pumpkin purchase. Field trip reservations must be placed through online system.",
     "needs_verification": "",
     "enrichment_source_urls": "https://www.ddranch.net/?utm_source=google&utm_medium=organic&utm_campaign=gbp; https://www.ddranch.net/pumpkin-patch; https://www.ddranch.net/faq; https://www.ddranch.net/location",
     "extra_categories": "corn_maze"
