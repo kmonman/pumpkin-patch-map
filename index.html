@@ -15,6 +15,8 @@
      (not the page as a whole) once this becomes the fullscreened element. */
   #map-fullscreen-wrapper { position: relative; width: 100%; height: 100vh; }
   #map { height: 100vh; width: 100%; }
+  #map-fullscreen-wrapper.pseudo-fullscreen { position: fixed; inset: 0; z-index: 9999; height: 100dvh; }
+  #map-fullscreen-wrapper.pseudo-fullscreen #map { height: 100dvh; }
   .category-tag {
     display: block; font-size: 16px; font-weight: bold; text-transform: uppercase;
     letter-spacing: 0.03em; margin-bottom: 4px;
@@ -117,14 +119,36 @@ function addCustomControls(map) {
   fullscreenBtn.type = 'button';
   fullscreenBtn.innerHTML = EXPAND_ICON;
   fullscreenBtn.title = 'Toggle fullscreen';
+  // iPhones have no Fullscreen API for anything but video, so there the
+  // button falls back to a CSS "fill the screen" mode. Inside the Wix iframe
+  // that could only fill the iframe, so it opens the map in its own tab
+  // instead (?fs=1 makes that tab start in fill-the-screen mode).
+  const el = document.getElementById('map-fullscreen-wrapper');
+  const request = el.requestFullscreen || el.webkitRequestFullscreen;
+  const exit = document.exitFullscreen || document.webkitExitFullscreen;
+  let pseudoFullscreen = false;
+  function nativeFullscreenElement() {
+    return document.fullscreenElement || document.webkitFullscreenElement;
+  }
+  function setPseudoFullscreen(on) {
+    pseudoFullscreen = on;
+    el.classList.toggle('pseudo-fullscreen', on);
+    google.maps.event.trigger(map, 'resize');
+    syncFullscreenState();
+  }
   fullscreenBtn.addEventListener('click', function() {
-    const el = document.getElementById('map-fullscreen-wrapper');
-    const request = el.requestFullscreen || el.webkitRequestFullscreen;
-    const exit = document.exitFullscreen || document.webkitExitFullscreen;
-    if (!document.fullscreenElement) {
-      if (request) request.call(el);
-    } else if (exit) {
+    if (nativeFullscreenElement()) {
       exit.call(document);
+    } else if (pseudoFullscreen) {
+      setPseudoFullscreen(false);
+    } else if (request) {
+      request.call(el);
+    } else if (window.self !== window.top) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('fs', '1');
+      window.open(url.toString(), '_blank');
+    } else {
+      setPseudoFullscreen(true);
     }
   });
   wrap.appendChild(fullscreenBtn);
@@ -140,13 +164,14 @@ function addCustomControls(map) {
   // instead of the click handler: that's the only way it stays correct
   // when fullscreen is exited some other way.
   function syncFullscreenState() {
-    const isFullscreen = !!document.fullscreenElement;
+    const isFullscreen = !!nativeFullscreenElement() || pseudoFullscreen;
     map.setOptions({ gestureHandling: isFullscreen ? 'greedy' : 'cooperative' });
     fullscreenBtn.innerHTML = isFullscreen ? COMPRESS_ICON : EXPAND_ICON;
     fullscreenBtn.title = isFullscreen ? 'Exit fullscreen' : 'Toggle fullscreen';
   }
   document.addEventListener('fullscreenchange', syncFullscreenState);
   document.addEventListener('webkitfullscreenchange', syncFullscreenState);
+  if (new URLSearchParams(window.location.search).get('fs') === '1') setPseudoFullscreen(true);
 }
 
 // Google shows its own "Use two fingers to move the map" overlay when a
@@ -405,6 +430,7 @@ let map;
 let currentMarkers = [];
 let hoverInfo;
 let clickInfo;
+const HAS_MOUSE = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
 function clearMarkers() {
   currentMarkers.forEach(function(m) { m.setMap(null); });
@@ -428,15 +454,20 @@ function loadRegion(slug) {
         currentMarkers.push(marker);
         bounds.extend(position);
 
-        marker.content.addEventListener('mouseover', function() {
-          hoverInfo.setContent(
-            '<div class="hover-content">' + categoryTagHtml(p) +
-            '<strong>' + p.name + '</strong><br>' + starString(p.rating) + '</div>'
-          );
-          hoverInfo.setPosition(position);
-          hoverInfo.open(map);
-        });
-        marker.content.addEventListener('mouseout', function() { hoverInfo.close(); });
+        // Hover box only with a real mouse: iOS Safari turns a first tap into
+        // a mouseover, which showed this small box and needed a second tap
+        // for the full popup.
+        if (HAS_MOUSE) {
+          marker.content.addEventListener('mouseover', function() {
+            hoverInfo.setContent(
+              '<div class="hover-content">' + categoryTagHtml(p) +
+              '<strong>' + p.name + '</strong><br>' + starString(p.rating) + '</div>'
+            );
+            hoverInfo.setPosition(position);
+            hoverInfo.open(map);
+          });
+          marker.content.addEventListener('mouseout', function() { hoverInfo.close(); });
+        }
         marker.content.addEventListener('click', function() {
           hoverInfo.close();
           clickInfo.setContent(popupHtml(p));
