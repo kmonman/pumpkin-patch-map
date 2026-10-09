@@ -349,5 +349,31 @@
     "season_dates": "Fridays and Saturdays in October 2026",
     "extra_notes": "Not recommended for children under 10 years old. No refunds given at any time for any reason. No photos or video recording allowed. Wheelchair accessible. Emergency exits available within 50 ft at any time. Not recommended for pregnant individuals, those with heart conditions, prone to epileptic seizures, claustrophobic individuals, or those in poor health. Free kids lights tour on October 24th from 1-4pm.",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJ0_UlGXb37IARWY0SYZkvzyc",
+    "name": "SLO Creek Farms",
+    "category": "pumpkin_patch",
+    "address": "6455 Monte Rd, San Luis Obispo, CA 93401, USA",
+    "latitude": 35.1976237,
+    "longitude": -120.6955862,
+    "phone": "(702) 245-3135",
+    "website": "http://www.slocreekfarms.com/",
+    "google_maps_url": "https://maps.google.com/?cid=2868563823463402841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "rating_count": 61,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; point_of_interest; service; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "slo_creek_farms_1.jpg",
+    "photo_attributions": "Photo by Chung Tang via Google Maps; Photo by Naomi Katz via Google Maps; Photo by Roy Lagpacan via Google Maps",
+    "admission_price": "",
+    "activities": "apple picking; flower picking; orchard exploration",
+    "season_dates": "Thursday through Sunday, 11 am - 5 pm (2026 season)",
+    "extra_notes": "CCOF Certified Organic grower. Family-oriented. Contact Robyn Gable at 702-245-3135 for questions."
   }
 ]

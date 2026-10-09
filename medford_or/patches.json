@@ -241,5 +241,31 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJAQCcVg-IxVQRQCAUX0hgG24",
+    "name": "Bigham Farms",
+    "category": "pumpkin_patch",
+    "address": "9445 Pumice Ln, Central Point, OR 97502, USA",
+    "latitude": 42.4540876,
+    "longitude": -122.91066800000002,
+    "phone": "(541) 621-5441",
+    "website": "https://www.facebook.com/BighamFarms/",
+    "google_maps_url": "https://maps.google.com/?cid=7934041032492326976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "rating_count": 99,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; wholesaler; point_of_interest; service; establishment",
+    "hours": "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "bigham_farms_1.jpg",
+    "photo_attributions": "Photo by Bigham Farms via Google Maps; Photo by Jessy Hummel via Google Maps; Photo by tammy grabenhorst via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

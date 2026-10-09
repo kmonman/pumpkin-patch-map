@@ -106,5 +106,31 @@
     "season_dates": "Weekends 11:00 A.M. - 6:00 P.M. and weekdays 2:00 - 6:00 P.M. through October",
     "extra_notes": "Field trips available for preschool through 5th grade students (Monday, October 12 - Friday, October 23, 2026, 10:00-11:00 A.M. or 11:00 A.M. - 12:00 P.M. time slots) for $5 per student. Special storytime event with Miss Violet from Fortuna Library on Saturday, October 10, 2026 at 11:30 a.m. (free, open to all ages). Field trip reservations: call (949) 338-0490 or email tableblufffarm@gmail.com. Accepts checks, cash, Venmo, and credit cards.",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJBSfVWMFX0VQRYeBvPGP0EcQ",
+    "name": "Huddie's Harvest Pumpkin Patch",
+    "category": "pumpkin_patch",
+    "address": "3364 Foster Ave, Arcata, CA 95521, USA",
+    "latitude": 40.8833141,
+    "longitude": -124.1108911,
+    "phone": "",
+    "website": "http://huddiesharvest.com/",
+    "google_maps_url": "https://maps.google.com/?cid=14128342213090861153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "rating_count": 46,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "point_of_interest; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "huddie_s_harvest_1.jpg",
+    "photo_attributions": "Photo by Saalav C via Google Maps; Photo by Huddie\u2019s Harvest via Google Maps; Photo by Hannah Ransom via Google Maps",
+    "admission_price": "",
+    "activities": "pumpkin carving; pumpkin decorating; pumpkin selection",
+    "season_dates": "September 30 - Halloween 2026 (subject to early sellout), Wednesday-Sunday 10am-6pm",
+    "extra_notes": "Homemade apple cider donuts available on weekends only. Located in the Arcata Bottoms. May close early if pumpkins sell out."
   }
 ]

@@ -349,5 +349,31 @@
     "season_dates": "September 17 - November 2, 2026; open 7 days a week (weather permitting)",
     "extra_notes": "Attraction tickets can only be purchased on-site, no online sales. Guest entry and ticket sales end 1 hour before park closing. Group events and birthday parties available with flexible discounted packages. Private tented picnic areas can be reserved. Cash required for parking Friday-Sunday.",
     "extra_categories": "corn_maze"
+  },
+  {
+    "place_id": "ChIJ4UOMnfgdjoAR_5R6LAojZzY",
+    "name": "Gilroy Gardens Family Theme Park",
+    "category": "fall_festival",
+    "address": "3050 Hecker Pass Hwy, Gilroy, CA 95020, USA",
+    "latitude": 37.0103742,
+    "longitude": -121.62824689999998,
+    "phone": "(408) 840-7100",
+    "website": "https://www.gilroygardens.org/",
+    "google_maps_url": "https://maps.google.com/?cid=3920140527252182271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "rating_count": 6677,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "tourist_attraction; amusement_park; amusement_center; garden; event_venue; point_of_interest; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 5:00\u2009\u2013\u200910:00\u202fPM | Saturday: Closed | Sunday: 1:00\u2009\u2013\u20099:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "gilroy_gardens_family_theme_park_1.jpg",
+    "photo_attributions": "Photo by Rowe via Google Maps; Photo by Anu Parihar via Google Maps; Photo by Denis Malinovsky via Google Maps",
+    "admission_price": "The Great Big BOO! Tickets as low as $31.00; Single-Day Tickets as low as $65.00; 2027 Premium Memberships $98.00",
+    "activities": "rides; water attractions; gardens; Circus Trees; trick-or-treating; live musical shows; themed rides; The Green Barn Learning & Discovery Center",
+    "season_dates": "The Great Big BOO! runs now through November 1, 2026; calendar shows October 2026 with various event dates marked",
+    "extra_notes": "Children under 3 are always free. Premium Memberships include unlimited visits, free parking, and access to signature events. Fast Lane Wristbands available for purchase to reduce wait times. Bring-a-Friend FREE every Friday for Premium Members. Zero tax and no hidden fees on tickets. Camp Night available October 17-18 with overnight adventure."
   }
 ]

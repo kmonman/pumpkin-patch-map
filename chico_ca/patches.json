@@ -187,5 +187,31 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJxYHwjyTagoARI6nf_8eM0eM",
+    "name": "Odyssey Winery Corn Maze",
+    "category": "corn_maze",
+    "address": "6237 Cohasset Rd, Chico, CA 95973, USA",
+    "latitude": 39.8386213,
+    "longitude": -121.84014289999999,
+    "phone": "(530) 518-0112",
+    "website": "http://www.odysseywinery.com/",
+    "google_maps_url": "https://maps.google.com/?cid=16416056907361397027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "rating_count": 26,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "winery; tourist_attraction; farm; manufacturer; food; point_of_interest; service; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 12:00\u2009\u2013\u20097:00\u202fPM | Sunday: 12:00\u2009\u2013\u20095:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "odyssey_winery_inc_1.jpg",
+    "photo_attributions": "Photo by Candy Pahua via Google Maps; Photo by Valari Pishek via Google Maps; Photo by Michelle Clark via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]
