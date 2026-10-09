@@ -133,5 +133,32 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJj413UUb1pFQRbX-rCD8icvQ",
+    "name": "Val's Veggies",
+    "category": "pumpkin_patch",
+    "address": "44889 Houghton Creek Rd, Baker City, OR 97814, USA",
+    "latitude": 44.929333,
+    "longitude": -117.6171279,
+    "phone": "(541) 853-2358",
+    "website": "https://valsveggies.com/",
+    "google_maps_url": "https://maps.google.com/?cid=17614178746723172205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "rating_count": 7,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; point_of_interest; service; establishment",
+    "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: Closed | Sunday: Closed",
+    "photo_count": 0,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "",
+    "photo_attributions": "",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": "This is a CSA farm and farm stand selling fresh produce, eggs, honey, and beef - not a fall/Halloween attraction. Farm stand open Wednesday to Sunday. CSA subscription available with flexible ordering system.",
+    "extra_categories": ""
   }
 ]

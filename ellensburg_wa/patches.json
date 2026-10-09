@@ -241,5 +241,32 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJ5x9RHgAPmlQROqVVQ8ylxeY",
+    "name": "The Nelson Farm",
+    "category": "pumpkin_patch",
+    "address": "1390 Nelson Dairy Rd, Roslyn, WA 98941, USA",
+    "latitude": 47.2226254,
+    "longitude": -121.0147021,
+    "phone": "",
+    "website": "https://suncadiarealestate.com/nelson-farm-pg/",
+    "google_maps_url": "https://maps.google.com/?cid=16628879495857022266&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "rating_count": 24,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "historical_landmark; historical_place; point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "the_nelson_farm_1.jpg",
+    "photo_attributions": "Photo by Jerzy Buchacz via Google Maps; Photo by Helen Smith via Google Maps; Photo by the_musafir_nature_lover via Google Maps",
+    "admission_price": "Free (Harvest Festival); not specified for regular Saturday farm activities",
+    "activities": "lawn games; archery; axe throwing; bike rentals; playground; pump track; pool; splash pad; harvest maze; hay pyramid; pumpkin picking; wagon rides; pony rides; fall market; crafts; live music; community garden; boutique shop",
+    "season_dates": "Saturdays 10:00am-4:00pm year-round; Harvest Festival in October (two weekends)",
+    "extra_notes": "Nelson Farm is part of Suncadia Resort. Regular Saturday activities (lawn games, archery, axe throwing, bike rentals, playground, pump track, pool, splash pad) open Saturdays 10:00am-4:00pm. Harvest Festival is free admission thanks to the Suncadia Fund for Community Enhancement. Gear rentals available. Food trucks and dining options on-site.",
+    "extra_categories": ""
   }
 ]

@@ -106,5 +106,32 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJF3qCDnvWvlQRd8o4Qwdlu2c",
+    "name": "Smith Rock Ranch",
+    "category": "pumpkin_patch",
+    "address": "1250 NE Wilcox Ave, Terrebonne, OR 97760, USA",
+    "latitude": 44.3552734,
+    "longitude": -121.15137029999998,
+    "phone": "(541) 504-1414",
+    "website": "http://smithrockranch.com/",
+    "google_maps_url": "https://maps.google.com/?cid=7474679088418441847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "rating_count": 256,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "point_of_interest; establishment",
+    "hours": "Monday: Closed | Tuesday: 12:00\u2009\u2013\u20096:00\u202fPM | Wednesday: 12:00\u2009\u2013\u20096:00\u202fPM | Thursday: 12:00\u2009\u2013\u20096:00\u202fPM | Friday: 12:00\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "smith_rock_ranch_1.jpg",
+    "photo_attributions": "Photo by Patryk Brown via Google Maps; Photo by Smith Rock Ranch via Google Maps; Photo by Patryk Brown via Google Maps",
+    "admission_price": "",
+    "activities": "maize; pumpkin patch; market",
+    "season_dates": "September 26 - October 31, 2026",
+    "extra_notes": "No dogs allowed in the maize. Some activities are weather dependent; check Facebook for current updates. Closing for the season at 4:00pm on Halloween. Pumpkin patch and market do not require tickets or tokens. Online ticket sales available September 1 - October 31. Field trips available and can be booked online.",
+    "extra_categories": ""
   }
 ]

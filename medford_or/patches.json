@@ -214,5 +214,32 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJXax-K8dzz1QRMkyIDzhQZEo",
+    "name": "Valley View Nursery",
+    "category": "pumpkin_patch",
+    "address": "1675 N Valley View Rd, Ashland, OR 97520, USA",
+    "latitude": 42.246162,
+    "longitude": -122.742779,
+    "phone": "(541) 488-1595",
+    "website": "http://www.valleyviewnursery.com/",
+    "google_maps_url": "https://maps.google.com/?cid=5360497658186714162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "rating_count": 68,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "garden_center; farm; store; wholesaler; service; point_of_interest; establishment",
+    "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-08",
+    "photo_paths": "valley_view_nursery_1.jpg",
+    "photo_attributions": "Photo by Valley View Nursery via Google Maps; Photo by Gloria Reyes via Google Maps; Photo by Valley View Nursery via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": "",
+    "extra_categories": ""
   }
 ]
