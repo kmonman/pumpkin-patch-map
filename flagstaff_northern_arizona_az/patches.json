@@ -17,13 +17,13 @@
     "hours": "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-09",
+    "date_checked": "2026-10-12",
     "photo_paths": "mortimer_farms_1.jpg",
     "photo_attributions": "Photo by Mortimer Farms via Google Maps; Photo by Mortimer Farms via Google Maps; Photo by David George via Google Maps",
     "admission_price": "",
-    "activities": "pick your own fruits & vegetables; Animal Encounter; Farm Park farm-inspired rides & games; seasonal festivals; corn maze; pumpkin fest; Friday Night Barn Dance; Farm to Table Dinners; school field trips; farm tours; Asparagus and Garlic Festival; Blackberry Festival; Watermelon and Sweet Corn Festival; Fall Flower Festival; Christmas Festival; Valentines at the Farm; Outdoor Living Workshops; Market & Deli shopping; Windmill Kitchen dining; Apple Barn gift shop",
+    "activities": "Farm Park farm-inspired rides and games; pick-your-own fruits and vegetables; Animal Encounter; seasonal festivals; Pumpkin Fest & Corn Maze; Friday Night Barn Dance; Farm to Table Dinners; school field trips; shopping at Market & Deli; Windmill Kitchen dining; Apple Barn gift shop; outdoor living workshops",
     "season_dates": "",
-    "extra_notes": "Admission gives an all-day pass to enjoy everything at the farm. Pets not allowed, smoking not allowed, outside food and drink not allowed (excluding water). Event Calendar should be checked for specific festival dates and times. Tickets and season passes available for purchase.",
+    "extra_notes": "Admission gives an all-day pass to enjoy everything at the farm; pets not allowed; smoking not allowed; outside food and drink not allowed (excluding water); located 1 hour from Phoenix, 30 minutes from Prescott; tickets and season passes available for purchase",
     "extra_categories": "corn_maze"
   },
   {
@@ -44,13 +44,13 @@
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-09",
+    "date_checked": "2026-10-12",
     "photo_paths": "the_arboretum_at_flagstaff_1.jpg",
     "photo_attributions": "Photo by The Arboretum at Flagstaff via Google Maps; Photo by DanO (thunderdan602) via Google Maps; Photo by David F via Google Maps",
-    "admission_price": "Adults 18 and up: $14, Youth 5\u201317: $8.00, Children Under 5: Free. Special event pricing varies for Pumpkin Walk.",
-    "activities": "Pumpkin Walk with jack-o'-lanterns; food trucks; festive drinks; kids activities; music; woodland trails; photo ops; bird walks; wildflower walks",
-    "season_dates": "Pumpkin Walk on October 24th, 2026 at 3:30 PM. General season April 29th\u2013October 25th, 2026.",
-    "extra_notes": "Pumpkin Walk is the last event of the season. On October 24th, the Arboretum is closed to the public until 3:30 PM when Pumpkin Walk begins. Pre-sale tickets available with savings. Grounds consist of organic path surfaces and grade changes with challenging wheelchair access in some areas. Visitors with unreliable transportation should note: 3 miles of Forest Service Road access, with 1.7 miles partially unpaved and challenging during inclement weather.",
+    "admission_price": "Adults 18 and up: $14, Youth 5-17: $8.00, Children Under 5: Free, Dogs (must be on leash): $2. Special event pricing varies.",
+    "activities": "Pumpkin Walk with jack-o'-lanterns; food trucks; beer; kids activities; music; photo ops; trails",
+    "season_dates": "Pumpkin Walk: October 24, 2026 at 3:30 PM. Arboretum general season: April 29 - October 25, 2026 (Wednesday-Sunday, 9 AM - 4 PM)",
+    "extra_notes": "Pumpkin Walk is the annual Halloween event on October 24th. Pre-sale tickets available. Arboretum closed to public on 10/24 until 3:30 PM when Pumpkin Walk begins. Access road is 3 miles of partially unpaved Forest Service Road (1.7 miles unpaved) - reliable all-weather transportation recommended. No restaurant on site; snacks and drinks available in visitor center. Bring your own picnic welcome.",
     "extra_categories": ""
   },
   {
@@ -98,12 +98,12 @@
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-09",
+    "date_checked": "2026-10-12",
     "photo_paths": "viola_s_flower_garden_1.jpg",
     "photo_attributions": "Photo by Viola's Flower Garden via Google Maps; Photo by Lynn Gilbert via Google Maps; Photo by Rachel Ehrlich via Google Maps",
     "admission_price": "",
     "activities": "straw maze; pumpkin decorating station; games; photo ops",
     "season_dates": "Opening Day September 26th, open the whole month of October",
-    "extra_notes": "Visit www.flagstaffpumpkinpatch.com for more information. Located in Flagstaff, AZ with thousands of pumpkins and fall colors in a country setting."
+    "extra_notes": "For more information, visit www.flagstaffpumpkinpatch.com. Located in Flagstaff, AZ with thousands of pumpkins and fall colors in a country setting."
   }
 ]

@@ -17,13 +17,13 @@
     "hours": "Monday: 3:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 3:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 3:00\u2009\u2013\u20099:00\u202fPM | Thursday: 3:00\u2009\u2013\u20099:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "tubbs_berry_farm_1.jpg",
     "photo_attributions": "Photo by Jaryn Mcknight via Google Maps; Photo by Beverly Shook via Google Maps; Photo by Jaryn Mcknight via Google Maps",
     "admission_price": "",
-    "activities": "straw maze; pumpkin patch; upick raspberries; apple blaster; food",
+    "activities": "straw maze; pumpkin patch; u-pick raspberries; apple blaster; food",
     "season_dates": "Straw Maze and Pumpkin Patch: September 18 - October 30 (M-Th 3-9, F-Sat 10-9), October 31 (10-6)",
-    "extra_notes": "Upick raspberries available during pumpkin patch hours beginning September 18 until it freezes. Farm location: 1250 S Park Ave W, Twin Falls.",
+    "extra_notes": "Farm also sells local honey, seed garlic, and beekeeping supplies. U-pick raspberries available select dates in late August and September before September 18, then during pumpkin patch hours.",
     "extra_categories": "corn_maze"
   },
   {
@@ -71,13 +71,13 @@
     "hours": "Monday: 4:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 1:00\u2009\u2013\u200911:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "burley_straw_maze_pumpkin_patch_1.jpg",
     "photo_attributions": "Photo by John Burgoyne via Google Maps; Photo by Burley Straw Maze & Pumpkin Patch via Google Maps; Photo by Burley Straw Maze & Pumpkin Patch via Google Maps",
     "admission_price": "",
-    "activities": "straw maze; haunted straw maze; pumpkin patch; inflatables; slides; climbing; zipline; swing ride; food concession stand",
+    "activities": "straw maze; haunted straw maze; pumpkin patch; inflatables; slides; climbing; zipline; swing ride; animal petting and feeding; farm animal demonstrations; sheep shearing; dog herding show; wool spinning; tractor rides; wagon rides; duck races; jump pad; mechanical bull; face painting; fish catching; photo opportunities; food concession",
     "season_dates": "Haunted Straw Maze: Saturdays only in October",
-    "extra_notes": "Haunted Straw Maze is limited to Saturdays only in October. Some activities are free (zipline mentioned as free), while others have additional charges (swing ride). Concession stand available with food options including burgers, fries, ice cream, caramel apples. Season passes available for year-round access to multiple events.",
+    "extra_notes": "Haunted Straw Maze limited to Saturdays only in October. Some activities included with admission, others have additional charge at door. Food available (burgers, fries, ice cream, caramel apples, etc.). Season passes available for unlimited access to multiple events. Reviews mention prices are reasonable/fair.",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -98,11 +98,11 @@
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "bluerock_farm_market_1.jpg",
     "photo_attributions": "Photo by J Harris via Google Maps; Photo by Jenn Camanyag via Google Maps; Photo by Jenn Camanyag via Google Maps",
     "admission_price": "",
-    "activities": "pumpkin picking; wagon rides; play area; giant slide; corn pit; race track; games",
+    "activities": "pumpkin picking; wagon rides; play area with giant slide; corn pit; race track; games; mum shopping",
     "season_dates": "Fall",
     "extra_notes": "No pets allowed. Tickets must be booked in advance."
   },
@@ -124,12 +124,12 @@
     "hours": "Monday: 5:30\u2009\u2013\u20098:00\u202fPM | Tuesday: Closed | Wednesday: 5:30\u2009\u2013\u20098:00\u202fPM | Thursday: Closed | Friday: 5:30\u2009\u2013\u20098:00\u202fPM | Saturday: 12:00\u2009\u2013\u200911:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "the_haunted_forest_1.jpg",
     "photo_attributions": "Photo by Peggy Kidd via Google Maps; Photo by Peggy Kidd via Google Maps; Photo by Peggy Kidd via Google Maps",
     "admission_price": "$8 general admission (corn maze), $20 for maze + Haunted Forest (Saturday nights); ages 3 and under free",
     "activities": "corn maze; haunted forest; train rides; petting zoo; mini golf; duck races; big slides; bounce pad; corn pit",
     "season_dates": "Every October; Monday-Friday 5:30-9 PM, Saturday noon-7 PM (maze) / dark-11 PM (haunted), Sunday closed, Tuesday/Thursday by appointment",
-    "extra_notes": "Tickets purchased at gate upon arrival; credit cards accepted. Haunted Forest is Saturday nights only and not intended for young children. Field trips, youth groups, and large groups welcome with special rates available. Check Facebook for specific opening dates and seasonal updates. Contact: 208-420-9001 or mvcornmaze1@gmail.com."
+    "extra_notes": "Tickets purchased at the gate; credit cards accepted. Haunted Forest is Saturday nights only and not intended for young children. Last admission 8 PM on Monday, Wednesday, Friday. Field trip and group rates available; call 208-420-9001. Check Facebook for specific opening dates each year."
   }
 ]

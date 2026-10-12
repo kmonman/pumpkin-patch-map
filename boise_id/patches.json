@@ -17,13 +17,13 @@
     "hours": "Monday: 4:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "lowe_family_farmstead_1.jpg",
     "photo_attributions": "Photo by Lowe Family Farmstead via Google Maps; Photo by Amy H via Google Maps; Photo by Rohan Raut via Google Maps",
     "admission_price": "Varies by day: $12 (Tuesday), $16.99 (Mon/Wed/Thu), $21.99 (September Fri/Sat and October Fri), $24.99 (October Sat); children 3 & under free",
-    "activities": "corn maze; pumpkin patch; hayride; flower field; jumping pillows (corn poppers); ropes course (feed mill); pig races; farm animals; petting/feeding animals; tractor-drawn hayride; bee train; cow train; grain train; slide; barnyard ball zone; farmyard games; photo ops; gemstone mining; apple blaster; livestock feed; parakeet sticks; candy cannon; touch-a-tractor; feed the bees; farm-fresh food",
+    "activities": "corn maze; pumpkin patch; hayride; petting zoo/farm animals; jumping pillows (Corn Poppers); ropes course (Feed Mill Ropes Course); pig races; train rides (Bee Train, Cow Train, Grain Train); slide; barnyard ball zone; farmyard games; flower field; gemstone mining; apple blaster; livestock feed; parakeet sticks; photo ops; candy cannon; feed the bees; touch-a-tractor",
     "season_dates": "September 12 - October 31, 2026; Mon-Thurs 4-9pm, Fri-Sat 10am-9pm",
-    "extra_notes": "Children 3 & under free. Most activities included in admission except: food/drink, pumpkins, flowers, souvenirs, gemstone mining, apple blaster ammo, livestock feed, and parakeet sticks. Credit/debit cards accepted everywhere; cash accepted at admissions building and some food locations. Outside food/drink welcome (except alcohol). No personal checks. No animals except trained service dogs. Same-day re-entry permitted. On-site ticket sales stop one hour before closing. Special events throughout season including Grandparents' Day (free grandparent admission with paid child), Homeschool days, Dog Day, and more. Groups 25+ receive discounted pricing.",
+    "extra_notes": "Children 3 & under free. Credit/debit cards accepted everywhere; cash accepted at admissions building and some food locations. Outside food and drink allowed (except alcohol). No personal checks. Same-day re-entry permitted. No animals except service dogs. Drones not permitted without authorization. On-site ticket sales stop one hour before closing. Military discounts available with valid ID. Group pricing available for 25+. School field trips, homeschool days, and fundraisers available.",
     "extra_categories": "corn_maze"
   },
   {
@@ -71,13 +71,13 @@
     "hours": "Monday: 4:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 4:00\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "ten_mile_farms_1.jpg",
     "photo_attributions": "Photo by Anthony Delyea via Google Maps; Photo by Allegra Metcalf via Google Maps; Photo by Alyrie Nottingham via Google Maps",
     "admission_price": "",
-    "activities": "corn maze; pumpkin picking; hayride; barrel train; straw bale slides; corn pit; mini maze; animal feeding (add-on); food trucks; concessions",
+    "activities": "corn maze; pumpkin picking; hayride; barrel train; straw bale slides; corn pit; mini maze; animal feeding; food trucks; concessions",
     "season_dates": "September 11 - October 31, 2026; Mon\u2013Fri 4\u20139 PM, Sat 10 AM\u20139 PM, Closed Sunday",
-    "extra_notes": "Tickets can be purchased online or at the gate (cards accepted). Pumpkins included with admission but charged separately by the pumpkin. Group discounts available for 10+. Strollers and wagons welcome in maze (sturdy wheels recommended). No outside animals except trained service animals. Picnic tables available; outside food permitted. Stroller-friendly routes available; accessible restrooms on-site.",
+    "extra_notes": "Pumpkins priced separately by pumpkin. Animal feed available for purchase at ticket booth. Groups of 10+ receive discounts. Online tickets available to skip the line, or pay at gate (cards accepted). Free parking. Stroller/wagon-friendly routes available; terrain is natural (packed soil/gravel). Picnic tables available; outside food welcome. Only trained service animals allowed. Special events scheduled including Idaho Ag Day, Reptiles in the Cornfield, and Live Music.",
     "extra_categories": "corn_maze"
   },
   {
@@ -98,13 +98,13 @@
     "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "pumpkin_palooza_treasure_valley_1.jpg",
     "photo_attributions": "Photo by Pumpkin Palooza Treasure Valley via Google Maps; Photo by Shannon Daly via Google Maps; Photo by Vanessa Sellars via Google Maps",
     "admission_price": "$5.00 per person, free for children 2 and under. Attractions use a separate ticket system: 1 ticket $1.50, 10 tickets $15.00, 20 tickets $25.00, 50 tickets $50.00, or Unlimited Fun Zone Pass $20",
-    "activities": "carnival games; inflatables (Fun Zone with 6 different inflatables); big blue slide; mechanical bull; small wagon ride; hay maze; corn pit; pumpkin pillow; petting zoo; axe throwing; train rides; pumpkin shopping; food & beverage trucks (weekends only)",
+    "activities": "carnival games; inflatables (Fun Zone with 6 different inflatables); Big Blue Slide; mechanical bull; small wagon ride; hay maze; corn pit; pumpkin pillow; petting zoo; train rides; axe throwing; pumpkin shopping (0.65 cents per pound); food and beverage trucks (weekends only)",
     "season_dates": "September 19 - October 31, 2026",
-    "extra_notes": "Waiver required for all visitors (including minors without parental guardian). Tickets sold at door. Closed Monday 9/21. Hours: Mon-Thu 4pm-9pm (closed 9/21), Fri-Sun 9am-9pm. Service animals only permitted, must be on leash. Birthday party packages available (contact Info@PumpkinPaloozaTV.com).",
+    "extra_notes": "A waiver must be signed prior to entry (including all minors without a parental guardian). Hours: Monday-Thursday 4:00pm-9:00pm (closed Monday 9/21), Friday-Sunday 9:00am-9:00pm. Tickets sold at the door. Only service animals permitted (must remain on leash). Birthday party packages available; contact Info@PumpkinPaloozaTV.com for inquiries.",
     "extra_categories": ""
   },
   {
@@ -125,13 +125,13 @@
     "hours": "Monday: 4:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 4:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 4:00\u2009\u2013\u20099:00\u202fPM | Thursday: 4:00\u2009\u2013\u20099:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "shindig_farms_1.jpg",
     "photo_attributions": "Photo by Junk Mail via Google Maps; Photo by Robert Lee via Google Maps; Photo by Kent Mortensen via Google Maps",
-    "admission_price": "Mon/Wed/Thu $13, Cheap Tuesday $9, September & October Fri/Sat $15, Haunted Nights $25 (ages 4+; children 3 and under free with paying adult). Additional activities priced separately in tickets ($1/ticket or $10 for 12 tickets).",
-    "activities": "straw maze; pumpkin patch; wagon ride to pumpkin patch; giant slide; medium slides; mini slides; zip line; barrel ride; jump pads; corn pit; duck racing; mini maze; hamster wheel; tire wall; corn holes; horseshoe; mechanical bull; swing ride; corn cannon; axe throwing; haunted straw maze; photo ops",
+    "admission_price": "Mon/Wed/Thur $13; Cheap Tuesday $9; September Friday & Saturday $15; October Friday & Saturday $15; Haunted Nights $25; children 3 and under free with paying adult. Taxes not included. Additional activities (mechanical bull, swing, axe throwing, corn cannon) require extra tickets ($1/ticket or $10 for 12 tickets).",
+    "activities": "straw maze; pumpkin patch; wagon/hayride to pumpkin patch; giant slides; medium slides; mini slides; zipline; jump pads; corn pit; mechanical bull; swing ride; axe throwing; corn cannon; barrel ride; tire wall; corn hole; horseshoe; hamster wheels; duck racing; mini maze; haunted straw maze; photo ops; field trips",
     "season_dates": "September 12 - October 31, 2026 (closed Sundays). Sept & Oct weekdays Mon-Thu 4pm-9pm, September weekends Fri-Sat 10am-9pm, October weekends Fri-Sat 10am-11pm. Haunted Maze: Friday & Saturday nights in October 8pm-11pm (October 2, 3, 9, 10, 16, 17, 23, 24, 30, 31 only).",
-    "extra_notes": "Children 3 and under are free with at least one paying adult. First responder discounts available. Discounts on special dates (check calendar). Pumpkin patch, barrel ride, and wagon rides close at dark and not offered during haunted hours. Wagon rides close at dawn. Book online to skip lines. Group rates available (20-39 people $2 off, 40+ $4 off). Unlimited day pass available ($25 weekdays, $32 weekends). Field trips available. Porta potty bathrooms available.",
+    "extra_notes": "Children 3 and under free with paying adult. Discounts for first responders and special dates available. Group rates: $2 off for groups 20-39, $4 off for groups 40+. Pumpkins start at $2. Unlimited day pass available ($25 weekdays, $32 weekends, includes admission and unlimited mechanical activities, excludes haunted maze). Wagon rides close at dark. Pumpkin patch, barrel ride, and wagon rides not offered during haunted hours. Book online to skip lines. Food trucks and hot chocolate available for purchase. Porta potty bathrooms available.",
     "extra_categories": "haunted_attraction; corn_maze"
   },
   {
@@ -152,13 +152,13 @@
     "hours": "Monday: 7:00\u2009\u2013\u200910:00\u202fPM | Tuesday: 7:00\u2009\u2013\u200910:00\u202fPM | Wednesday: 7:00\u2009\u2013\u200910:00\u202fPM | Thursday: 7:00\u2009\u2013\u200910:00\u202fPM | Friday: 7:00\u202fPM\u2009\u2013\u200912:00\u202fAM | Saturday: 7:00\u202fPM\u2009\u2013\u200912:00\u202fAM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "the_haunted_world_1.jpg",
     "photo_attributions": "Photo by Ant \u201cDaDDeoH\u201d Stef via Google Maps; Photo by Drew Dilullo via Google Maps; Photo by Kelly Bennett via Google Maps",
     "admission_price": "Terror Ticket: $33.00 (weekdays), $36.00 (Fridays/Halloween), $40.00 (Saturdays); FAST PASS Terror Ticket: $36.00 (weekdays), $41.00 (Fridays/Halloween), $45.00 (Saturdays); VIP Skip-The-Line Ticket: $50.00 (weekdays), $50.00 (Fridays/Halloween), $55.00 (Saturdays). Plus applicable sales tax and $2.00 service fee per ticket online. Children 5 and under are free with an adult. Group discounts available for 25+ people ($2 off per person).",
-    "activities": "The Haunted World (35-acre outdoor haunt with forest walk, underground dungeon, barnyard, various themed attractions); Skullvania (indoor haunted asylum attraction)",
-    "season_dates": "October 2026 (weekdays, Fridays, Saturdays, and Halloween Night)",
-    "extra_notes": "Online tickets can be used any day during 2026 season but upgrades may be required for weekends. Tickets sold at 10pm on weekdays or midnight on weekends. Expected duration: ~1.5 hours on weekdays, ~2 hours on weekends. Cash or credit/debit cards accepted. No exchanges or refunds. Group discounts for parties of 25+ ($2 per person); contact for groups over 50.",
+    "activities": "Haunted house (Skullvania - indoor asylum-themed); Outdoor haunted forest walk (The Haunted World - 35 acres); Gristle's forest; 700 ft. dungeon of torture; Barnyard with animals; Hacksaw Jim's Stanky Cellar; Voorhee's Dilapidated Shack; Vertigo's Tunnel; Leon's 55-foot Slide into Darkness; Cannibal Lecter's Carnival of Pigs",
+    "season_dates": "October (Mondays-Thursdays, Fridays, Saturdays, and Halloween night). Tickets sold at 10pm weekdays or midnights on weekends.",
+    "extra_notes": "Indoor and outdoor attraction spanning 40 acres total. Expected duration: approximately 1.5 hours on weekdays, 2 hours on weekends. Both attractions (The Haunted World and Skullvania) included in one ticket. Cash or credit/debit cards accepted. Online tickets valid any day during 2026 season but upgrades may be required for weekends. Children 5 and under are free with an adult. Group discounts available for 25+ people ($2 off per person) and larger groups (contact for quote). No exchanges or refunds.",
     "extra_categories": ""
   },
   {
@@ -179,13 +179,13 @@
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 7:30\u2009\u2013\u200910:00\u202fPM | Thursday: 7:30\u2009\u2013\u200910:00\u202fPM | Friday: 7:30\u202fPM\u2009\u2013\u200912:00\u202fAM | Saturday: 7:30\u202fPM\u2009\u2013\u200912:00\u202fAM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "requiem_haunted_house_1.jpg",
     "photo_attributions": "Photo by Requiem Haunted House via Google Maps; Photo by Requiem Haunted House via Google Maps; Photo by Kylie Belnap via Google Maps",
     "admission_price": "$25.00 per ticket (includes entrance and unlimited photos in photo opt room); $50.00 for Skip the Line tickets. Group rates available for 20 or more. Cash only at door if slots available.",
     "activities": "haunted house attraction; photo ops room",
     "season_dates": "",
-    "extra_notes": "Timed ticketing required; all tickets must be purchased online (cash only at door if slots available). Group rates available for 20+. No photos/video allowed in haunt. Touching not allowed. No purses, bags, or backpacks allowed. No high heels. No refunds if removed for rule violations. Group size general admission: min 2, max 6.",
+    "extra_notes": "Located in a century-old building downtown Caldwell. All tickets must be purchased online for timed slots. No photos/video allowed inside the haunt (only in photo ops room). No touching allowed. No purse, bags, or backpacks allowed. No high heels. Group rates available for 20+. Waiver required. No refunds if removed for not following rules.",
     "extra_categories": ""
   },
   {
@@ -232,13 +232,13 @@
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 1:00\u2009\u2013\u20095:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "the_berry_ranch_1.png",
     "photo_attributions": "Photo by The Berry Ranch via Google Maps; Photo by Tausha Wilson via Google Maps; Photo by Roxane Meier via Google Maps",
     "admission_price": "Free admission",
-    "activities": "pick-your-own berries (strawberries, blueberries, raspberries, blackberries); pick-your-own pumpkins; visit livestock corrals; view antique farm machinery; picnic area; visit farm animals (calves, turkeys, chickens, sheep, lambs, honeybees); glass beehive viewing; hayride to berry patch; field trips/group tours",
-    "season_dates": "Year-round working ranch; Pumpkin PYO last Friday in September through October 31; Berry PYO during summer season; Strawberry Festival on Memorial Day (on hold as of 2023); Raspberry Festival on July 4th (on hold as of 2023)",
-    "extra_notes": "No entry fee to visit the ranch. Pick-your-own activities have minimum charges. Payment: cash, checks, or cards with 5% surcharge. Call ahead if making special trip for eggs (availability limited). Service animals only; pets must stay in vehicles. No formal reservations needed for group visits, but check operating hours. Pumpkin PYO runs last Friday of September through October 31. Berry PYO is crop-dependent and unpredictable; cannot be scheduled in advance."
+    "activities": "pick-your-own berries (strawberries, blueberries, raspberries, blackberries); pick-your-own pumpkins; hayride; visit livestock corrals; view antique farm machinery; picnic area; view animals (calves, turkeys, chickens, sheep, lambs, honeybees); glass beehive observation; store-in-a-barn shopping",
+    "season_dates": "Year-round working ranch; berry PYO during summer; pumpkin PYO last Friday in September through October 31; Strawberry Festival Memorial Day 9am-3pm (on hold, pending 2023); Raspberry Festival July 4th 9am-3pm (on hold, pending 2023)",
+    "extra_notes": "No entry fee to visit the ranch. Pick-your-own has a minimum. No reservations required for group tours/field trips, but call ahead to confirm availability. Cash, checks, or cards (5% surcharge). Service animals only; pets must stay in vehicle. Call 208-466-3860 for hours and crop updates. Field trips available spring, summer, fall."
   },
   {
     "place_id": "ChIJZ4HM1kLLr1QR4rIyxfYyfe4",
@@ -258,13 +258,13 @@
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 5:00\u2009\u2013\u20098:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 5:00\u2009\u2013\u20098:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 5:00\u2009\u2013\u20098:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "cherry_hill_farms_1.jpg",
     "photo_attributions": "Photo by Joe Maldonado via Google Maps; Photo by Bridger Hamm via Google Maps; Photo by Cherry Hill Farms via Google Maps",
     "admission_price": "Children 2 and under are free; other pricing available at ticket purchase",
-    "activities": "8-acre corn maze; hay bale maze; pumpkin patch; jumping pillow; barrel cart rides; tube slides; car track; farm animals; corn hole; cherry pit sandbox; tractor tire playground; wagon rides; maze game; u-pick; cider pressing; food (ice cream, donuts, hot dogs)",
-    "season_dates": "Fall Festival & Corn Maze: September 25 - October 31, 2026 (Wednesdays-Fridays 10am-2pm & 5pm-8pm, Saturdays 10am-8pm, closing October 31 at 3pm). Apple Days: October 23 & 24, 2026 (10am-5pm)",
-    "extra_notes": "Children 2 and under enter free. Group pricing available for church and youth groups. Group reservations available with minimum 30 people; email chfidaho1@gmail.com to schedule. U-pick varieties and pricing available on social media. Fresh produce, ice cream, donuts, hot dogs, and other food available for purchase at farm store."
+    "activities": "8-acre corn maze; pumpkin patch; maze game; jumping pillow; barrel cart rides; tube slides; car track; farm animals; cornhole; straw bale maze with activities; cherry pit sandbox; tractor tire playground; hay bale maze; wagon rides; u-pick (apples, apricots, cherries, peaches, nectarines); cider pressing; farm store; ice cream treats; donuts; hot dogs",
+    "season_dates": "Fall Festival & Corn Maze: September 25 - October 31, 2026; Apple Days: October 23 & 24, 2026",
+    "extra_notes": "Group reservations available with minimum 30 people; group pricing offered for church and youth groups; field trips available; closes at 3pm on October 31; u-pick varieties and pricing available via social media; fresh produce, ice cream, donuts, hot dogs, and other food available for purchase at farm store"
   },
   {
     "place_id": "ChIJeXhEq2a3r1QRjC2JeXx4ZVk",
@@ -284,12 +284,12 @@
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 12:00\u2009\u2013\u20096:00\u202fPM | Sunday: 12:00\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-11",
+    "date_checked": "2026-10-12",
     "photo_paths": "flaming_acres_dahlias_1.png",
     "photo_attributions": "Photo by Flaming Acres Dahlias via Google Maps; Photo by Scott Yaeger via Google Maps; Photo by Megan Monterroso via Google Maps",
     "admission_price": "",
     "activities": "",
     "season_dates": "",
-    "extra_notes": ""
+    "extra_notes": "This is a dahlia tuber mail-order business, not a physical fall attraction. No on-site visits, activities, or admission mentioned. Free shipping promotion on orders $75+ through October 31."
   }
 ]
