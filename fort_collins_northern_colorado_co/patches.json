@@ -374,5 +374,31 @@
     "activities": "hayride; bale maze; corn cannon; pumpkin trebuchet; pumpkin patch",
     "season_dates": "September 25 - October 31, 2026 (weather permitting)",
     "extra_notes": "Dog-friendly farm (leash and doggie waste bag required). Cash, credit cards, and Venmo accepted. Individual activities have separate pricing: hayride $5/person (children 3 and under free), bale maze free, corn cannon 3 shots for $5, pumpkin trebuchet $12/throw (weekends only). Hours: Monday-Saturday 9am-6pm, Sunday 10am-6pm."
+  },
+  {
+    "place_id": "ChIJsQoFfcmtbocRoqZXDimyBm0",
+    "name": "Barnyard Buddies",
+    "category": "pumpkin_patch",
+    "address": "3650 N County Rd 3, Loveland, CO 80538, USA",
+    "latitude": 40.4288202,
+    "longitude": -104.96210819999999,
+    "phone": "(970) 690-5234",
+    "website": "https://www.barnyardbuddies.com/",
+    "google_maps_url": "https://maps.google.com/?cid=7856162489398437538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "rating_count": 30,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "ranch; farm; government_office; food; point_of_interest; service; establishment",
+    "hours": "Monday: Closed | Tuesday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Wednesday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Thursday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Friday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Saturday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fPM | Sunday: Closed",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "barnyard_buddies_llc_1.jpg",
+    "photo_attributions": "Photo by Barnyard Buddies, LLC. via Google Maps; Photo by Krista Taylor via Google Maps; Photo by Barnyard Buddies, LLC. via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

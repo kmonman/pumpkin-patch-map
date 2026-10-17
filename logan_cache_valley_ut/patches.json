@@ -267,5 +267,31 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": ""
+  },
+  {
+    "place_id": "ChIJn_KSCfV9VIcRM-a2DAmO7Zc",
+    "name": "Green Canyon Farms",
+    "category": "pumpkin_patch",
+    "address": "2297 N 800 E, North Logan, UT 84341, USA",
+    "latitude": 41.773762399999995,
+    "longitude": -111.81394019999999,
+    "phone": "(435) 770-7547",
+    "website": "http://greencanyonfarms.com/",
+    "google_maps_url": "https://maps.google.com/?cid=10947562438726706739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "rating_count": 13,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "grocery_store; market; food_store; store; point_of_interest; food; establishment",
+    "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: Closed",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "green_canyon_farms_1.jpg",
+    "photo_attributions": "Photo by Luci Olsen via Google Maps; Photo by Green Canyon Farms via Google Maps; Photo by Green Canyon Farms via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

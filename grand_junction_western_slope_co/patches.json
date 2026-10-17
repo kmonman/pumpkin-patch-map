@@ -52,5 +52,31 @@
     "season_dates": "September 26 - October 31, 2026. Open every day, 10 AM - 7 PM",
     "extra_notes": "Part of proceeds donated to Grand Valley Equine Assisted Learning Center. School field trips available (call 970-812-6703 or email [email protected] to book). Virtual spooky experiences available via cell phone (Apple users only). Virtual events mentioned but details not provided.",
     "extra_categories": "haunted_attraction; corn_maze"
+  },
+  {
+    "place_id": "ChIJxZ2dT877RocRuKol_nbA20g",
+    "name": "Lower Valley Pumpkin Patch",
+    "category": "pumpkin_patch",
+    "address": "1901 O Rd, Fruita, CO 81521, USA",
+    "latitude": 39.219856,
+    "longitude": -108.69865499999999,
+    "phone": "(970) 270-7060",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=5250001407933000376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "rating_count": 9,
+    "price_level": "",
+    "business_status": "CLOSED_PERMANENTLY",
+    "types": "point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 8,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "lower_valley_pumpkin_patch_1.jpg",
+    "photo_attributions": "Photo by Mark Tran Dot Net via Google Maps; Photo by tabbatha apple via Google Maps; Photo by Mark Tran Dot Net via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

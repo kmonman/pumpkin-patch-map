@@ -375,5 +375,31 @@
     "activities": "rides (40+ rides including roller coasters and toddler-friendly rides); water slides; water attractions; gardens (six gardens); Circus Trees; trick-or-treating; live musical shows; themed rides; The Green Barn Learning & Discovery Center; hayride (train); ice skating (North Pole Nights); Santa's Workshop (North Pole Nights)",
     "season_dates": "The Great Big BOO! runs now through November 1, 2026; calendar shows October 2026 with various event dates marked",
     "extra_notes": "Children under 3 always free. Premium Members get unlimited visits, free parking, and access to all special events. Fast Lane Wristbands available to skip lines. Zero tax and no hidden fees on tickets. Group discounts available for groups of 15+. Membership payable in 4 interest-free installments of $24.50 with Affirm. Premium Membership bonus bundle expires November 15."
+  },
+  {
+    "place_id": "ChIJb-NpDbLhkYARkHqnD3trSzs",
+    "name": "Uesugi Farms",
+    "category": "pumpkin_patch",
+    "address": "14485 Monterey Rd, San Martin, CA 95046, USA",
+    "latitude": 37.100144199999995,
+    "longitude": -121.62398100000001,
+    "phone": "",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=4272626847778830992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "rating_count": 299,
+    "price_level": "",
+    "business_status": "CLOSED_PERMANENTLY",
+    "types": "farm; point_of_interest; service; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "uesugi_farms_1.jpg",
+    "photo_attributions": "Photo by Mike Mu via Google Maps; Photo by Linda Braudy via Google Maps; Photo by jose garcia via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

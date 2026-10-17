@@ -589,5 +589,31 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": ""
+  },
+  {
+    "place_id": "ChIJJw7kow6n7ocRAvGrV4apqPs",
+    "name": "Rose Farm",
+    "category": "pumpkin_patch",
+    "address": "7197 43rd Ave, Norwalk, IA 50211, USA",
+    "latitude": 41.4225662,
+    "longitude": -93.72434369999999,
+    "phone": "",
+    "website": "https://www.rosefarmstead.com/",
+    "google_maps_url": "https://maps.google.com/?cid=18133930294068900098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "rating_count": 72,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; point_of_interest; service; establishment",
+    "hours": "Monday: 1:00\u2009\u2013\u20096:00\u202fPM | Tuesday: Closed | Wednesday: Closed | Thursday: 1:00\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: Closed | Sunday: 1:00\u2009\u2013\u20096:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "rose_farm_1.jpg",
+    "photo_attributions": "Photo by Rose Farm via Google Maps; Photo by Rose Farm via Google Maps; Photo by Kierstyn Krug via Google Maps",
+    "admission_price": "",
+    "activities": "workshoppes (candle making, floral design, pie making, sourdough bread, party styling); farm-to-table dinners; garden club with flower harvesting; wine club experience; garden tours; pumpkin painting; fall floral harvesting; pond walks; greenhouse tours",
+    "season_dates": "April 30 - December 13",
+    "extra_notes": "Reservations/booking required for most experiences. Workshoppe and experience tickets are non-refundable. Guest house (Victoria's House) available for overnight stays. Garden Club membership $75 includes bucket and clippers, with $50 refill cost. Activities mentioned include specific dates for workshops/gatherings. Farm is located 20 minutes outside Des Moines city center."
   }
 ]

@@ -132,5 +132,31 @@
     "activities": "pumpkin picking; pumpkin carving; pumpkin decorating; apple cider donuts",
     "season_dates": "September 30 - October 31, 2026 (Wednesday-Sunday 10am-6pm)",
     "extra_notes": "Apple cider donuts available weekends only. May sell out before Halloween. Located in the Arcata Bottoms."
+  },
+  {
+    "place_id": "ChIJncgDQ7pZ0VQRJNRDFnDWsUQ",
+    "name": "Warren Creek Farms",
+    "category": "pumpkin_patch",
+    "address": "1264 Warren Creek Rd, Arcata, CA 95521, USA",
+    "latitude": 40.892883000000005,
+    "longitude": -124.02622500000001,
+    "phone": "(707) 822-6017",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=4949973242355110948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.7,
+    "rating_count": 7,
+    "price_level": "",
+    "business_status": "CLOSED_PERMANENTLY",
+    "types": "farm; service; point_of_interest; establishment",
+    "hours": "",
+    "photo_count": 3,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "warren_creek_farms_1.jpg",
+    "photo_attributions": "Photo by B via Google Maps; Photo by Evangeline Galindo via Google Maps; Photo by Denny Jenness via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

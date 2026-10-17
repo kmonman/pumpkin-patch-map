@@ -752,5 +752,31 @@
     "activities": "pumpkin picking; straw maze; tractor hayrides; pony rides; petting zoo/petting corral; corn pit; inflatable bounce house; face painting; rock climbing wall; kids' crafts/kids 'n paint; caricatures; mechanical bull; inflatable slide; farm zoo; photo ops; live music; food vendors; ice cream; country store; Farmer's Daughter Boutique; picnicking",
     "season_dates": "September 17, 2026 - October 31, 2026",
     "extra_notes": "Pumpkin patch open daily with varying hours: September 9am-5pm; October weekdays 9am-5:30pm, weekends 8:30am-6pm, last 3 Fridays (10/9, 10/16, 10/23) 9am-6:30pm. Most activities (tractor hayrides, straw maze, pony rides, petting corral, corn pit, bounce house) available daily throughout October. Additional weekend activities include face painting, rock climbing, crafts, caricatures, mechanical bull, inflatable slide. Activity tickets available at ticket booth for each attraction. Farm Zoo always free year-round. Dogs on leashes welcome. Food vendors daily in October including turkey legs, rice bowls, funnel cakes, and ice cream. Halloween costume contests on October 31."
+  },
+  {
+    "place_id": "ChIJKZF8GyXF24ARyy9yS7MVkNg",
+    "name": "Julian Mining Company",
+    "category": "pumpkin_patch",
+    "address": "4444 CA-78, Julian, CA 92036, USA",
+    "latitude": 33.0969772,
+    "longitude": -116.64543150000002,
+    "phone": "(760) 765-8680",
+    "website": "http://www.julianminingcompany.com/",
+    "google_maps_url": "https://maps.google.com/?cid=15604996568647872459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "rating_count": 109,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; point_of_interest; service; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "julian_mining_company_1.jpg",
+    "photo_attributions": "Photo by Charissa Cabrera via Google Maps; Photo by Kristin McManus via Google Maps; Photo by Lisa Hernandez via Google Maps",
+    "admission_price": "Gold panning $7 kids/$9 adults; Gem sluicing $11.50-$70; Concentrate pan $16; Premium grade gold ore bags $70; Group package discount $20 for bundle of 4 activities",
+    "activities": "Gold panning; Gem sluicing; Axe range; BB range; Pirate treasure pit; Ore cart train ride; RC boat; General store shopping",
+    "season_dates": "Weekends: Saturday 10 AM - 4 PM, Sunday 10 AM - 5 PM (hours listed as 12-5 PM on one page for Sunday)",
+    "extra_notes": "Private events and field trips can be scheduled weekdays. Payment accepted: cash or Visa/Mastercard. Dogs on leash welcomed. Gold panning lesson and vial included in base price. Concentrate pan and premium grade ore bags include general panning admission. Gem mining recommended for children under 12. Field trips: $20-$25 per student (minimum 75 students) plus travel/mileage fee; 1 teacher free per 25 students."
   }
 ]

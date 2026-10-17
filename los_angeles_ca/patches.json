@@ -914,5 +914,31 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": ""
+  },
+  {
+    "place_id": "ChIJ0VL-tR4t3YAR1FmnyaMkBhc",
+    "name": "Fallstivities Pumpkin Patch",
+    "category": "pumpkin_patch",
+    "address": "100 Los Cerritos Center, Cerritos, CA 90703, USA",
+    "latitude": 33.8641386,
+    "longitude": -118.09327469999998,
+    "phone": "",
+    "website": "https://www.fallstivitiespumpkinpatch.com/",
+    "google_maps_url": "https://maps.google.com/?cid=1659053798614063572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": "",
+    "rating_count": "",
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "point_of_interest; establishment",
+    "hours": "Monday: Closed | Tuesday: 3:30\u2009\u2013\u20099:00\u202fPM | Wednesday: 3:30\u2009\u2013\u20099:00\u202fPM | Thursday: 3:30\u2009\u2013\u20099:00\u202fPM | Friday: 3:30\u2009\u2013\u20099:00\u202fPM | Saturday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+    "photo_count": 0,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "",
+    "photo_attributions": "",
+    "admission_price": "Free admission Tuesday - Thursday ($2 fee Friday - Sunday ages 13+)",
+    "activities": "pumpkin patch; photo props; Baby Shark Land; family obstacle course; rock climb; trike track; animal scooters; bounce houses and slides; character visits; pumpkin painting; sensory-friendly hour; kids marketplace; trick-or-treating; food and drinks (popcorn, candy apples, cotton candy)",
+    "season_dates": "October 1 - October 31; Tuesday-Friday 3:30 PM - 9 PM, Saturday-Sunday 11 AM - 9 PM, closed Mondays",
+    "extra_notes": "All guests (participating and non-participating) required to submit a waiver. Last call for activity purchases at 8:30 PM. Socks required for some activities (Baby Shark Land, family obstacle course, bounce houses/slides). Age and height requirements for some activities. Spectrum of Smiles Sensory-Friendly Hour every Saturday & Sunday 10-11 AM for children with special needs. Next Wave Futurepreneurs Kids Marketplace every Saturday & Sunday 11 AM-2 PM. Pumpkins and decorating kits available for purchase."
   }
 ]

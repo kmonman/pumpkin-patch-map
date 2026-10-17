@@ -160,5 +160,31 @@
     "season_dates": "Opening Day Saturday, September 19th through at least October 31st (Fridays and Saturdays)",
     "extra_notes": "No pets allowed on farm. Children 14 and under must be accompanied by a responsible adult (1 adult per 10 youth). Online tickets can be refunded due to inclement weather. Group discounts available for groups of 20+ people (contact 406-922-1643). Last tickets sold at 7:00 PM; all guests must be out by 8:30 PM. Wednesday hours: 10 AM-7 PM (no food vendors). Friday hours: 10 AM-5 PM and 5-7 PM (no food vendors except evening). Saturday hours: 10 AM-7 PM (food vendors vary by date). Farm fresh pumpkins and market goods available.",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJMWvasBRFRVMRrAiE26pTeZ8",
+    "name": "Four Daughters Farm",
+    "category": "pumpkin_patch",
+    "address": "5180 Stucky Rd, Bozeman, MT 59718, USA",
+    "latitude": 45.6560706,
+    "longitude": -111.08011979999999,
+    "phone": "(406) 600-5186",
+    "website": "http://4daughtersfarmmt.com/",
+    "google_maps_url": "https://maps.google.com/?cid=11491307917504940204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "rating_count": 16,
+    "price_level": "",
+    "business_status": "CLOSED_TEMPORARILY",
+    "types": "farm; point_of_interest; service; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "four_daughters_farm_1.jpg",
+    "photo_attributions": "Photo by Four Daughters Farm via Google Maps; Photo by Chase Haylee via Google Maps; Photo by R W via Google Maps",
+    "admission_price": "",
+    "activities": "U-pick flowers; farm shop; wedding and event florals; photography sessions; workshops",
+    "season_dates": "Mid July - End of September (U-pick flowers); June to early October (photography sessions); May through late September (flowers available for events)",
+    "extra_notes": "Farm shop and U-pick closed for 2026 season; hoping to reopen May 2027. Farm shop operates on honor system, cash or Venmo only. Private photography sessions available June to early October. Wedding/event florals service available with consultation. Punch cards available for bouquets."
   }
 ]

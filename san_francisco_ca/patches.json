@@ -806,5 +806,31 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": "Westbrae Nursery is primarily a gardening supply store/plant nursery, not a fall/Halloween attraction. The website mentions 'Pumpkin Patch 2026 - FULL OF PUMPKINS!' but provides no details about admission, pricing, activities, or operating dates for any pumpkin patch offering."
+  },
+  {
+    "place_id": "ChIJx1SJXNd0j4AR4-oTKeP7cNA",
+    "name": "4C's Pumpkin Patch & Christmas Tree Farm",
+    "category": "pumpkin_patch",
+    "address": "678-698 San Mateo Rd, Half Moon Bay, CA 94019, USA",
+    "latitude": 37.4797371,
+    "longitude": -122.40595599999999,
+    "phone": "(650) 726-0574",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=15019781710345923299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "rating_count": 27,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; wholesaler; point_of_interest; service; establishment",
+    "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "4c_s_christmas_tree_farm_1.jpg",
+    "photo_attributions": "Photo by Andy Zhong via Google Maps; Photo by Rayner De Los Santos via Google Maps; Photo by Robin Fain via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

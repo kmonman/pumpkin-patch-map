@@ -267,5 +267,31 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": ""
+  },
+  {
+    "place_id": "ChIJJ6ntLWM5xFQRvAHjFoEx8VY",
+    "name": "Brosi's Sugar Tree Farms",
+    "category": "pumpkin_patch",
+    "address": "540 Winston Rd, Winston, OR 97496, USA",
+    "latitude": 43.128699499999996,
+    "longitude": -123.3965755,
+    "phone": "",
+    "website": "https://m.facebook.com/100064543995965/",
+    "google_maps_url": "https://maps.google.com/?cid=6264842987153588668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "rating_count": 345,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "grocery_store; market; farm; point_of_interest; food_store; food; store; service; establishment",
+    "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "brosi_s_sugartree_farms_1.jpg",
+    "photo_attributions": "Photo by Jason Saunders via Google Maps; Photo by Jason Saunders via Google Maps; Photo by Sierra Peck via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]

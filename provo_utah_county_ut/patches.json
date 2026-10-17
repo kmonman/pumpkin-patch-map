@@ -619,5 +619,31 @@
     "season_dates": "",
     "extra_notes": "School groups available T-R at 9am/11am/1pm, F at 9am ($3 per student, minimum group 30). Homeschool/preschool groups $5 per person, must be scheduled in advance. One train ride per person. Age restriction: 2 and under must ride train with responsible party. Contact (435) 851-1587 or sundercreekfarms@gmail.com for specific dates/hours.",
     "extra_categories": "corn_maze"
+  },
+  {
+    "place_id": "ChIJ57MhopGoTYcRbNk-ucan278",
+    "name": "Rowley's Red Barn",
+    "category": "pumpkin_patch",
+    "address": "901 S 300 W, Santaquin, UT 84655, USA",
+    "latitude": 39.960811,
+    "longitude": -111.7946786,
+    "phone": "(801) 754-5511",
+    "website": "https://www.rowleysredbarn.com/",
+    "google_maps_url": "https://maps.google.com/?cid=13824827953097136492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "rating_count": 2473,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "gift_shop; juice_shop; grocery_store; bakery; market; ice_cream_shop; dessert_shop; confectionery; food_store; store; point_of_interest; food; establishment",
+    "hours": "Monday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Tuesday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Wednesday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: Closed",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "rowley_s_red_barn_1.jpg",
+    "photo_attributions": "Photo by Rowley's Red Barn via Google Maps; Photo by Stevie via Google Maps; Photo by Jacob Zonts via Google Maps",
+    "admission_price": "",
+    "activities": "Fall Festival; wagon rides; apple cider donuts; Easter Egg Scavenger Hunt; petting and holding baby chicks and bunnies; jump pads; giant slide; candy cannon; apple picking; orchard walks; Blossom Festival; Sunflower Festival",
+    "season_dates": "19 September - 30 October, 2026 (Fall Festival)",
+    "extra_notes": "Store is open year-round (Mon-Sat, 9am-9pm, closed Sundays). Fall Festival is the main fall/Halloween season event. School and corporate group visits available. Ice cream and bakery on-site. Farm fresh produce available year-round."
   }
 ]

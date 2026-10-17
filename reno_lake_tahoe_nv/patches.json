@@ -187,5 +187,31 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJDzn-qOYUmYAReYhoLEEj6us",
+    "name": "Toll House Pumpkin Patch",
+    "category": "pumpkin_patch",
+    "address": "12185 S Virginia St, Reno, NV 89511, USA",
+    "latitude": 39.422196899999996,
+    "longitude": -119.75926000000001,
+    "phone": "(503) 551-0397",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=16999438506288253049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 1.7,
+    "rating_count": 24,
+    "price_level": "",
+    "business_status": "CLOSED_PERMANENTLY",
+    "types": "amusement_center; farm; wholesaler; point_of_interest; service; establishment",
+    "hours": "",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-17",
+    "photo_paths": "toll_house_pumpkin_patch_and_christmas_trees_1.jpg",
+    "photo_attributions": "Photo by Francisco Jimenez via Google Maps; Photo by Francisco Jimenez via Google Maps; Photo by Darin Schaefer via Google Maps",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": ""
   }
 ]
