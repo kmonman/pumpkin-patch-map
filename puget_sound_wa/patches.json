@@ -2266,5 +2266,32 @@
     "season_dates": "",
     "extra_notes": "",
     "extra_categories": ""
+  },
+  {
+    "place_id": "ChIJzw43WAJnkFQRu1jWZkGfYpw",
+    "name": "Fletcher Farm Issaquah",
+    "category": "pumpkin_patch",
+    "address": "18712 SE May Valley Rd, Issaquah, WA 98027, USA",
+    "latitude": 47.4985198,
+    "longitude": -122.09095,
+    "phone": "",
+    "website": "https://www.fletcherfarmissaquah.com/",
+    "google_maps_url": "https://maps.google.com/?cid=11268744320881416379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "rating_count": 59,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "farm; service; point_of_interest; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: Closed | Saturday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-18",
+    "photo_paths": "fletcher_farm_issaquah_1.jpg",
+    "photo_attributions": "Photo by Fletcher Farm Issaquah via Google Maps",
+    "admission_price": "Adults: $14, Children: $12, Children under 1: Free, Dogs: Free",
+    "activities": "pumpkin picking; scavenger hunt; farm animals; storybook trail; mini-golf; yard games; bonfire; photo stations; children's obstacle course",
+    "season_dates": "September 26 - October 31, 2026 (Saturdays and Sundays 11am-6pm, open Halloween)",
+    "extra_notes": "Dogs welcome but must be leashed. Bonfire availability dependent on King County Fire restrictions. Pumpkins sold separately by weight and type. Private events and group reservations available with minimum 2-hour rental; groups larger than 30 require off-hour rentals (starting at $1,750). Event inquiry form required for reservations.",
+    "extra_categories": ""
   }
 ]
