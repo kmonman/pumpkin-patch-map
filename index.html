@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pumpkin &amp; Halloween Map</title>
 <style>
   html, body { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif; }
@@ -523,11 +524,13 @@ window.onUserLocated = function(point) {
   statePicker.value = best.name.slice(-2);
   statePicker.dispatchEvent(new Event('fill'));
   picker.value = best.slug;
-  return loadRegion(best.slug);
+  // keepView: the button centers on the visitor itself, so don't also zoom
+  // out to fit the whole region (that fit lands after, and wins).
+  return loadRegion(best.slug, true);
 };
 
 let loadingSlug = null;
-function loadRegion(slug) {
+function loadRegion(slug, keepView) {
   clearMarkers();
   loadingSlug = slug;
   return fetch(slug + '/patches.json', { cache: 'no-store' })
@@ -567,7 +570,7 @@ function loadRegion(slug) {
         });
       });
 
-      if (!bounds.isEmpty()) map.fitBounds(bounds);
+      if (!bounds.isEmpty() && !keepView) map.fitBounds(bounds);
 
       try { localStorage.setItem('pumpkinMapRegion', slug); } catch (e) {}
     });
