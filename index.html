@@ -604,6 +604,7 @@ function initMap() {
   const picker = document.getElementById('region-picker');
   const states = [];
   REGIONS.forEach(function(r) { if (states.indexOf(stateOf(r)) === -1) states.push(stateOf(r)); });
+  states.sort(function(a, b) { return (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b); });
   states.forEach(function(s) {
     const opt = document.createElement('option');
     opt.value = s;
