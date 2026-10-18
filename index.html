@@ -66,6 +66,12 @@
     font-size: 14px; padding: 4px; background: #030719; color: #e5e8f5;
     border: 1px solid #3555af; border-radius: 4px;
   }
+  /* The open dropdown list is drawn by the browser: color-scheme asks for its
+     dark version and the option colors match the site (Chrome, Edge,
+     Android; iPhones always show Apple's own picker). */
+  .region-picker-wrap select { color-scheme: dark; }
+  .region-picker-wrap select option { background: #030719; color: #e5e8f5; }
+  .region-picker-wrap select option:checked { background: #3555af; color: #ffffff; }
   .region-picker-wrap select:focus {
     outline: 2px solid #959799; outline-offset: 1px;
   }
