@@ -615,31 +615,5 @@
     "activities": "",
     "season_dates": "",
     "extra_notes": ""
-  },
-  {
-    "place_id": "ChIJv311pjNdpYkRVrTV1uAbPJw",
-    "name": "Chubby's Pumpkin Festival",
-    "category": "fall_festival",
-    "address": "970 Halls Creek Rd, Elizabeth City, NC 27909, USA",
-    "latitude": 36.2257246,
-    "longitude": -76.2844018,
-    "phone": "",
-    "website": "",
-    "google_maps_url": "https://maps.google.com/?cid=11257903821010351190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "rating": 5,
-    "rating_count": 60,
-    "price_level": "",
-    "business_status": "OPERATIONAL",
-    "types": "farm; service; point_of_interest; establishment",
-    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: 12:00\u2009\u2013\u20097:00\u202fPM | Friday: 12:00\u2009\u2013\u20099:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
-    "photo_count": 10,
-    "source": "google_places",
-    "date_checked": "2026-10-18",
-    "photo_paths": "chubby_s_farm_fest_park_1.jpg",
-    "photo_attributions": "Photo by Mary Bagwell via Google Maps",
-    "admission_price": "",
-    "activities": "",
-    "season_dates": "",
-    "extra_notes": ""
   }
 ]
