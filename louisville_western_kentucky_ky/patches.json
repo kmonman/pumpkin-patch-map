@@ -1103,5 +1103,32 @@
     "activities": "pumpkin patch; corn maze; hayrides; bounce pad; playground; corn box; geodome climber; straw tower; duck race; tube slide; farm animals; hamster wheels; revolution spinner; swing set; cornhole; checkers; tic tac toe; night corn maze",
     "season_dates": "September 12 - October 31, 2026",
     "extra_notes": "Children 3 years and younger are free. Operating hours: Monday-Friday 10am-5pm CST, Saturday 10am-6pm CST, Sunday 1pm-5pm CST. Tickets may be purchased by cash, credit card, or check. QR code check-in at farm. Special event nights: Night Corn Maze on September 26 and October 24. Special discount days for First Responders (Sept 12), WKU Students (Sept 19), and Teachers (Oct 24). Fall Break hours Oct 5-9 (Hive Open). Contact: 270-783-1098."
+  },
+  {
+    "place_id": "ChIJscvQKS0ncIgRUTfjnv0xqbk",
+    "name": "Cates Farm",
+    "category": "haunted_attraction",
+    "address": "KY-1217, Henderson, KY 42420, USA",
+    "latitude": 37.726111599999996,
+    "longitude": -87.6075668,
+    "phone": "(270) 823-6150",
+    "website": "",
+    "google_maps_url": "https://maps.google.com/?cid=13378279133442946897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "rating_count": 128,
+    "price_level": "",
+    "business_status": "OPERATIONAL",
+    "types": "tourist_attraction; point_of_interest; establishment",
+    "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed | Friday: 4:00\u2009\u2013\u20098:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM | Sunday: 12:00\u2009\u2013\u20098:00\u202fPM",
+    "photo_count": 10,
+    "source": "google_places",
+    "date_checked": "2026-10-18",
+    "photo_paths": "",
+    "photo_attributions": "",
+    "admission_price": "",
+    "activities": "",
+    "season_dates": "",
+    "extra_notes": "",
+    "extra_categories": ""
   }
 ]
