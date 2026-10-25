@@ -17,13 +17,13 @@
     "hours": "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Saturday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-12",
+    "date_checked": "2026-10-25",
     "photo_paths": "mortimer_farms_1.jpg",
     "photo_attributions": "Photo by Mortimer Farms via Google Maps; Photo by Mortimer Farms via Google Maps; Photo by David George via Google Maps",
     "admission_price": "",
-    "activities": "Farm Park farm-inspired rides and games; pick-your-own fruits and vegetables; Animal Encounter; seasonal festivals; Pumpkin Fest & Corn Maze; Friday Night Barn Dance; Farm to Table Dinners; school field trips; shopping at Market & Deli; Windmill Kitchen dining; Apple Barn gift shop; outdoor living workshops",
+    "activities": "pick your own fruits & vegetables; Animal Encounter; Farm Park rides & games; corn maze; pumpkin fest; seasonal festivals; farm to table dinners; Friday Night Barn Dances; school field trips; shopping at market & deli; Windmill Kitchen dining; Apple Barn gift shop; outdoor living workshops",
     "season_dates": "",
-    "extra_notes": "Admission gives an all-day pass to enjoy everything at the farm; pets not allowed; smoking not allowed; outside food and drink not allowed (excluding water); located 1 hour from Phoenix, 30 minutes from Prescott; tickets and season passes available for purchase",
+    "extra_notes": "Admission gives all-day pass to Farm Park, Pick n' Play, pick-your-own experience, and Animal Encounter. Pets, smoking, and outside food/drink not allowed (water excluded). Specific seasonal events include Pumpkin Fest & Corn Maze, Fall Flower Festival, Christmas Festival, Valentine's Day, Asparagus and Garlic Festival, Blackberry Festival, Watermelon and Sweet Corn Festival. Contact: 928-830-1116 or support@mortimerfarmsaz.com.",
     "extra_categories": "corn_maze"
   },
   {
@@ -44,13 +44,13 @@
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Thursday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Friday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Sunday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-12",
+    "date_checked": "2026-10-25",
     "photo_paths": "the_arboretum_at_flagstaff_1.jpg",
     "photo_attributions": "Photo by The Arboretum at Flagstaff via Google Maps; Photo by DanO (thunderdan602) via Google Maps; Photo by David F via Google Maps",
     "admission_price": "Adults 18 and up: $14, Youth 5-17: $8.00, Children Under 5: Free, Dogs (must be on leash): $2. Special event pricing varies.",
-    "activities": "Pumpkin Walk with jack-o'-lanterns; food trucks; beer; kids activities; music; photo ops; trails",
+    "activities": "Pumpkin Walk with jack-o'-lanterns; food and festive drinks; trails; photo ops; bird walks; wildflower walks",
     "season_dates": "Pumpkin Walk: October 24, 2026 at 3:30 PM. Arboretum general season: April 29 - October 25, 2026 (Wednesday-Sunday, 9 AM - 4 PM)",
-    "extra_notes": "Pumpkin Walk is the annual Halloween event on October 24th. Pre-sale tickets available. Arboretum closed to public on 10/24 until 3:30 PM when Pumpkin Walk begins. Access road is 3 miles of partially unpaved Forest Service Road (1.7 miles unpaved) - reliable all-weather transportation recommended. No restaurant on site; snacks and drinks available in visitor center. Bring your own picnic welcome.",
+    "extra_notes": "Pumpkin Walk is a special event on October 24th when the Arboretum is closed to regular visitors until 3:30 PM. Regular admission prices do not apply to special events. The property has challenging terrain with organic path surfaces and grade changes; wheelchair accessibility is limited. All-weather transportation recommended due to unpaved forest service road access.",
     "extra_categories": ""
   },
   {
@@ -98,13 +98,13 @@
     "hours": "Monday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Tuesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Wednesday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Thursday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Friday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM | Saturday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM | Sunday: 10:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-12",
+    "date_checked": "2026-10-25",
     "photo_paths": "viola_s_flower_garden_1.jpg",
     "photo_attributions": "Photo by Viola's Flower Garden via Google Maps; Photo by Lynn Gilbert via Google Maps; Photo by Rachel Ehrlich via Google Maps",
     "admission_price": "",
     "activities": "straw maze; pumpkin decorating station; games; photo ops",
-    "season_dates": "Opening Day September 26th, open the whole month of October",
-    "extra_notes": "For more information, visit www.flagstaffpumpkinpatch.com. Located in Flagstaff, AZ with thousands of pumpkins and fall colors in a country setting."
+    "season_dates": "September 26 - October 31",
+    "extra_notes": "For more information, visit www.flagstaffpumpkinpatch.com. Located in Flagstaff, AZ with thousands of pumpkins and fall colors."
   },
   {
     "place_id": "ChIJA3THekI8L4cRRH4arVRYBYw",
@@ -124,12 +124,12 @@
     "hours": "Monday: 1:00\u2009\u2013\u20096:00\u202fPM | Tuesday: 1:00\u2009\u2013\u20096:00\u202fPM | Wednesday: 1:00\u2009\u2013\u20098:00\u202fPM | Thursday: 1:00\u2009\u2013\u20098:00\u202fPM | Friday: 1:00\u2009\u2013\u200910:00\u202fPM | Saturday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-17",
+    "date_checked": "2026-10-25",
     "photo_paths": "the_willis_farm_1.jpg",
     "photo_attributions": "Photo by The Willis Farm via Google Maps; Photo by islandgirlnaz via Google Maps; Photo by Chloe Shepherd via Google Maps",
-    "admission_price": "Activities priced separately: pumpkins $0.70/lb, gourds $1.00-$5.00, Indian corn $3.00/ear, cornstalk bundle $10 for 10, Agrifact Maze $5.00, Big Cornmaze $10.00, Haunt $25.00 (Kid Haunt $15.00 on Monday Oct 19th), train ride $5.00, game zone $5.00/person",
-    "activities": "corn maze; haunted corn maze; pumpkin patch; agrifact maze; train ride; game zone; gourds; Indian corn; cornstalk bundles",
-    "season_dates": "September 26 - October 31, 2026",
-    "extra_notes": "No general admission fee; activities are individually priced. Online ticket purchase required for haunt. Groups of 6-10 people; groups smaller than 6 will be combined. $1.00 fee charged for debit/credit card payments. Kids 3+ need tickets. Parents must purchase tickets to accompany children on Kid Haunt (Monday, Oct 19th). No dogs allowed on premises. No refunds or exchanges on haunt tickets. Arrive 10-15 minutes before your haunt time slot."
+    "admission_price": "Activities priced separately: Pumpkins $0.70/lb, Gourmet $1-$5, Indian Corn $3/ear, Cornstalk Bundle $10 for 10, Agrifact Maze $5, Big Cornmaze $10, Haunt $25 ($15 for Kid Haunt on Oct 19), Train $5, Game Zone $5/person. $1 fee for debit/credit card transactions.",
+    "activities": "corn maze (Agrifact Maze and Big Cornmaze); haunted cornmaze; pumpkin patch; train ride; game zone; gourds; Indian corn; cornstalk bundles",
+    "season_dates": "September 26 - October 31, 2026. Monday-Tuesday 1-6pm, Wednesday-Thursday 1-8pm, Friday 1-10pm, Saturday 10am-10pm, Closed Sundays",
+    "extra_notes": "Haunt tickets must be purchased online only. Kid Haunt on Monday Oct 19 ($15/person); parents must purchase tickets to accompany children. Groups must be 6-10 people; smaller groups will be combined. No refunds or exchanges on haunt tickets. 15-minute advance arrival recommended. Cash and card accepted (card transactions have $1 fee). Dogs not allowed. Check weather before visiting; closure with refunds possible."
   }
 ]

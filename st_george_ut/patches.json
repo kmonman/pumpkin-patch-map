@@ -17,13 +17,13 @@
     "hours": "Monday: 5:00\u2009\u2013\u20099:00\u202fPM | Tuesday: 5:00\u2009\u2013\u20099:00\u202fPM | Wednesday: 5:00\u2009\u2013\u20099:00\u202fPM | Thursday: 5:00\u2009\u2013\u20099:00\u202fPM | Friday: 12:00\u2009\u2013\u200910:00\u202fPM | Saturday: 12:00\u2009\u2013\u200910:00\u202fPM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-12",
+    "date_checked": "2026-10-25",
     "photo_paths": "staheli_family_farm_1.jpg",
     "photo_attributions": "Photo by Staheli Family Farm via Google Maps; Photo by Melissa Bulloch via Google Maps; Photo by Laci via Google Maps",
     "admission_price": "",
-    "activities": "corn maze; pumpkin patch; hayrides; Field of Screams; Lights on Tour; Meet the Staheli Witches; Witches Night Out; Breakfast with a Witch; Witches Light Parade; Trick or Treating; petting zoo; rat maze; hamster wheel",
+    "activities": "corn maze; pumpkin patch; hayrides; Field of Screams; Lights on Tour; Meet The Staheli Witches; Breakfast with A Witch; Witches Light Parade; Trick or Treating; petting zoo; rat maze; hamster wheel; food service",
     "season_dates": "September 18 - October 31, 2026",
-    "extra_notes": "Waiver required for Field of Screams entry. No pets allowed (service animals only). Non-refundable ticket policy. Operating hours vary by attraction: Field of Screams Thu 7pm-10pm, Fri-Sat 7pm-11pm; Lights on Tour Fri-Sat 4pm-6pm; Meet the Witches 6pm-9pm on select dates.",
+    "extra_notes": "Waiver required for Field of Screams and Lights on Tour. Service animals only (no pets). Non-refundable ticket policy. No costumes that conceal identity (though family-oriented themed outfits are permitted). Field of Screams operates select dates only (not every night). Lights on Tour operates select dates Friday & Saturday 4 PM - 6 PM. Meet The Staheli Witches on select dates 6 PM - 9 PM. Breakfast with A Witch on Oct. 16, 17, & 24, 11 AM - 1 PM. Witches Light Parade Oct. 26. Trick or Treating Oct. 31.",
     "extra_categories": "corn_maze"
   },
   {
@@ -44,13 +44,13 @@
     "hours": "Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: 8:00\u2009\u2013\u200911:00\u202fPM | Friday: 8:00\u202fPM\u2009\u2013\u200912:00\u202fAM | Saturday: 8:00\u202fPM\u2009\u2013\u200912:00\u202fAM | Sunday: Closed",
     "photo_count": 10,
     "source": "google_places",
-    "date_checked": "2026-10-12",
+    "date_checked": "2026-10-25",
     "photo_paths": "fiesta_fright_haunted_house_1.jpg",
     "photo_attributions": "Photo by Fiesta Fright Haunted House via Google Maps; Photo by Fiesta Fright Haunted House via Google Maps; Photo by Fiesta Fright Haunted House via Google Maps",
     "admission_price": "FIESTA FRIGHT PASS \u2013 $18.95, FIESTA FRIGHT + ATTRACTION \u2013 $24.95, FIESTA FRIGHT BUNDLE \u2013 $45.00, FIESTA FRIGHT LIGHTS OUT PASS \u2013 $21.95, FIESTA FRIGHT LIGHTS OUT + ATTRACTION \u2013 $27.95, FIESTA FRIGHT LIGHTS OUT BUNDLE \u2013 $48.00",
-    "activities": "haunted house; lights out haunted house experience; go-kart; bumper boat; mini golf; laser tag; bowling",
+    "activities": "haunted house; lights out nights (haunted house in complete darkness with headlamp); go-kart; bumper boat; mini golf; laser tag; bowling",
     "season_dates": "September 26, 2026 through at least February 13, 2027 (Friday, Saturday, Sunday general admission; Wednesday, Thursday Lights Out; also includes December 12, 2026 and February 13, 2027 events)",
-    "extra_notes": "Age restrictions: 13+ recommended, 7 and under not allowed, 8-12 must have adult accompaniment. Not wheelchair accessible (2-story). Strobe lights and fog throughout; not recommended for people with epilepsy, pregnant women, or those with asthma or heart issues. No photography/video recording allowed. No refunds once purchased. Actors will not touch guests; zero tolerance for guests touching actors. Cell phones discouraged. No weapons, alcohol, or drugs permitted.",
+    "extra_notes": "Age restrictions: not allowed under 7, ages 8-12 must have adult accompaniment, recommended for 13+. General admission available Friday-Sunday; Lights Out nights available Wednesday-Thursday. Not wheelchair accessible (2-story). Strobe lights and fog throughout; not recommended for people with epilepsy, pregnant women, or people with asthma or heart issues. No photography/video allowed inside. No refunds once purchased. No cell phones permitted inside. Actors will not touch guests; zero tolerance policy for guests touching actors. Security cameras and guard on premises.",
     "extra_categories": ""
   }
 ]
