@@ -45,6 +45,16 @@
     cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,0.5);
   }
   .custom-map-btn:hover { background: #12193a; }
+  /* Two quick "pop and glow" pulses, used to point at the fullscreen button
+     when someone tries to move the map with one finger. */
+  @keyframes fs-pop {
+    0%, 100% { transform: scale(1); box-shadow: 0 1px 4px rgba(0,0,0,0.5); border-color: #3555af; }
+    35% { transform: scale(1.35); box-shadow: 0 0 14px 4px rgba(255,159,28,0.85); border-color: #ff9f1c; }
+    65% { transform: scale(1); box-shadow: 0 1px 4px rgba(0,0,0,0.5); border-color: #3555af; }
+    80% { transform: scale(1.35); box-shadow: 0 0 14px 4px rgba(255,159,28,0.85); border-color: #ff9f1c; }
+  }
+  .custom-map-btn.pulse-pop { animation: fs-pop 1.1s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) { .custom-map-btn.pulse-pop { animation: none; } }
   .you-are-here {
     width: 16px; height: 16px; border-radius: 50%; background: #4285f4;
     border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(66,133,244,0.3);
@@ -164,6 +174,34 @@ function addCustomControls(map) {
     }
   });
   wrap.appendChild(fullscreenBtn);
+
+  // Pop-and-glow the fullscreen button twice. Throttled so it can't nag.
+  let lastPulse = 0;
+  window.pulseFullscreenButton = function() {
+    const now = Date.now();
+    if (now - lastPulse < 4000) return;
+    lastPulse = now;
+    fullscreenBtn.classList.remove('pulse-pop');
+    void fullscreenBtn.offsetWidth; // restart the animation
+    fullscreenBtn.classList.add('pulse-pop');
+    setTimeout(function() { fullscreenBtn.classList.remove('pulse-pop'); }, 1200);
+  };
+  // A one-finger drag outside fullscreen is exactly when Google shows its
+  // "use two fingers" message, so pulse the button then.
+  (function() {
+    const mapDiv = document.getElementById('map');
+    let startX = 0, startY = 0, tracking = false;
+    mapDiv.addEventListener('touchstart', function(e) {
+      tracking = e.touches.length === 1;
+      if (tracking) { startX = e.touches[0].clientX; startY = e.touches[0].clientY; }
+    }, { passive: true });
+    mapDiv.addEventListener('touchmove', function(e) {
+      if (!tracking || e.touches.length !== 1) { tracking = false; return; }
+      const moved = Math.abs(e.touches[0].clientX - startX) + Math.abs(e.touches[0].clientY - startY);
+      const isFullscreen = !!nativeFullscreenElement() || pseudoFullscreen;
+      if (moved > 12 && !isFullscreen) { tracking = false; window.pulseFullscreenButton(); }
+    }, { passive: true });
+  })();
 
   map.controls[google.maps.ControlPosition.RIGHT_TOP].push(wrap);
 
@@ -286,6 +324,7 @@ function redirectGestureHintToFullscreen() {
       const hasMatchingDescendant = matches.some(function(other) { return other !== el && el.contains(other); });
       if (!hasMatchingDescendant) {
         el.innerHTML = 'Use two fingers to move map or<br>switch to full screen ⛶';
+        if (window.pulseFullscreenButton) window.pulseFullscreenButton();
       }
     });
   }
