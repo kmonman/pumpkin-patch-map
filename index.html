@@ -69,7 +69,8 @@
     50% { transform: scale(1.01); box-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 0 12px 3px rgba(225,146,254,0.5); }
   }
   @media (max-width: 600px) { .fs-back-hint { font-size: 13px; padding: 9px 16px; bottom: 24px; left: 10px; white-space: normal; width: max-content; max-width: calc(100% - 190px); text-align: center; border-radius: 18px; } }
-  .custom-map-btn.hint-pulse { color: #E192FE; border-color: #E192FE; animation: fs-btn-soft 3.2s ease-in-out infinite; }
+  .custom-map-btn.hint-pulse svg { stroke: #E192FE; }
+  .custom-map-btn.hint-pulse { animation: fs-btn-soft 3.2s ease-in-out infinite; }
   @keyframes fs-btn-soft {
     0%, 100% { transform: scale(1); box-shadow: 0 1px 4px rgba(0,0,0,0.5); }
     50% { transform: scale(1.06); box-shadow: 0 0 12px 3px rgba(225,146,254,0.5); }
@@ -274,6 +275,9 @@ function addCustomControls(map) {
     fullscreenBtn.innerHTML = isFullscreen ? COMPRESS_ICON : EXPAND_ICON;
     fullscreenBtn.title = isFullscreen ? (openedInNewTab && pseudoFullscreen ? 'Go back to the site (Esc)' : 'Exit fullscreen') : 'Toggle fullscreen';
     showBackHint(isFullscreen);
+    // Same pink as the hint words while full screen (set directly so nothing can override it).
+    fullscreenBtn.style.setProperty('color', isFullscreen ? '#E192FE' : '', 'important');
+    fullscreenBtn.style.setProperty('border-color', isFullscreen ? '#E192FE' : '', 'important');
   }
   document.addEventListener('fullscreenchange', syncFullscreenState);
   document.addEventListener('webkitfullscreenchange', syncFullscreenState);
