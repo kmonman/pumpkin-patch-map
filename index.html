@@ -69,6 +69,12 @@
     50% { transform: scale(1.01); box-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 0 8px 1px rgba(225,146,254,0.25); }
   }
   @media (max-width: 600px) { .fs-back-hint { font-size: 13px; padding: 9px 16px; bottom: 16px; left: 8px; } }
+  .custom-map-btn.hint-pulse { animation: fs-btn-soft 3.2s ease-in-out infinite; }
+  @keyframes fs-btn-soft {
+    0%, 100% { transform: scale(1); box-shadow: 0 1px 4px rgba(0,0,0,0.5); }
+    50% { transform: scale(1.06); box-shadow: 0 0 8px 1px rgba(225,146,254,0.25); }
+  }
+  @media (prefers-reduced-motion: reduce) { .custom-map-btn.hint-pulse { animation: none; } }
   @media (prefers-reduced-motion: reduce) { .fs-back-hint.show { animation: none; } }
   @media (prefers-reduced-motion: reduce) { .custom-map-btn.pulse-pop { animation: none; } }
   /* Google's cooperative-gesture message (desktop: scroll needs Ctrl) - its text cannot be
@@ -187,12 +193,13 @@ function addCustomControls(map) {
   backHint.className = 'fs-back-hint';
   const touchOnly = window.matchMedia('(hover: none)').matches;
   backHint.textContent = openedInNewTab
-    ? (touchOnly ? 'Tap the exit full screen button' : 'Press Esc to go back to the site')
-    : (touchOnly ? 'Tap the exit full screen button' : 'Press Esc to exit full screen');
+    ? (touchOnly ? 'Tap the exit full screen button to go back' : 'Press Esc to go back to the site')
+    : (touchOnly ? 'Tap the exit full screen button to go back' : 'Press Esc to exit full screen');
   el.appendChild(backHint);
   // Stays on screen the whole time the map is full screen, so people see how to leave.
   function showBackHint(on) {
     backHint.classList.toggle('show', on);
+    fullscreenBtn.classList.toggle('hint-pulse', on);
   }
   function leavePseudoFullscreen() {
     if (openedInNewTab) {
