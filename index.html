@@ -57,17 +57,18 @@
   .custom-map-btn.pulse-pop { animation: fs-pop 1.1s ease-in-out; }
   /* Shown only in the map's own browser tab (opened from the site's map): says how to get back. */
   .fs-back-hint {
-    position: absolute; left: 50%; bottom: 28px; transform: translateX(-50%);
+    position: absolute; left: 12px; bottom: 24px; white-space: nowrap; max-width: calc(100% - 24px);
     background: #030719; color: #E192FE; border: 1px solid #3555af; border-radius: 999px;
-    padding: 14px 28px; font: 700 20px/1.3 system-ui, sans-serif; letter-spacing: 0.3px;
+    padding: 12px 24px; font: 700 18px/1.3 system-ui, sans-serif; letter-spacing: 0.3px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.6); z-index: 5; pointer-events: none;
     opacity: 0; transition: opacity 0.4s;
   }
-  .fs-back-hint.show { opacity: 1; animation: fs-hint-pulse 1.8s ease-in-out infinite; }
+  .fs-back-hint.show { opacity: 1; animation: fs-hint-pulse 3.2s ease-in-out infinite; }
   @keyframes fs-hint-pulse {
-    0%, 100% { transform: translateX(-50%) scale(1); box-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 0 0 0 rgba(225,146,254,0.0); }
-    50% { transform: translateX(-50%) scale(1.07); box-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 0 18px 4px rgba(225,146,254,0.6); }
+    0%, 100% { transform: scale(1); box-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 0 0 0 rgba(225,146,254,0.0); }
+    50% { transform: scale(1.01); box-shadow: 0 2px 10px rgba(0,0,0,0.6), 0 0 8px 1px rgba(225,146,254,0.25); }
   }
+  @media (max-width: 600px) { .fs-back-hint { font-size: 13px; padding: 9px 16px; bottom: 16px; left: 8px; } }
   @media (prefers-reduced-motion: reduce) { .fs-back-hint.show { animation: none; } }
   @media (prefers-reduced-motion: reduce) { .custom-map-btn.pulse-pop { animation: none; } }
   .you-are-here {
@@ -181,8 +182,8 @@ function addCustomControls(map) {
   backHint.className = 'fs-back-hint';
   const touchOnly = window.matchMedia('(hover: none)').matches;
   backHint.textContent = openedInNewTab
-    ? (touchOnly ? 'Tap the button at the top right to go back to the site' : 'Press Esc to go back to the site')
-    : (touchOnly ? 'Tap the button at the top right to exit full screen' : 'Press Esc to exit full screen');
+    ? (touchOnly ? 'Tap the exit full screen button' : 'Press Esc to go back to the site')
+    : (touchOnly ? 'Tap the exit full screen button' : 'Press Esc to exit full screen');
   el.appendChild(backHint);
   // Stays on screen the whole time the map is full screen, so people see how to leave.
   function showBackHint(on) {
