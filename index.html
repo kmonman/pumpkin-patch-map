@@ -16,6 +16,8 @@
      (not the page as a whole) once this becomes the fullscreened element. */
   #map-fullscreen-wrapper { position: relative; width: 100%; height: 100vh; }
   #map { height: 100vh; width: 100%; }
+  /* Phone: round the map to match the 30px corners of the Wix box it sits in. */
+  @media (max-width: 600px) { #map-fullscreen-wrapper:not(.pseudo-fullscreen):not(:fullscreen) { border-radius: 30px; overflow: hidden; } }
   #map-fullscreen-wrapper.pseudo-fullscreen { position: fixed; inset: 0; z-index: 9999; height: 100dvh; }
   #map-fullscreen-wrapper.pseudo-fullscreen #map { height: 100dvh; }
   .category-tag {
